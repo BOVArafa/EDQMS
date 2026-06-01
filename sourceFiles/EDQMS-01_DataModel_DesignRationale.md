@@ -1,3 +1,11 @@
+--- 
+content-type: instruction
+subject: 
+  - datamodel
+  - method
+  - concept
+--- 
+
 # EDQMS-01 — Event Driven Quality Management System
 ## Data Model Design Rationale
 
@@ -11,6 +19,16 @@
 1. [Purpose and Scope](#1-purpose-and-scope)
 2. [Project Goal: Event-Driven Quality Management](#2-project-goal-event-driven-quality-management)
 3. [Architecture Overview: Key Entity Groups](#3-architecture-overview-key-entity-groups)
+   - 3.1 [Organisational Context (Clauses 4.1–4.3)](#31-organisational-context-clauses-41-43)
+   - 3.2 [Operations Chain (Clause 4.4)](#32-operations-chain-clause-44--qms-processes)
+     - 3.2.1 [Process Boundary (ISO §6.2)](#321-process-boundary-iso-62)
+     - 3.2.2 [Payload (Association Class)](#322-payload-association-class)
+   - 3.3 [Leadership and Resource Context (Clause 5)](#33-leadership-and-resource-context-clause-5)
+   - 3.4 [Risk Management (Clause 6.1)](#34-risk-management-clause-61)
+   - 3.5 [Event Engine — The Architectural Core](#35-event-engine--the-architectural-core)
+     - 3.5.1 [Trigger Dispatch and the Broker Pattern](#351-trigger-dispatch-and-the-broker-pattern)
+     - 3.5.2 [Source Relationship Rules](#352-source-relationship-rules)
+   - 3.6 [Knowledge Management (Clause 7.1.6)](#36-knowledge-management-clause-716)
 4. [The Risk Entity: Design Rationale Against ISO 9001:2015 §6.1](#4-the-risk-entity-design-rationale-against-iso-90012015-61)
 5. [The actionApplication Entity](#5-the-actionapplication-entity)
 6. [Full ISO 9001:2015 Clause Mapping](#6-full-iso-90012015-clause-mapping)
@@ -46,11 +64,15 @@ Cochran reinforces that QMS processes must be the true business processes of the
 
 In the EDQMS data model, the **Event entity is the architectural pivot**: it connects all operational entities (Process, Activity, Product, Source, Requirement) to the quality management chain (Risk, Action, Procedure). Quality is not an overlay — it is embedded in the event stream of daily operations.
 
+> **NOTE — Third ISO Pillar: Knowledge Management (§7.1.6)**
+>
+> Alongside the process approach and risk-based thinking, ISO 9001:2015 §7.1.6 introduces a third foundational principle: the organisation must determine and maintain the knowledge necessary for the operation of its processes. Procedures are the primary mechanism through which tacit knowledge is converted into explicit knowledge. A process that exists only in the minds of experienced team members is a dependency on individual presence, not a managed process. This leads to a broader conclusion: **quality management is, in essence, organisational knowledge management**. The purpose of monitoring operations is not merely to detect deviations, but to identify when, where, and why organisational knowledge must be formalised — before its absence becomes a source of risk. In the EDQMS model, the `Procedure` entity is the data-level implementation of §7.1.6: every `Activity` has a `Procedure` that converts tacit execution knowledge into a structured, auditable record (see Section 3.6).
+
 ---
 
 ## 3. Architecture Overview: Key Entity Groups
 
-The data model is organised into five functional groups, each addressing specific clauses of ISO 9001:2015.
+The data model is organised into six functional groups, each addressing specific clauses of ISO 9001:2015.
 
 ### 3.1 Organisational Context (Clauses 4.1–4.3)
 
@@ -79,7 +101,9 @@ ISO 9001:2015 §4.4.1 requires the organisation to establish, implement, maintai
 | Entity | Role in the Model |
 |---|---|
 | **Process** | Top-level business activity container (processID, processName, processOwner, processDescription). |
+| **Process Boundary** | Defines the scope limits of a `Process` (`boundaryID`). Each `Process Boundary` **belongs to** one or more `Processes`. Equivalent to ISO 9001:2015 §6.2 — it defines the quality objectives that `Payload`s applied to that `Process` are expected to address. |
 | **Activity** | Sub-process within Process (activityID, activityTitle, activityDescription, processName). |
+| **Payload** | Association class between the `Trigger` mechanism and `Activity` (`payloadID`). Stores the combination of requirements, context, and product specifications that determine which `Activity` a given `Event` initiates. An `Activity` contains zero or one `Payload`. |
 | **Procedure** | Documented method for executing an Activity (procedureID, procedureNumber as external reference). |
 | **Operation** | Specific operational steps within a Procedure (operationID, operationName, operationOwner). |
 | **Action** | A discrete quality management intervention (see Section 5). |
@@ -90,6 +114,24 @@ Cochran's description of a complete process model maps directly onto this entity
 
 > *"Criteria and methods... Resources... Responsibility and authority... Risks and opportunities... Evaluation... Improvement."*
 > — Cochran (2015), Chapter 2 (on clause 4.4)
+
+#### 3.2.1 Process Boundary (ISO §6.2)
+
+The `Process Boundary` entity (`boundaryID` as primary key) defines the objectives that delimit the scope of execution for each `Process`. The relationship is `Process Boundary —[belongs to]→ Process (1..)` — a single boundary record can apply to one or more processes (e.g., the same set of quality objectives may govern multiple related processes).
+
+Per `process_boundary.md`, this entity is the EDQMS implementation of ISO 9001:2015 §6.2, which requires the organisation to establish quality objectives for relevant functions, levels, and processes. The `Process Boundary` does not define *how* objectives are achieved (that is the role of `Payload` and `Procedure`) — it defines *what* objectives the payloads applied to the process are expected to address.
+
+In the Siemens Energy prototype validation, the audited boundary is named `Offer Process`, which governs the set of events related to offer calculation and technical scope definition (see `prototype_plan.md`).
+
+#### 3.2.2 Payload (Association Class)
+
+The `Payload` entity is an association class (`payloadID` as primary key) that sits between the `Trigger` relationship and the `Activity` entity. It stores the business context — the combination of requirements, context data, and product specifications — that determines *which* `Activity` a dispatched `Event` should initiate.
+
+**Cardinality rule:** An `Activity` contains zero or one `Payload`. A single `Payload` can only target one `Activity`. Because a `Process` is composed of multiple `Activities`, targeting a single `Payload` at more than one `Activity` is architecturally invalid — to initiate multiple `Activities`, the `Payload` must instead target the `Process` that orchestrates them (see Section 3.5.1).
+
+The `Source`, `Requirement`, and `Product & Service` entities can all carry zero or more `Payload` records. This means business context accumulates from the top of the context chain down to the dispatch layer — any `Payload` carries traceable lineage back to the `Source` and `Requirement` that justified its activation.
+
+> **NOTE:** The prototype (Phase 2 validation) does not register `Payload` records directly. In this phase, the combination of requirements and product specifications is entered directly into the `Procedure` cadastre. Full `Payload` registration is deferred to the MVP phase.
 
 ---
 
@@ -106,7 +148,7 @@ This design enforces accountability at every node of the quality management chai
 
 ---
 
-### 3.4 Risk Management (Clause 6.1) — New in this Revision
+### 3.4 Risk Management (Clause 6.1)
 
 **Entities:** Risk, `<enumeration> riskCategory`.
 
@@ -118,15 +160,74 @@ This is the most significant addition in the current model revision. It is addre
 
 **Entity:** Event (EventID, eventTitle, eventOwner:UserID, Description).
 
-The Event entity is the central driver of the EDQMS architecture. Its attributes are deliberately minimal, allowing Events to be lightweight triggers. Its relationships span the entire model:
+The Event entity is the central driver of the EDQMS architecture. Its attributes are deliberately minimal, keeping Events as lightweight triggers. Its relationships span the entire model:
 
-- `Event` **triggers** `Process` — connects operational execution to quality oversight.
-- `Event` **triggers** `Risk` — detects or confirms risk conditions in real time.
-- `Event` **applies to** `Source` — links events to their origin context.
-- `Event` **applies to** `Product` — connects quality events to affected products.
-- `Event` **requires** `Activity` — defines which activities are initiated by an event.
+- `Event` **apply to** `Payload (1+)` — An Event is associated with one or more Payloads, each carrying the business context (requirements, product specs) needed to dispatch the correct operational response. This replaces the former direct `Event —[applies to]→ Product` and `Event —[requires]→ Activity` relationships.
+- `Event` **triggers** `Risk` — detects or confirms risk conditions in real time (§6.1.1).
+- `Event` **Apply to** `Source` — links Events to their origin context (§4.1, §4.2).
 
-This pattern implements the ISO 9001:2015 process model's feedback loops at the data architecture level — monitoring checkpoints that detect deviations and trigger corrective or preventive responses (see ISO 9001:2015, Figure 1 — schematic representation of the elements of a single process).
+The `Event —[triggers]→ Process` relationship, which appeared in the previous revision, is now mediated through the `Trigger` relationship and the `Payload` dispatch mechanism described in Section 3.5.1 below.
+
+This revised pattern implements the ISO 9001:2015 process model's feedback loops at the data architecture level — monitoring checkpoints that detect deviations and trigger corrective or preventive responses (see ISO 9001:2015, Figure 1 — schematic representation of the elements of a single process).
+
+#### 3.5.1 Trigger Dispatch and the Broker Pattern
+
+The `Trigger` relationship is the dispatch hub connecting Events to operational execution. A single `Trigger` fires **either** one or more `Processes` **or** zero-or-one `Activity` directly — never both simultaneously.
+
+| Trigger Target | Cardinality | When Used |
+|---|---|---|
+| `Process` | 1..* | Event initiates one or more full processes. |
+| `Payload` (→ `Activity`) | exactly 1 | Event initiates a single `Activity` via a `Payload`, which carries the business context for dispatch. |
+| `Activity` (direct) | 0..1 | Event initiates at most one `Activity` without a `Payload`. |
+
+The **Broker** role (typically the Quality Manager or a designated process manager — this role may be absorbed by the `processOwner`) is responsible for creating `Payload` records and wiring them to `Activities` or `Processes`. The Broker defines the business rules that connect operational context to execution: given a combination of requirements and product specifications, which process or activity should be activated?
+
+The mutual exclusion rule — a single Trigger cannot fire both a `Process` and an `Activity` simultaneously — is an architectural constraint enforced at the data model level. Because a `Process` is composed of multiple `Activities`, allowing both paths simultaneously would create irresolvable ambiguity in execution sequencing.
+
+> **NOTE:** ISO 9001:2015 §4.4.1(b) requires the organisation to determine the sequence and interaction of processes. The Broker pattern and the mutual-exclusion Trigger rule operationalise this requirement at the dispatch layer, making the activation logic explicit and auditable.
+
+#### 3.5.2 Source Relationship Rules
+
+In the previous architecture iteration, `Source`, `Requirement`, and `Product & Service` held direct Trigger edges to `Event`. In the current model, these entities supply business context to `Payload` records rather than triggering Events directly. The confirmed cardinalities are:
+
+- `Source (1+)` **has** → `Requirement (1+)` and/or `Payload (0..*)`
+- `Requirement (0..*)`**has** → `Product & Service (0..*)`  and/or `Payload (0..*)`
+- `Product & Service (1+)` **has** → `Payload (0..*)`
+
+This layered structure means that any `Payload` record carries traceable lineage back through `Product & Service` to `Requirement` and ultimately to `Source` — satisfying the ISO 9001:2015 §4.1/§4.2 requirement that quality responses be grounded in identified external/internal issues and interested party requirements.
+
+> *"Each requirement [of an interested party] may constitute a risk, an opportunity, or a combination of both."*
+> — Cochran (2015), Chapter 4
+
+By embedding this chain in the `Payload` dispatch path, every triggered `Activity` or `Process` carries an auditable record of which `Source` context and which `Requirement` justified its activation.
+
+---
+
+### 3.6 Knowledge Management (Clause 7.1.6)
+
+**Entities (implementation layer):** `Procedure`, `Operation`, `Handout`.
+
+ISO 9001:2015 §7.1.6 requires the organisation to determine and maintain the knowledge necessary for the operation of its processes. `PRP-C-0017_Attachment-B_SOP-Lists.md` articulates the theoretical grounding:
+
+> *"Procedures are, at their core, the medium through which tacit knowledge is converted into explicit knowledge. A process that exists only in the minds of experienced team members is not a managed process — it is a dependency on individual presence and continuity."*
+> — `PRP-C-0017_Attachment-B_SOP-Lists.md`, §3.3
+
+This leads to a principle that the EDQMS architecture treats as axiomatic: **quality management is organisational knowledge management**. The purpose of monitoring operations is not merely to detect deviations, but to identify when, where, and why organisational knowledge must be formalised — before the absence of that formalisation becomes a source of risk.
+
+In the EDQMS data model, the knowledge management chain operates at three levels:
+
+| Entity | Knowledge Function |
+|---|---|
+| `Procedure` | Converts tacit execution knowledge into explicit documented method. Implements §4.4.2(a) — maintained documented information supporting process operation. |
+| `Operation` | Decomposes a `Procedure` into specific executable steps, making sequencing explicit and auditable. |
+| `Handout` | Documents the expected output or consumed artefact of each `Procedure` execution. Implements §4.4.2(b) — retained documented information as evidence of conformity. |
+
+ISO 9001:2015 §7.1.6 (normative requirement):
+
+> *"The organization shall determine the knowledge necessary for the operation of its processes and to achieve conformity of products and services... When addressing changing needs and trends, the organization shall consider its current knowledge and determine how to acquire or access any necessary additional knowledge and required updates."*
+> — ISO 9001:2015, §7.1.6
+
+> **NOTE:** The `DocumentedInformation` entity listed in Section 8.4 (Open Design Items) would complete the §7.1.6 implementation by explicitly distinguishing *maintained* records (living documents) from *retained* records (historical evidence of conformity). Until that entity is added, the distinction is carried implicitly through the `Procedure` → `Handout` relationship.
 
 ---
 
@@ -251,12 +352,15 @@ Cochran's three requirements for risk actions align directly with the entity des
 | `Risk.riskPriorityNumber` | 6.1.1 (determine which need to be addressed) | Enables proportionate action: significant risks (above RPN threshold) receive prioritised controls. Implements Cochran's severity × likelihood = RPN methodology. |
 | `Action ↔ actionApplication` (belong to) | 6.1.2 (b)(1) | Actions must be integrated into QMS processes. `actionApplication` classifies actions by their QMS context (Risk mgmt, Control, Communication §7.4, Monitoring, Improvement). |
 | `Action → Role / Operation / Property` | 6.2.2 (a–c) | When planning how to achieve objectives: what will be done (Operation), who is responsible (Role), what resources are required (Property). |
-| `Event ↔ Process` (Trigger) | 4.4.1 (f) | Processes must address risks and opportunities as determined in clause 6.1. Events link process execution to risk detection. |
+| `Event ↔ Process` (Trigger via Payload) | 4.4.1 (f) | Processes must address risks and opportunities as determined in clause 6.1. Events link process execution to risk detection, mediated through the Broker/Payload dispatch mechanism. |
+| `Process Boundary —[belongs to]→ Process` | 6.2 | Quality objectives must be established for relevant functions, levels, and processes. `Process Boundary` defines the objectives that `Payload`s applied to a `Process` are expected to address. |
+| `Payload` + Broker Pattern (Trigger dispatch) | 4.4.1 (b), 6.2.2 | The sequence and interaction of processes (§4.4.1(b)) is operationalised through the `Trigger` mutual-exclusion rule. The Broker role implements §6.2.2 — the explicit assignment of *what* will be done, *who* is responsible, and *when* — at the dispatch layer. |
 | `Source ↔ Requirement` (Apply to) | 4.1 & 4.2 | Internal/external issues (Source) and interested party requirements (Requirement) are the primary raw material for risk identification. |
 | `Scope & Constrain → Risk` | 4.3 | Risks are bounded by the QMS scope and constrained by regulatory/contractual limits that define the boundaries of applicability. |
 | `Product ↔ Risk` | 6.1.2 | Actions addressing risks must be proportionate to potential impact on product and service conformity. |
 | `User / Role` ownership on all entities | 5.3, 6.2.2(c) | Accountability and authority are defined for every entity in the model, from Process owner to Risk owner to Action owner. |
 | `Process → Activity → Procedure → Operation` | 4.4.1 | QMS processes and their interactions are explicitly modelled at four levels of decomposition. |
+| `Procedure`, `Operation`, `Handout` (Knowledge chain) | 7.1.6, 4.4.2 (a–b) | `Procedure` converts tacit process knowledge into explicit documented information (§4.4.2(a)). `Handout` provides retained evidence of conformity (§4.4.2(b)). Together they operationalise the §7.1.6 requirement to determine and maintain organisational knowledge. |
 
 ---
 
@@ -266,8 +370,8 @@ ISO 9001:2015 §0.3.2 describes the Plan-Do-Check-Act cycle as applicable to all
 
 | PDCA Phase | EDQMS Entities | Mechanism | ISO 9001:2015 Ref. |
 |---|---|---|---|
-| **PLAN** | Risk, Source, Requirement, Scope | Identify threats and opportunities from internal/external context; assign `riskPriorityNumber` to determine significance. | 4.1, 4.2, 6.1.1 |
-| **DO** | Action, actionApplication, Role, Operation, Procedure | Plan and implement actions classified by application type. Assign responsible Role and required Operations. | 6.1.2, 6.2.2 |
+| **PLAN** | Risk, Source, Requirement, Payload (business rules) | Identify threats and opportunities from internal/external context; assign `riskPriorityNumber` to determine significance. Broker creates `Payload` records encoding the business rules that activate operations. | 4.1, 4.2, 6.1.1 |
+| **DO** | Action, actionApplication, Role, Operation, Procedure, Process Boundary | Plan and implement actions classified by application type. Assign responsible Role and required Operations. `Process Boundary` defines the quality objectives governing each Process. | 6.1.2, 6.2.2 |
 | **CHECK** | Event (monitoring), Product, Specs | Trigger monitoring Events to compare process outputs against Specs and Requirements; detect new risks. | 9.1, 9.3.2(e) |
 | **ACT** | Event (corrective/preventive), Risk (updated RPN), Action | New Events feed back into risk re-assessment; close the PDCA loop through revised `riskPriorityNumber` and updated Actions. | 10.1, 10.2 |
 
@@ -307,21 +411,27 @@ Cochran notes:
 
 A `DocumentedInformation` entity (linked to Risk, Action, and Procedure) tracking whether records are *maintained* (living documents, §4.4.2(a)) versus *retained* (historical records, §4.4.2(b)) would make the EDQMS model audit-ready for §7.5 compliance.
 
+### 8.5 Broker Role — Formal Entity or Enumeration Value *(Priority: Low)*
+
+The Broker pattern (Section 3.5.1) is currently described as an architectural convention but is not reified as a data entity. `broker_interface.md` notes that this role may be absorbed by the `processOwner` but is ideally held by someone with full process visibility (e.g., Quality Manager). A formal `brokerID` attribute on the `Payload` entity, or a dedicated `Broker` role enumeration value in the `Role` entity, would make the Broker assignment auditable and queryable — enabling management review to identify which Broker created which `Payload` and wired which `Activity` or `Process`. This supports §5.3 accountability requirements.
+
 ---
 
 ## 9. Conclusion
 
 The EDQMS ER-UML data model provides a structurally sound and standards-compliant foundation for an Event Driven Quality Management System. Its key architectural contributions are:
 
-- The **Event entity** as a reactive and proactive trigger across all quality domains.
-- The **Risk entity** with a `riskCategory` enumeration that honours ISO 9001:2015's dual concept of risk as both threat and opportunity.
+- The **`Event` entity** as a reactive and proactive trigger across all quality domains, now dispatching through `Payload` rather than directly to `Activity` or `Product`.
+- The **`Risk` entity** with a `riskCategory` enumeration that honours ISO 9001:2015's dual concept of risk as both threat and opportunity.
 - The **`riskPriorityNumber`** attribute that enables proportionate, evidence-based action selection (Cochran's RPN methodology).
-- The **`actionApplication`** entity that classifies actions by their QMS process context, ensuring traceability from Risk to Action to ISO clause.
-- A complete **ownership chain** (`User`, `Role`) wired into every entity, enforcing accountability at every level of the model.
+- The **`actionApplication`** entity that classifies actions by their QMS process context, ensuring traceability from `Risk` to `Action` to ISO clause.
+- The **`Payload` association class** and **Broker pattern** that introduce explicit, auditable business rules governing which `Activity` or `Process` an `Event` initiates — replacing implicit direct trigger edges.
+- The **`Process Boundary`** entity that grounds each `Process` in the quality objectives it is designed to address, implementing ISO 9001:2015 §6.2 at the data model level.
+- A complete **ownership chain** (`User`, `Role`) wired into every entity, enforcing accountability at every level of the model, from `Process` owner to `Risk` owner to `Action` owner.
 
-The model implements the three interlocking principles that ISO 9001:2015 §0.3 identifies as fundamental to any effective quality management system: the **process approach**, the **PDCA cycle**, and **risk-based thinking**.
+The model implements the three interlocking principles that ISO 9001:2015 §0.3 identifies as fundamental to any effective quality management system: the **process approach**, the **PDCA cycle**, and **risk-based thinking** — extended in this architecture by a fourth: **organisational knowledge management** (§7.1.6).
 
-With the open items in Section 8 addressed — particularly the direct `Risk ↔ Action` relationship — the EDQMS will achieve full clause-level coverage from context (§4) through improvement (§10).
+With the open items in Section 8 addressed — particularly the direct `Risk ↔ Action` relationship and the `DocumentedInformation` entity — the EDQMS will achieve full clause-level coverage from context (§4) through knowledge management (§7.1.6) and on through improvement (§10).
 
 ---
 
@@ -330,3 +440,4 @@ With the open items in Section 8 addressed — particularly the direct `Risk ↔
 - **ISO/FDIS 9001:2015(E).** *Quality management systems — Requirements.* International Organization for Standardization. → `ISO90012015_EN_ocr.pdf`
 - **Cochran, C. (2015).** *ISO 9001:2015 in Plain English.* Paton Professional. ISBN 978-1-932828-72-6. → `iso-9001-2015-in-plain-english_Craig-Cochran_.md`
 - **EDBPM Lucidchart diagram** (EDQMS-01 project): https://lucid.app/lucidchart/090097f0-5c82-40ac-999b-ff1c96ba5c94 — tab: EDQMS ER-UML.
+- **`PRP-C-0017_Attachment-B_SOP-Lists.md`** — Architectural foundation document for the SOP prototype delivered under proposal PRP-C-0017 (Neun Design for Siemens Energy). Source of the Knowledge Management (§7.1.6) rationale and the three-pillar ISO 9001:2015 synthesis used in Sections 2 and 3.6.

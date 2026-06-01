@@ -29,3 +29,6 @@ A funcao deste papel eh criar payloads e conecta-los a atividades ou processos, 
 - Um unico evento NUNCA podera disparar um processo e uma atividade simultaneamente
 - Uma atividade pode conter zero ou um payload (#datamodel/0002)
 
+# Prototype Considerations
+
+Na [modelagem](../sourceFiles/EDQMS-Prototype_Diagram.png) do prototipo nao esta sendo considerado cadastro de payload. Nesta fase, as informacoes referentes ao requisitos e specs de produto serao inseridas diretamente no cadastro do procedimento.
