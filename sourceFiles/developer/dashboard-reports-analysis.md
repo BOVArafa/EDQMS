@@ -68,7 +68,7 @@ Every attribute in this document uses one of the following type declarations:
 
 
 >[!tip] Tables
->de acordo com o arquivo de referencia do prototipo (GlobalEngineeringPortal_dahsboard.html) toda tela de uma determinada tab obrigatoriamente tera uma tabela que representa a respectiva entidade do modelo de dados da tab (exemplo, tab Scopes = entidade Scope).
+>de acordo com o arquivo de referencia do prototipo (GlobalEngineeringPortal_dashboard.html) toda tela de uma determinada tab obrigatoriamente tera uma tabela que representa a respectiva entidade do modelo de dados da tab (exemplo, tab Scopes = entidade Scope).
 >Sendo assim, nao eh preciso considerar tabelas nos reports, apenas gragicos, umas vez que as tabelas sao obrigatorias em cada tela
 
 >[!important] Rollup Columns

@@ -2,9 +2,12 @@
 
 ## How to use this file
 1. Open **Claude Design** and start a new project.
-2. Upload `GlobalEngineeringPortal_dahsboard.html` as the existing prototype.
-3. Paste the contents of this file as your first message.
-4. Claude Design will apply the changes described below module by module.
+2. Upload `GlobalEngineeringPortal_dashboard.html` as the existing prototype.
+3. Upload `prototype_designSystem.html` as the **design-system reference** — it is the source
+   of truth for all visual tokens (colours, typography, spacing, shape, elevation). Do not edit
+   it; mirror its `--se-*` custom properties in the prototype.
+4. Paste the contents of this file as your first message.
+5. Claude Design will apply the changes described below module by module.
 
 **Recommended model:** Claude Opus 4.8
 
@@ -14,12 +17,54 @@
 
 You are updating an existing dashboard prototype for the **Global Engineering Portal** — an ISO 9001:2015-aligned Quality Management System. The attached HTML file is the current prototype.
 
-Apply every change listed below. Do **not** change the following:
-- Color palette: `#00e096` (green accent), `#f2f4f6` (page background), `#ffffff` (panels)
+Apply every change listed below. The prototype must conform to the **Siemens Energy Design
+System** (see the Design System section below). Do **not** change the following:
+- Design tokens: use the `--se-*` custom properties from `prototype_designSystem.html` — accent
+  `--se-ui-0` (`#006b80`), page background `--se-base-0` (`#f5f5f5`), panels `--se-base-1`
+  (`#ffffff`). Do not introduce raw hex outside these tokens.
 - Sidebar navigation layout and 220px width
 - Top bar structure
-- Font stack: `-apple-system, BlinkMacSystemFont, sans-serif`
-- Panel border radius (`6px`), shadow (`0 1px 4px rgba(0,0,0,0.12)`), and spacing
+- Font stack: `--se-font-family` (`'Noto Sans', -apple-system, 'Segoe UI', Arial, sans-serif`)
+- Panel border radius (`--se-radius-2`, `4px`), shadow (`--se-elevation-1`), and the `--se-space-*`
+  spacing scale
+
+---
+
+## Design System — Siemens Energy (source of truth)
+
+All visual styling derives from the token set defined in `prototype_designSystem.html` (see its
+`:root { --se-* }` block). **Reference the CSS custom properties, not raw hex.** Values below are
+the light-mode defaults; a dark surface is available via `[data-theme='dark']`.
+
+**Colours**
+- Accent / selected / active: `--se-ui-0` `#006b80` (hover `--se-ui-0-hover` `#005159`)
+- Primary action: `--se-action-primary` `#006b80`, text `--se-action-primary-text` `#ffffff`
+- Page background: `--se-base-0` `#f5f5f5`
+- Surfaces (cards, nav, table, header, menu): `--se-base-1` `#ffffff` (hover `#ededed`,
+  selected `--se-base-1-selected` `#e0e0de`)
+- Subtle fill: `--se-base-4` `#f0f0ef` · Borders: `--se-ui-4` `#e5e5e9`
+- Text: `--se-text-primary` `#000028`, secondary `--se-text-secondary` `#4c4c68`, active
+  `--se-text-active` `#006b80`, disabled `--se-text-disabled` `#7d8099`
+
+**Status** (with matching `--se-base-*` tints for backgrounds)
+- success `--se-status-success` `#1c703f` · danger `--se-status-danger` `#d72339`
+- warning `--se-status-warning` `#c75300` · caution `--se-status-caution` `#edbf00`
+- information `--se-status-information` `#206ed9` · critical `--se-status-critical` `#a733bc`
+
+**Chart / data-visualisation** — draw all chart series from the qualitative palette
+`--se-data-*` (petrol, turquoise, royal-blue, blue, coral, plum, purple, orchid, orange, yellow,
+red `#d72339`, green `#00890e`, avocado, sand) for consistent multi-series colouring.
+
+**Typography** — `--se-font-family: 'Noto Sans', -apple-system, 'Segoe UI', Arial, sans-serif`;
+mono `--se-font-family-mono` ('Roboto Mono'). Use the size/weight tokens (`--se-font-size-h1..h5`,
+`--se-font-size-body-lg / body / caption`, display sizes).
+*Note: Noto Sans is a substitute for the proprietary Siemens Sans Pro typeface; swap in the real
+Siemens Sans files if available.*
+
+**Spacing** — `--se-space-0..11` (base spacer 16px).
+**Shape** — inputs/buttons `--se-radius-1` (`2px`), cards/containers `--se-radius-2` (`4px`,
+default), larger containers `--se-radius-3` (`8px`), pills `--se-radius-pill`.
+**Elevation** — `--se-elevation-1..4`.
 
 ---
 
@@ -34,7 +79,7 @@ Every tab must always display a primary data table listing all records of that t
 Wherever a rollup relationship exists (a child table references a parent via FK), add a collapsible/expandable row section in the parent table showing the list of linked child records. Use a chevron toggle. Default state: collapsed.
 
 **Rule 3 — Mirror field styling.**
-Fields that are auto-populated from related records (mirror fields) must be visually distinct from user-editable fields: use a slightly grey background (`#f7f8f9`) and an italic label. They should be read-only — no user input allowed.
+Fields that are auto-populated from related records (mirror fields) must be visually distinct from user-editable fields: use a slightly grey background (`--se-base-4`, `#f0f0ef`) and an italic label. They should be read-only — no user input allowed.
 
 **Rule 4 — Control module is read-only.**
 The tabs Capacity, Usage, and Productivity in the Control module have **no create/edit forms**. Remove any "New record" or "Edit" buttons from those tabs. They display only filtered query results and chart widgets.
@@ -431,7 +476,7 @@ Insert a new tab **"Onboarding"** in the Talent module, positioned last.
 
 ## New Module: Quality
 
-Add **"Quality"** as the 7th module in the sidebar navigation (after Talent). Use the same green sidebar entry style as existing modules.
+Add **"Quality"** as the 7th module in the sidebar navigation (after Talent). Use the same active/selected sidebar entry style (`--se-ui-0` / `--se-base-1-selected`) as existing modules.
 
 The Quality module contains 6 tabs:
 
@@ -446,7 +491,7 @@ The Quality module contains 6 tabs:
 Add `actions` collapsible rollup section.
 
 **Reports:**
-- **Report-A**: Scatter plot (X-axis = riskLikelihood, Y-axis = riskSeverity). Each bubble represents a risk; bubble size = riskPriorityNumber; bubble color = riskCategory (Threat = red, Opportunity = green). Draw quadrant divider lines at x=3, y=3. Filters: riskCategory, riskStatus, owner, period.
+- **Report-A**: Scatter plot (X-axis = riskLikelihood, Y-axis = riskSeverity). Each bubble represents a risk; bubble size = riskPriorityNumber; bubble color = riskCategory (Threat = `--se-status-danger` `#d72339`, Opportunity = `--se-status-success` `#1c703f`). Draw quadrant divider lines at x=3, y=3. Filters: riskCategory, riskStatus, owner, period.
 - **Report-B**: Table — Open Risk Register. Rows: risks where riskStatus IN (Open, UnderTreatment). Columns: title, category, severity, likelihood, RPN, owner, status, linked action count, last reviewed date. Filters: riskCategory, riskStatus, owner.
 
 ---
@@ -519,6 +564,6 @@ When implementing the changes above, use these reusable patterns consistently:
 
 **Rollup rows:** Use a chevron `›` / `˅` toggle at the left of the row. Expanded state shows an indented sub-table or list of linked records with key columns. Add a row count badge next to the chevron, e.g. `3 tasks`.
 
-**Mirror field styling:** Background `#f7f8f9`, border `1px solid #e3e6e8`, label in italic, small lock icon `🔒` or "Auto" badge to signal read-only. Never show these fields in an editable form state.
+**Mirror field styling:** Background `--se-base-4` (`#f0f0ef`), border `1px solid --se-ui-4` (`#e5e5e9`), label in italic `--se-text-secondary`, small lock icon `🔒` or "Auto" badge to signal read-only. Never show these fields in an editable form state.
 
 **What-if inputs (Report-D):** Numeric stepper input in the filter bar with +/− buttons and direct text entry. On change, trigger immediate chart recalculation. Show a subtle "Simulated" watermark on the chart to distinguish from real data.
