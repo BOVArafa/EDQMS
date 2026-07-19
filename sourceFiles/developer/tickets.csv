@@ -1,0 +1,496 @@
+﻿ID;Event;Status;Request_ID;Description;Customer;Due Date;Forecast Scope
+15;Order;Done;N730711 UW Etzenricht-Bechterdissen;Relocation + Modifications (new LV-Pfisterer, fixation points for ladders, new stairs to platform);GER;28/02/26;On-site Refurbishment
+16;Order;Done;N730704 Qushawira;power increase with new fans+new cubicle, adjustment of platform;GER;28/02/26;On-site Refurbishment
+17;Offer;Done;AE25_303 Shuweihat 262;bushing exchange;GER;15/01/26;Replacement of bushings, shield-electrodes and CT's
+18;Order;Done;N730700 ENetz Möhrfelden;power increase with new fans and control cubicle;GER;31/01/26;On-site Refurbishment
+19;Order;Done;N730707 UW Daxlanden;3 Transformators, complete new secondary euqipment, bushing exchange;GER;31/03/26;"Protection devices, wiring/cabling, cubicles, monitoring;#Replacement of bushings, shield-electrodes and CT's"
+20;Order;Done;N730708 UW Stalldorf T412;platform installation;GER;05/02/26;On-site Refurbishment
+21;Order;Done;N730714 UW Pulverdingen ABB;platform installation;GER;28/02/26;On-site Refurbishment
+22;Order;Done;D581047 Pfalzwerke;power increase (fans+controll cubicle);GER;28/02/26;Uprating
+23;Order;Done;D527213 Trimet;inhouse refurbishment;GER;31/01/26;On-site Repair
+24;Offer;Done;AM26_003hue UW Helmstedt T412;;GER;18/12/25;"On-site Refurbishment;#Replacement of bushings, shield-electrodes and CT's;#Protection devices, wiring/cabling, cubicles, monitoring"
+25;Offer;Done;AM26_049KE Wesernetz Bühne+Latchways;;GER;19/12/25;On-site Refurbishment
+29;Offer;On Hold;EDF-Repair 570MVA-400kV-Paluel-Strategic_Spare-FR;Repair of a Single-Phase unit 570MVA for EDF / FR;RRL;22/12/25;In-House Repair
+30;Offer;Done;AM26_055hue_TransnetBW UW Engstlatt T311_Nachtrag Engineering;Check electr. clearance to surrounding equipment in substation and make proposal sketch how to arrange new platforms.;GER;31/12/25;On-site Refurbishment
+31;Offer;Done;CS-D 21-058  Azura Edo Study;Offer support: Check available documentation and give feedback whether study can be done and how many hours have to be calculated;GER;31/01/26;Uprating
+32;Offer;Done;AM26_051stf_UW_Grünkraut_T311_SMITT_220244_Sekundärtechnik;Constructive support for offer preparation;GER;26/02/26;Protection devices, wiring/cabling, cubicles, monitoring
+33;Offer;Done;AM26_052stf_UW_Grünkraut_T312_SIEMENS_N408157_Sekundärtechnik;Constructive support for offer preparation;GER;26/02/26;Protection devices, wiring/cabling, cubicles, monitoring
+34;Offer;Done;S.261054 - SGRE_DK_Schneider_Fremdtrafo_REP_KAN;"Background
+
+The investigation identified insufficient welded connections within the LV copper bus ducts, which are composed of multiple copper flat conductors. The findings indicate potential risks, including:
+
+Reduced effective conductor cross-section at weld locations
+
+Increased electrical resistance due to poor or inconsistent weld quality
+
+Potential loosening or degradation of electrical contact over time
+
+Elevated risk of localized overheating and long-term reliability issues
+
+These risks may negatively impact electrical performance, thermal behavior, and overall system reliability.
+
+Engineering Demand
+
+We formally request a design change from welded busbar connections to crimped connections, ensuring:
+
+Stable and repeatable electrical contact
+
+Improved mechanical robustness
+
+Lower contact resistance
+
+Enhanced long-term reliability under thermal cycling and operational loads
+
+The proposed crimped connection shall be designed, validated, and qualified according to applicable standards and internal engineering guidelines.
+
+Requested Actions
+
+Engineering evaluation of the proposed crimped busbar connection design
+
+Definition of applicable crimping method, tooling, and quality controls
+
+Electrical and thermal validation (including resistance and temperature rise)
+
+Assessment of manufacturability and implementation timeline
+
+Please provide your technical assessment, feasibility, and proposed next steps at your earliest convenience.";AT;28/02/26;In-House Repair
+35;Offer;Done;S.261078 - SE_PL_Mikulowa_Bushing_SPA_YEY;"Bushing Exchange  on two-phase shifters.
+All relevant information is in Fabasoft s.261078. 
+Here is one problem that needs your attention.
+In the tender documentation, the Customer demands a change to the existing leads.
+
+The existing two M12 cable lugs (for two 185 mm² cables) are rated for currents up to 2 x 800 A = 1600 A.
+Depending on the bushing type and the manufacturer of the lug socket (oil-filled) at the winding output, the connection must be adjusted accordingly.
+
+From my point of view the bottleneck is the two 185 mm² copper cables. For a current of 2000 A, four 185 mm² copper cables would be required.
+
+The problem is that we would have to implement this solution on-site.
+
+My theoretical solution is:
+
+Have the copper conduit cut and crimp new cables together, but this carries the risk of contaminating the transformer.
+
+
+";AT;16/01/26;Replacement of bushings, shield-electrodes and CT's
+36;Order;In Progress;S.251079 - SE_US_ConEd_400MVA_Bushing_ret_SPA_YEY;"There is WA6800928 – Astoria. Service WA 3503399. 100 hours for ENG support were planned.
+New HV bushings (Material number 21001297225) should be installed on a transformer. The drawings should be adapted accordingly. All necessary parts (adaptor flanges, pipes, etc..) should be ordered. 
+
+Parts are already ordered
+Bushing - BUSHING OA/A/RIS/S/362/1300/02000/32/475  SAP 2100129725 -3pcs
+UMFORMUNG KALOTTE - 2100130963 - 3pcs
+BUSHING BAYONET CONNECTION WITH TERMINAL - 2100140253 - 3pcs
+Bushing end shield -2006015489 -3pcs
+
+all relevant drawings are in Fabasoft or Agile
+
+";AT;25/06/26;Replacement of bushings, shield-electrodes and CT's
+37;Order;In Progress;S.251080 - SE_US_ConEd_575MVA_PST_Bushing_ret_SPA_YEY;"There is PAR WA6800783-784 – Astoria.
+Service WA 3503398 
+150 hours were planned
+
+362 kV bushings should be installed. The design should be adapted accordingly (new turrets source/load + current transfomer). 
+
+Parts are ordered:
+UMFORM. +1 BARR. ZU HSP-ABSCHIRMELEKT. -2100130963 - 6pcs.
+BUSHING OA/A/RIS/S/362/1300/02000/32/475 - 2100129725 - 6pcs.
+Bushing end shield - 2006015489 - 6 pcs.
+BUSHING BAYONET CONNECTION WITH TERMINAL - 2100140253 - 6 pcs.
+
+all relevant docs are in Fabasoft
+
+
+
+";AT;25/06/26;Replacement of bushings, shield-electrodes and CT's
+38;Order;In Progress;N730715 UW Helmstedt T412 ;"2 Transformer transportations, 2 secondary technic update, 2 power upgrades and one bushing exchange
+
+1200 hours planned for both unit";GER;30/11/26;"On-site Refurbishment;#Replacement of bushings, shield-electrodes and CT's;#Protection devices, wiring/cabling, cubicles, monitoring;#Uprating"
+39;Order;In Progress;N730725-742- HCB REHABILITATION;"17 transformers to be refurbished onsite (7x TU, 9x Alsthom, 1x Efacec) 
+new bushings, new gaskets, new protection devices, new wires
+additional work depending on findings during inspection by DIAG team";GER;31/07/26;"On-site Refurbishment;#Replacement of bushings, shield-electrodes and CT's"
+40;Offer;Done;EP Produzione - Drawings for the adaptation of a Weiz unit to the Livorno-Ferraris plant (Italy) - V100.2025;We are kindly ask to provide an official estimation of the ENG hours required to update the attached drawing of Weiz unit s/n 112035 (end customer EP Produzione) including 15° tilted HV turrets (drawings attached). This topic has been already discussed with Wittmeier Thomas (first roughly estimation of ENG hours, 30 hours). Kindly provide also an estimation on when the drawings could be available. ;TIE;22/01/26;On-site Repair
+41;Offer;In Progress;S.261194 - SE_US_EXELON_DETC_Spares_SPA_LVO;The customer has the unit WO66795 with gassing issues. They are having an inspection in March to determine the source of the gassing. In advance they want to know I we still use the installed DETC and if spare parts are available. Could you please help me with answering.;AT;29/06/26;Replacement of bushings, shield-electrodes and CT's
+42;Order;Done;8284225 moisture inside electrical cabinet;After we have installed new electrical, customer criticized moisture inside the cabinet. The design of the cabinet and incoming wiring must be controled.;GER;09/02/26;Protection devices, wiring/cabling, cubicles, monitoring
+43;Order;Done;D581031 Saale Energie ;design of 2 metal protection covers for 1N and 2N bushings (20h EN);GER;28/02/26;On-site Refurbishment
+44;Order;In Progress;N730695 Wesernetz Bremen =U1;Implementation of Ruplan circuit diagrams in EPLAN;GER;31/12/26;On-site Refurbishment
+45;Order;In Progress;N730696 Wesernetz Blockland =U7, (LEPPER);"bushing exchange, revision of OLTC, partial new gaskts
+Option (not yet ordered): new secondary equipment
+100h EN";GER;31/03/27;"On-site Refurbishment;#Renovation of external parts (correction of leaks, dirt, oxidation and painting);#Electrical and/or material testing, inspection, evaluation and diagnosis"
+46;Offer;Done;AM26_041hue_UW Engstlatt T312 ALSTOM_AbStuSi;"Offer for new platform and ladder installation.
+Required offer support from EN: draft of new platforms (15h)";GER;15/02/26;On-site Refurbishment
+47;Offer;Done;AM26_073pk ENO Offenbach UW Friedrichsring -T32;"New replacement installations after on-site measurement
+Further documents in the project folder AM26_069pk. 
+Please provide information and documents in german, the customer is in Germany, ...
+";GER;30/01/26;On-site Refurbishment
+48;Offer;Done;AM26_069pk ENO Offenbach UW Mühlheim -T11;"New replacement installations after on-site measurement
+Further documents in the project folder AM26_069pk. 
+Please provide information and documents in German, the customer is in Germany, ...
+";GER;26/02/26;On-site Refurbishment
+49;Offer;Done;AM26_071pk-1 ENO Offenbach UW Friedrichsring -T31;"New replacement installations after on-site measurement
+Further documents in the project folder AM26_069pk. 
+Please provide information and documents in German, the customer is in Germany, ...
+";GER;26/02/26;On-site Refurbishment
+50;Offer;Done;S.261225 - VHB_AT_2xUS-DFG-Umbau_MLE_LVO;"The customer has received a recalculation for a performance increase in 2025 and is know asking for the costs of realizing the performance increase. The two transformers are from 1965 and 1967 respectively. I would need to know if the installed bushings are capable of the new current and if not, which new bushing can be used with the costs and lead time. Furthermore I would need to know if any additional changes are necessary.
+I will ask the customer in the meantime, if the original bushings form the 60s are still in use. 
+The Link to a-DMS: https://at.cloud.fabasoft.com/folio/fscasp/content/bin/fscvext.dll?bx=COO.6505.100.26.2479377
+
+If possible I would appreciate a first response next week.
+
+For questions and clarifications, feel free to contact me.";AT;12/02/26;"Uprating;#Replacement of bushings, shield-electrodes and CT's"
+51;Offer;Done;AM26_018stf Niedervieland U3 U4 U7;"Control cabinet housing including newly assembled mounting plate including replacement of switching devices.
+EN-Offer-Support: Check existing documentation and provide hour forecast for calculation";GER;30/03/26;Protection devices, wiring/cabling, cubicles, monitoring
+52;Offer;In Progress;Design of Oil storage tank for RRL;;RRL;12/02/26;In-House Repair
+53;Offer;Done;Bushing exchange CEPS_KPT units;;ZAG;26/02/26;Replacement of bushings, shield-electrodes and CT's
+54;Offer;On Hold;S.261235 - SE_US_Waldwick_1721153_66697_SoundEncl_SPA_YEY;"The Customer requested a noise enclosure for recently relocated transformer due to high noise pollution in surrounding. See a report.
+The noise reduction minimun -6dB requested from the Customer.
+
+What is requested from my side:
+
+1. Please provide a calculation of the proposed solution in order to ensure that we can reduce the noise level -6bB.
+2. Please provide a simple sketch of the solution
+3. Please provide the weight of the necessary material and the specification for the material
+
+All documents are located in Fabasoft 
+
+Transformer data:
+Seriennummer:1721153
+WA Nummer:66697
+Kunde:PSE&G
+TAQ-225L33U9K-99
+
+";AT;02/07/26;Electrical and/or material testing, inspection, evaluation and diagnosis
+55;Offer;Done;Paiton Service Work;Offer Support: Design draft for cooling pipe (20h EN) + provide EN hours for calculation ;GER;31/03/26;On-site Refurbishment
+56;Order;Done;ONYX KW Farge;"Trafo N111 437
+Konstruktive Bewertung der US-Seite für mögliche Anschlusstechniken wegen einem Umbau der Anlage auf BESS";GER;31/03/26;Replacement of bushings, shield-electrodes and CT's
+57;Offer;Done;1000/26 - Modesto - Rosemore ;Auxilliary PA replacement on a 233MVA 220/69/12 kV transformer;RRC;16/02/26;In-House Repair
+58;Offer;Done;S.261257 - EAG_AT_Lüfteranbau_TABOR_REP_DBC_STL;"Customer requested power increase for the unit N006462101. ONAN10MVA --> ONAF 12,5MVA
+Transformer was already prepared for ONAF but with Siemens fans, which are no longer available.
+
+Required:
+
+Effort estimation:
+- for selecting alternative fans that fit the existing radiators without any modifications.
+- for new nameplate (updated data according to the new fan configuration).
+- for new schematic drawing including the new fans.
+
+Work should begin after receipt of the PO, for now, only an effort estimation is required.";AT;13/02/26;On-site Refurbishment
+59;Offer;Done;change of earth terminals;"The customer is requesting if it is possible to earth a different terminal on the CTs (S2 instead of S1 and S3 instead of S1).
+customer request is attached.
+Seriennummer: 1754873-1754880
+WA: 67437-67444
+For further clarification, feel free to contact me.";AT;19/02/26;Electrical and/or material testing, inspection, evaluation and diagnosis
+60;Order;Done;Studie Dominion;Wie Vorangebot ;GER;27/02/26;Replacement of bushings, shield-electrodes and CT's
+61;Order;Done;Support PN Engineering;105h EN for turret design;GER;23/04/26;In-House Repair
+62;Offer;Done;Talen Energy:  Ticket Nr./No.: 1-1377496: Siemens Energy website request: System No: ISSUE=1377496 PROJ=1;"SE US is asking for a customer for a table about recommended energization duration based on 100% cooling loss depending on ambient temperature (0-40C) and %-load (60-100%) fora VA-TECH Peebles unit 44741. This one is a ODAF unit.
+In 2003 there was a study conducted, researching the maximum operating time after 100% cooling loss with an ambient temperature of 40C, reaching the conclusion that the transformer must trip after 10min.
+I already contacted the UK colleagues for documentation of this unit. All Documents that I got will be as an attachemend zip. I attached the mails with the US colleague as well.
+
+Without much effort, how much information are we able to provide the customer. I would appreciate a first response with the end of this week.
+
+Thank you.";AT;22/02/26;Electrical and/or material testing, inspection, evaluation and diagnosis
+63;Offer;Done;0;"Bitte die Kompatibilität der neuen SETFt550 mit alter OTF550 vergleichen.
+N110133";GER;20/02/26;Uprating
+64;Offer;Done;V053_2026 Additional fan installation on TIE unit 191330A;"The cutomer requires to install an additional fan on the radiator highlighted in the picture attached.
+The fan model is a Ziehl-Abegg, FN80-SDL.6N.V792 (datasheet attached).
+The support on the radiator used on the already two installed fans cannot be used for a single fan, also it requires welded brackets on the tank that are not installed on the other side of the tank.
+
+We kindly request an estimation of the ENG hours for the design of a new support for just one fan that does not require the welded brackets on the tank. In addition, kindly provide a drawing's draft to ask the local supplier a quotation for the support.
+ ";TIE;25/02/26;Temperature reduction
+65;Offer;Done;1009-26_SE-Solvay-Repair-55MVA-55kV-Bilbao-ES;Replace Windings on a 55MVA 55kV Transformer manufactured by Siemens Portugal in 1998;RRL;03/03/26;In-House Repair
+66;Offer;Done;n.a;Ersatztype für DT123 gem. N00 07 509-02;GER;25/02/26;Replacement of bushings, shield-electrodes and CT's
+67;Offer;Done;S.261308 - WA 67479-480 WNG_AT_Ölstandsanzeiger_REP_MMA;Oil level indicators are defective and must be replaced with a simplified system (only pipe with indicator). Customer wants a simple solution.;AT;03/04/26;On-site Repair
+68;Order;Done;N730744_UW_Grünkraut_T311_SMIT_220244;Retrofit Engineering  ;GER;31/08/26;Protection devices, wiring/cabling, cubicles, monitoring
+69;Order;New;N730745_UW_Grünkraut_T312_N408157;Retrofit Engineering;GER;30/03/27;Protection devices, wiring/cabling, cubicles, monitoring
+70;Order;In Progress;N730681 Wesernetz Blockland =U5, (TU);new secondary equipment;GER;30/09/26;Protection devices, wiring/cabling, cubicles, monitoring
+71;Offer;In Progress;S.261338 CEPS bushings replacement;CEPS wants to replace bushing on their transformers within the next years. As we want to help them figure out the best strategy, it is necessary to present them a Spare parts concept. They have had already contact with KPT regarding this topic. I would appreciate a list of recommended bushings for their transformer fleet. If some bushings are not available anymore, which ones to replace.;AT;22/06/26;Replacement of bushings, shield-electrodes and CT's
+72;Order;Done;3948 8641 UW Wuergassen T411_ Abdichtung;technical support for design and ordering;GER;12/03/26;On-site Repair
+73;Order;Done;Midel Feasibility Study;Wiring of a pump for the test runs;GER;06/03/26;Electrical and/or material testing, inspection, evaluation and diagnosis
+74;Offer;Done;S.261254 - SE_GB_ESB_Connex-Umbau_REP_DBC_STL;"The customer wants to connect a Connex cable size 6 to the cable box, however, ABB AEPGA sockets were installed at that time, and these are not compatible with Connex cable size 6. For this reason, the customer wants the lower part of the HV cable box to be replaced with a dome that is equipped with a Connex socket size 6.
+The issue is described in my email to the customer, see attachments.
+
+I need an Eng. effort estimation for my offer, as well as an estimation of the weight of the domes that need to be modified. This information is required so that I can evaluate or request the pricing for the dome.";AT;20/03/26;"Replacement of bushings, shield-electrodes and CT's;#On-site Refurbishment"
+75;Offer;Done;ATUCHA I Cooling plant;"Bitte auf technische Realisierbarkeit hin überprüfen.
+Trafo T280895";GER;31/03/26;On-site Refurbishment
+76;Order;In Progress;D527228 - eNetz Südhessen Babenhausen;"In-House Refurbishment of 40MVA SGB transformer
+new OLTC, HV bushings, conversion of LV to Pfisterer Connex";GER;31/07/26;In-House Refurbishment
+77;Order;Done;D581068 - Vantage;Modification of LV cable boxes to house surge arrester;GER;30/04/26;On-site Refurbishment
+78;Offer;Done;CS-D 26-030 EnBW Albatros;provide draft of PRD pipe connection;GER;13/03/26;On-site Refurbishment
+80;Offer;Done;CD-D 26-xxx - EG Gera ;Provide Draft of shock absorber arrangement under transformer;GER;31/03/26;On-site Refurbishment
+81;Order;Done;Infra Fürth Germany, Change from Porcelaine to PFISTERER LV side;Serialnumber N421457 - Change from Porcelaine to PFISTERER LV side, adding one Buchholz;GER;30/04/26;Replacement of bushings, shield-electrodes and CT's
+82;Offer;Done;S.261307 - SE_GB_ENWL_cooling-contrl._SPA_DBC_STL;"The customer would like to replace the cooling control system, in the attachment, but the manufacturer don´t exists anymore.
+Is there an alternative we could use here? Could you please have a look at this and let me know what you think? ";AT;20/03/26;Protection devices, wiring/cabling, cubicles, monitoring
+83;Offer;Done;Bushing SOTF vs AETFt ;Bitte überprüfen ob wir diese SETFt 1550 im Tx N110233 verwenden können;GER;30/04/26;Replacement of bushings, shield-electrodes and CT's
+84;Order;In Progress;1013-26-SE-EP Produzione Centrale Livorno Ferraris SpA-Livorno TPP-IT;Factory repair of 1 unit 290MVA, 405/17,5kV GSU after a bushing failure;RRL;30/08/26;In-House Repair
+85;Offer;Done;SEC bushing DT130;DIN123kV vs. STARIP - prüfen ob die Möglichkeit besteht umzurüsten;GER;24/03/26;Replacement of bushings, shield-electrodes and CT's
+86;Offer;Done;S.261039 - SE_IE_Coolkeeragh_GT_POW_increas_MLE_YEY;"ask several suppliers for a budgetary offer for 3 bushings similar to the attached design, except the current. Current should be 1250A.
+Offer please put in a Fabasoft.";AT;27/03/26;Replacement of bushings, shield-electrodes and CT's
+87;Offer;Done;S.261394 - SE_CA_BCHydro_gasket kit_SPA_LVO;I would need a list of gaskets for the transformers with the serial 1766221-1766223 (WA6700515-6700517). They are the same unit. The customer is asking for the gaskets for the openings and oil piping.;AT;02/04/26;On-site Refurbishment
+88;Order;Done;D581070 Mercer Rosenthal;Spareparts ;GER;31/03/26;Renovation of external parts (correction of leaks, dirt, oxidation and painting)
+89;Order;Done;D580669 ILC Bornheim;Spareparts;GER;31/03/26;Renovation of external parts (correction of leaks, dirt, oxidation and painting)
+90;Offer;Done;AM26_099hue UW Eichstetten T402 ABB AbStuSi_;"Addition of Stairs + Latchways for ABB transformer
+Offer support: take measurements onsite and prepare sketch of solution";GER;30/04/26;On-site Refurbishment
+91;Order;Done;N730749 UW Villingen T401 AbstSi;Addition of stairs + latchways;GER;19/06/26;On-site Refurbishment
+92;Offer;Done;S.261225 - VHB_AT_2xUS-DFG-Umbau_MLE_LVO;The customer is requesting an offer for a bushing replacement to handle a power increase. The possibility has already been looked at from Weiz Engineering in 2025. S.251147. The limiting factor has been the LV-bushing, which is not capable of the additional current. The cooling should be capable. I attached the power increase assessment, as well as the original drawings of the LV-bushing and the LV-layout and the specification from our bushing supplier. I would need this to be validated and checked, to answer our supplier and finalize the offer.;AT;16/04/26;On-site Refurbishment
+97;Offer;Done;1001- SF262538064 - MTE;"In the process of disassembling a transformer for relocation, MTE discovered that some blocking and key spacer material had worked loose from the inside of the transformer.
+
+MTE would like to discuss with Siemens, the untanking, inspection, and repair or rewind of the transformer.
+";RRC;13/04/26;In-House Refurbishment
+98;Order;Done;RTE frame contract_vakuum capability_Alsthom unit;;AT;29/05/26;On-site Refurbishment
+99;Offer;Done;1015-26_Energie AG-OLTC Exchange-50MVA-110V-Vöklabruck-AT;Small Service incl. OLTC exchange. Details as per project Brief enclosed;RRL;26/04/26;In-House Repair
+100;Order;Done;NCC;Ordering of spareparts ;GER;21/04/26;On-site Repair
+101;Order;Done;5181076 Woodfibre;Ordering spareparts;GER;27/04/26;On-site Repair
+104;Offer;Done;S.261434 - SE_US_FPL_Uprating_CEX_LVO - WA 66395-400 (S.Nr.: 1,689.493-498);"My demand was about a request for an uprating study of a GSU from 225 MVA to 250MVA for Florida Power and Light, with the addition of adding a 10ohm neutral grounding reactor to the high voltage winding.
+
+I would need to know if we can and want to support. If we do, I will need the number of necessary hours and additional information needed to conduct the study. Additionally, please provide me an estimated delivery time and scope of supply.
+";AT;23/04/26;Uprating
+105;Order;On Hold;Test task_transformer power upgrade_Dresden_Masdar;;GER;30/06/26;Uprating
+107;Order;Done;39488741 Paiton Cooler Pipe;Design of pipe connection and flange for core-frame-earthing;GER;30/04/26;On-site Refurbishment
+108;Offer;Done;S.261220 - EVN_AT_Revision_105MVA_Korneubur_MLE_LVO;"the customer wants a new control cabinet including all internals for the transformer WA65071/Serial1627021 manufactured in 1979. The new cabinet shall meet the current safety standards.
+I attached some drawings and parts lists from the unit. for additional information, feel free to contact.
+I would need a price of the whole cabinet as well as the hours needed to spec it and order it.";AT;07/05/26;On-site Refurbishment
+109;Offer;In Progress;S.261446 - WEN_AT_KW Simmering_KEV_Umbau_REP_MMA - WA66029;"Modification of the cable boxes for the GSU transformer 
+Needs Analysis: Determine what specific modifications are required to the cable boxes to accommodate the new cables.
+Technical Specifications: Review the technical specifications of the new cables to ensure that the cable boxes are the correct size and properly equipped.
+
+Planning: Create a detailed plan for the retrofit, including the necessary materials and tools.
+
+Quote for new cable boxes if necessary.
+Seriennummer:1615568
+WA Nummer:66029
+Kunde:Wien Energie 
+Anlage/Baustelle:KW Simmering
+
+";AT;30/06/26;On-site Repair
+110;Offer;In Progress;S.261472 -WA 60557 Energie AG_AT_Connex Umbau_ELIN_REP_MMA ;"The customer would like to replace the cable terminations with Connex size 6 connectors.
+
+-    Assess feasibility (installation of Connex size 6)
+-    Modify existing domes or manufacture new ones as needed
+-    Use new or existing cable glands and connectors
+-    The customer needs a quote as soon as possible ";AT;30/06/26;On-site Repair
+111;Offer;Done;1008-26_SE-NIE-Repair-90MVA-110kV-Antrim Main Tx1-GB;Factory inspection & Findings report plus delivery of new oil/oil bushings (MGC is acceptable) , GE/Passoni is not acceptable anymore. Full set of documents is available with Michael Babl;RRL;11/05/26;In-House Repair
+112;Offer;Done;Fans modification TR 120 MVA - 138/34,5 kV;End-customer has requested that we provide them a proposal to convert the 3-phase fans originally designed for this unit to 1-phase 240V fans due to the station service power available at their site. Need ENG Hub to define necessary ENG hours to provide a compatible fan model, new fan support if necessary, new cables detail, new protection devices in the aux cabinet detailed list, and any other necessary part for the modification and new drawings accordingly;TIE;04/05/26;On-site Repair
+113;Offer;Done;1002-26 - LAWD - Rewind;BOM of a complete rewind and parcial replacement;RRC;30/04/26;In-House Refurbishment
+114;Offer;Done;1003-26 - Duke - Rewind ;BOM of a complete rewind and leads parcial replacement;RRC;29/04/26;In-House Refurbishment
+115;Offer;Done;S.261470 - SE_US_Gasket_kit_1654305_SPA_YEY;"Please provide a list of gaskets with Conservator Bladder for Elin S/N 1654305. 
+WA Nummer: 66141";AT;12/05/26;Renovation of external parts (correction of leaks, dirt, oxidation and painting)
+116;Order;Done;D581083 - EnBW Albatros;Procurement of adapters and oil sampling valve;GER;29/05/26;On-site Repair
+117;Offer;Done;Rewinding of 3 trafo union 380KV, 360MVA transformers ;Rewinding of 3 trafo union 380KV, 360MVA transformers;RRL;25/05/26;In-House Repair
+118;Order;In Progress;Study SVC Siems;"SNr N110291
+Main data: 200/200 MVA; 380/18.1 kV without OLTC; ODAF with a radiator battery incl. fans
+•	Nominal induction? Can it be operated at 420 kV up to rated power? For a short time 30 minutes with 440 kV ?
+•	What is the maximum continuous load possible if the cooling system were enlarged? The target is approx. 300 MVA.
+•	Could the existing cooling system in the area of the fans be supplemented with additional radiator elements for this purpose? If necessary, attach fans under the radiators.
+•	What is the maximum output possible with current cooling capacity or increased cooling capacity for (starting point: 200 MVA constant, 40°C environment. Limits: hotspot max. 100 K, oil jump max. 60 K):
+o	6 hrs
+o	2 hrs
+o	30 min
+o	10 s
+•	Are there any special restrictions for pure inductive or capacitive operation?
+";GER;15/07/26;On-site Refurbishment
+119;Offer;In Progress;1005_26 - Nashville Electric Service RFQ Z4315;"Inspect, Clean, untaking, Repair (bushing) & Test, Failed Transformer.
+
+This transformer had a failure due to a blown high-side bushing (B-Phase) 
+
+Upon receipt, the supplier shall perform a visual inspection of the transformer.
+- The transformer shall be cleaned. And if necessary, de-tanked.
+- All bushings shall be replaced in accordance with NES Spec ETR-446-11.
+- The transformer shall be refilled with oil.
+- Factory acceptance testing shall be performed at the supplier's facility.
+- Upon completion, the supplier shall ship the cleaned/repaired transformer
+back to NES FOB pad.
+-If any damage is identified that is beyond the defined scope of work, the supplier shall notify NES PRIOR to proceeding.";RRC;03/06/26;On-site Repair
+120;Offer;Done;S.261532 - SE_NO_LUCERNA_Short-circuit_CEX_DBC_STL;The customer is requesting the short-circuit voltages (ek, er, and ez) for the units: N005306101-102 & N005307101. Unfortunately, I haven't been able to find this data. Please send me the data and let me know how much work was involved so that I can factor that into the offer.;AT;22/05/26;Electrical and/or material testing, inspection, evaluation and diagnosis
+121;Offer;In Progress; Study BRD903: Irsching 5 GT-GSU Powerupgrade;"Study for Powerupgrade of Nuremberg SNr. 110663
+Details see attached E-Mail
+
+Not related to any FN offer!";GER;30/06/26;Uprating
+122;Order;In Progress;1004_26 - AWS_345_180MVA_SE-GJT;New Siemens Energy transformer damaged in the transport. Need to change OLTC & windings;RRC;30/06/26;In-House Repair
+123;Offer;In Progress;1017-26-SE-Nuclearelectrica-Electroputere-440MVA-415kV-CHE Cernavoda-RO;Customer is asking for an offer to do site inspection of a non SE-make units including the provision of a findings report and rectification recomendation;RRL;26/05/26;Electrical and/or material testing, inspection, evaluation and diagnosis
+124;Order;In Progress;S.261254 - WA3400610 - SE_GB_ESB_Connex-Umbau_REP_DBC_STL;"I have already submitted a request to you; see Request: ID74.
+All documents are included in the request.
+
+PSP-Element: T.025N.261254.01
+WA-Nummer: 3400610
+50h are planned for the work";AT;22/07/26;"On-site Refurbishment;#Replacement of bushings, shield-electrodes and CT's"
+125;Offer;Done;S.261522 - SE_GB_ESB_NachrechnungP2_CEX_DBC_STL;"This requestis a bit older. It was handled by the calculations department in Linz, and we had several meetings with ESB regarding the investigations. Now the ESBhas submitted new inquiries. The calculations will be handled by Linz, as Linz has performed all calculations to date. Paulo Bicca was present at the last meeting with ESB. On the page 13 in the report under: “Further investigation not part of the thermal investigation,” the open issues are listed; the leads design and stray flux are being handled by Linz. 
+I will optionally include the topic regarding the Conservator & Control Cubicle in my proposal. If the calculations are acceptable to the client, the further work should be handled through the Global Ing hub -->  for this reason, I need your work time estimate for this work. I will include the investigation and the email from the customer with the additional questions in the attachments. The contacts in Linz for the calculations are 1. Rene Wind and 2. Anatolii Boev. 
+Please tell me the work time hours estimate.";AT;22/05/26;"On-site Refurbishment;#Uprating"
+126;Offer;Done;S.261548 - VHP_AT_Jochenstein_Kabelkopfumba_REP_LVO;"the customer wants to change the HV turrets to accommodate a CONNEX connector. 
+The CONNEX connector will be supplied by the customer. Details about the connector is in the attached request mail from the customer.
+As stated in the mail, he wants to perform the retrofit in fall of 2026.
+I need to know if it is possible to change the turret and how long it would take. Additionally the costs for the new or changed turret would be important as well as the necessary time for carrying out the project from the engineering perspective.
+I attached the fabrication card of the transformer as well as the detailed outline drawing.
+As there is a short timeframe I would need to know by the beginning of next week when to expect results.";AT;11/06/26;On-site Refurbishment
+127;Order;Done;S.251560 - WA3700109 - VOE_AT_Machbarkeitsanalyse_CEX_LVO;"realization of the study
+Seriennummer: 1615615/1615616/1675184
+WA Nummer: 60295/60296/60828
+";AT;24/06/26;Replacement of bushings, shield-electrodes and CT's
+128;Offer;Done;S.261505 - Netz-NÖ_AT_Dfg-Umbau_REP_DBC_STL;"The customer has contacted us to inquire whether the LV Connex size 2 bushings can be converted to porcelain bushings for unit N005650102.
+
+My engineering colleague in Linz, Peter Dichlberger, was involved in this request and confirmed that the conversion is feasible using a new handhole cover.
+I need information on the weight of the handhole cover in order to estimate the cost. The porcelain bushings must be plug-in type.
+The (30F / 2000A) bushings should be the correct ones—please confirm.
+Please provide me an effort estimation for your works so that I can take this into my offer.";AT;05/06/26;"On-site Refurbishment;#Replacement of bushings, shield-electrodes and CT's"
+129;Offer;Done;S.261551 - SE_GB_ESB_Carrickmines T141_REP_DBC_STL;"Please see attached the customer’s request mail (ESB, Jonathan Carpenter).
+
+The transformer has never been in operation before. Following our meeting with the customer, it was agreed with the customer that the oil-to-oil bushings will be replaced with units from a manufacturer we are familiar with. In addition, it needs to be verified whether the links that were never installed can be used, or if new ones need to be designed.
+
+During the repair, we will replace all three cable boxes, as well as the expansion conservtor of the cable boxes. I have also suggested replacing the piping, as corrosion may have developed over time if the transformer was never properly filled with oil.
+
+Furthermore, I have recommended to the customer that the Buchholz relay should also be replaced.
+
+For all these activities, I require your work time estimation. If there are any open questions,feel free to ask.";AT;30/06/26;"On-site Repair;#Replacement of bushings, shield-electrodes and CT's"
+130;Order;In Progress;S.261467 - SE_US_Xfmr_Gaskets_hatch_SPA_YEY;"New BOM is reqiured. 
+All gaskets from U20_04_167_DRW__MP should be added to new STK. 2U200443901 
+All gaskets should be changed to FKM Material. NO NBR!!!
+
+All doc in FABASOFT
+";AT;30/06/26;Renovation of external parts (correction of leaks, dirt, oxidation and painting)
+131;Offer;In Progress;S.261544 - TenneT_DE_PST_UMBAU_Kühlsystem_REP_MMA;"Die beiden PSTs in UW Diele (Ser. No; 1,726.622/3, wo.r: 66732/3 bzw. Ser. No; 1,726.624/5, wo.r: 66734/5)
+aus den Baujahren 2006/7 sollen im Zuge der UW-Erweiterung um 2 weitere PSTs auf neue Fundamente
+versetzt werden. Die Ausschreibung für die neuen PSTs läuft gerade.
+D.h., die Bestands-PSTs sollen möglichst auf die identischen Fundamente wie die aktuellen PSTs für
+Waldeck versetzt werden.
+Da diese älteren PSTs mit ODAN -Kühlung und 2 Radiatorenbatterien je Kessel ausgeführt wurden, geht
+diese Umsetzung nur mit dem Anbau von einer neuen, kleineren ODAF-Radiatorenbatterie.
+Erschwerend kommt noch hinzu, dass bei diesen PST entgegen unserem neuen Standard die Kühler nicht auf der Schalterseite der Kessel angeschlossen sind.
+Folgende Fragen habe ich hier aktuell:
+- Sind die Blindflansche unten auf der Schalterseite mit den internen OD-Kanälen verbunden?
+Könnte die Kaltölleitung neuer Kühler hier angeschlossen werden?
+
+Könnte der Warmölanschluss mit vertretbaren Aufwand nach vorne auf die Schalterseite mittels
+externen Rohrleitungen (möglichst nur eine je Kessel) neben/über dem Kesseldeckel verlegt werden?
+
+Wäre es möglich die vorhandenen ODAN-Radiatorenbatterien durch die ODAF-Radiatorenbatterien
+der aktuellen PSTs zu ersetzen?
+Die Verlustleitung der Bestands-PSTs (0,340 MW + 2,13 MW=2,47 MW ) ist etwas kleiner als die
+Verluste bei den aktuellen PSTs( 0,25 MW+2,45 MW=2,7 MW).
+Könnte auch eine Pumpe PR300/6 die beiden aktuell installierten Pumpen PR250/6 ersetzen?
+Eine PR300/6 in Kaltölleitung möglich?";AT;09/07/26;On-site Refurbishment
+132;Offer;In Progress;SF 262543603 - Alliant Energy - TP499/500 TR Uprating;"Request Summary:
+We request an estimate of engineering hours to perform an engineering assessment for transformer uprating of two (02) GSU units.
+The intention is to prepare a customer offer covering only the engineering study and the final report.
+
+Transformer Data
+
+Quantity: 2 units
+Type: Three-phase GSU Transformer
+Rating: 150 / 200 / 250 MVA
+Voltage: 142 / 18 kV
+Cooling: ONAN / ONAF / ONAF
+Tap Changer: DETC
+OEM: Siemens Energy Mexico (legacy Ferranti Packard)
+
+End Customer
+Alliant Energy – Riverside Plant
+Background
+The customer is evaluating the possibility of uprating the current GSUs to support increased generation output (target up to 290 MVA).
+Some pictures and limited documentation of the transformers in operation were provided.
+
+Scope of Work:
+Engineering assessment to evaluate the feasibility of uprating the two GSU transformers.
+Expected Output (for reference only – not required at this stage)
+Although not required in detail for this hours estimate, the engineering assessment is expected to include:
+
+Thermal evaluation (top oil temperature extrapolation based on current and proposed losses) - Test Report Available.
+Verification of current-carrying capacity of critical components (Bushings, CT's, DETC, etc)
+Preliminary recommendations (e.g., cooling upgrades such as additional fans or fans replacements)
+Transformer life expectancy impact under higher loading
+Conceptual sketches (croquis) showing mainly modification.
+Technical conclusion regarding uprating feasibility
+
+Important Note
+At this stage, we only require the estimated engineering hours to perform the assessment described above.
+
+";RRC;10/06/26;Uprating
+143;Order;Done;D581085_spareparts_Serial Number_Work Order;Preparation of a tender for spare parts;GER;02/07/26;On-site Refurbishment
+144;Order;Done;D581030_Design of PRD pipe_Serial Number_Work Order;"Design of PRD pipe 
+
+";GER;18/06/26;On-site Refurbishment
+145;Order;Done;T.032N.261003_Replacement_bushings_for_WEZ_Trafo_WO_SN_6800416 / 1.801.210 _T.032N.261003;Replacement_bushings_for_WEZ_Trafo;RRL;15/06/26;"Replacement of bushings, shield-electrodes and CT's;#In-House Repair"
+146;Offer;On Hold;Shuweihat_Tx power uprate;;GER;30/06/26;Uprating
+147;Offer;In Progress;1018-2026_Winding supply for 40MVAr 500kV reactor from TUSA_8577544_PA A7B10000997582;Check possibility to supply a winding for 40MVAr 500kV reactor from TUSA. Winding to be delivered in a external tank to Argentina. Winding should be 1:1 replacement to existing one;RRL;10/06/26;Replacement of bushings, shield-electrodes and CT's
+148;Offer;In Progress;Project Number_Alabama_Power-Farley:Sn1.732.682_1.732.682_66804;"Check of the statement sent to the customer by our US Colleague
+
+emergency operation with the loss of one bank
+
+thermal alarm and trip settings
+
+impedance difference due to higher operation temperature of 1 unit
+
+
+more information see in the attached mail
+Instruction manual attached";AT;16/06/26;"Protection devices, wiring/cabling, cubicles, monitoring;#Temperature reduction"
+149;Offer;In Progress;S.261582 - SE_US_T_12615_Jack_McDonough_SPA_YEY_S.261582 - SE_US_T_12615_Jack_McDonough_SPA_YEY_1690682 _WA66408;I need a list of gaskets. Order will come immediately after offer.;AT;26/06/26;Renovation of external parts (correction of leaks, dirt, oxidation and painting)
+150;Offer;New;W-110438_Siemens SIMATIC panel quotation_N110438_Work Order;Could you please offer me a suitable solution with a new S7 unit?;GER;15/06/26;On-site Repair
+151;Offer;Done;AM26_145stf_Tennet_UW_Diele_AbstSich_Design_support_Serial Number_Work Order;Absturzsicherung_an_einer_Spule_UW_Diele_nachrüsten;GER;16/06/26;"On-site Repair;#On-site Refurbishment"
+152;Order;New;N730750-752 UW Niedervieland U3+U4+U7_Control cabinet replacement;"Two control cabinets need to be replaced at each of three transformers.
+";GER;17/09/26;Protection devices, wiring/cabling, cubicles, monitoring
+153;Order;New;S.261353 - SE_US_MCGraw_Ford_Geogia_Gask_P2_SPA_YEY_S.261353_SE_US_MCGraw_Ford_Geogia_Gask_P2_SPA_YEY_1718895_WA66662;Gasket list. ;AT;31/07/26;Renovation of external parts (correction of leaks, dirt, oxidation and painting)
+154;Offer;Done;SF262553930_SF262553930_LCRA_33MVA_138kV_G359_Work Order;rebuild including new bushings, N2 system, gauges, and rewind;RRC;19/06/26;In-House Refurbishment
+155;Offer;In Progress;AM26_135_Study and offer regarding power upgrade by improving the existing coolers _ replacemnt of 1 existing fan by 4 new smaller fans_N406146_Work Order;"step 1: study how much additional power can be transmitted
+step 2: can the additional losses be managed by 4 smaller fans instead of the existing 1
+or alternative with new coolers?
+step 3: technical reply and offer";GER;14/08/26;On-site Refurbishment
+156;Order;Done;D527216 -Documentation for Project completion;Adjuastment of documentation following FAT acceptance;GER;29/06/26;In-House Refurbishment
+157;Order;Done;D580869 EV Halle TR101_Documentation after FAT_Serial Number_Work Order;;GER;30/06/26;On-site Refurbishment
+158;Order;Done;D527191 EV Halle Tr103 - Correction in secondary equipment;Rework on legacy project;GER;11/06/26;In-House Refurbishment
+159;Offer;New;1021-26_Rewind some Transformers delivered from Trento from LV = 21kV to LV=33kV_242027A/01_Work Order;Rewind some Transformers delivered from Trento from LV = 21kV to LV=33kV;RRL;24/06/26;In-House Repair
+160;Offer;In Progress;AM26_XXX_Kuwait_N110793;Machbarkeit und Budgetstunden für Angebotserstellung Transviso;GER;31/07/26;Protection devices, wiring/cabling, cubicles, monitoring
+161;Order;New;AM26_039KE_1.1_T213_dismantling and reassembly of a 300MVA Transformer for transportation_N112586_Work Order;dismantling and reassembly of a 300MVA Transformer for transportation;GER;01/12/26;On-site Repair
+162;Offer;New;S.261624_SE_US_Vitra_windingtemp_SPA_LVO_1699212_66487;"Replacement of the current well temperature sensors (Qualitrol Series 103)
+Installation instructions
+need for replacing the assembly? -> different solution?
+
+parts lists of the assembly is digitally available, but some components are no longer available or made by Andritz
+";AT;09/07/26;Protection devices, wiring/cabling, cubicles, monitoring
+163;Offer;In Progress;CS-D26-078_Plauen LV bushing_D421731_Work Order;"SNr D421731
+air clearance LV-bushings to conservator is to close.
+Provide solution incl. scetch to reach enough clearance. ";GER;10/07/26;Replacement of bushings, shield-electrodes and CT's
+175;Order;New;EWN Rubenow_Sourcing of spare parts_581049_Work Order;Sourcing of spare parts as per internal order;GER;30/07/26;On-site Repair
+176;Order;New;RWE_Sourcing Spareparts_581085_Work Order;Sourcing of Spareparts;GER;30/07/26;Uprating
+177;Offer;New;BKW - AIM Mendrisio _Power Increasing 20 MVA to 25 MVA_Serial Number_CS-D26-063;"The transformer has to be checked to determine whether its rating can be increased from 20 MVA ONAN to 25 MVA ONAF.
+If this is not possible, please advise the maximum achievable power rating under ONAF conditions.
+In both cases, please also provide the required number of cooling fans.";GER;09/07/26;Uprating
+178;Offer;New;VESTAS_Change_of_transformation_ratio_CS-D26-079_Work Order;Change_of_transformation_ratio;GER;16/07/26;On-site Refurbishment
+180;Order;In Progress;581088_Design of new cable boxes (Sourcing from past project)_Serial Number_Work Order;"Design of new cable boxes
+";GER;09/07/26;On-site Refurbishment
+181;Order;New;581092_Construction of a ladder landing point_d581090_Work Order;"Construction of a ladder landing point
+";GER;11/08/26;Uprating
+182;Offer;New;S.261483 / WA 66407_S.261483 - Illwerke_Durchführungstausch_REP_MMA_1632330 und 1632331_Work Order;"Customer inquiry:
+1. Mesh-dome transformer (200 MVA, ELIN, TDQ-365R27T9K-99), manufactured in 1999,
+serial number 1690028
+This transformer is equipped with Euromold connectors on System 4 (20 kV) (Euromold Series 200, Type
+K180AR-2/J).
+We would like to replace these with Pfisterer connectors, e.g., Pfisterer Connex single
+angle connectors, size 1. These are installed in another power distribution transformer of the same type
+(SIEMENS, TDQ-365R27T9K-99, manufactured in 2013).  
+Do you know if this is possible and permissible? The Pfisterer connector with the
+correct cone length would have to be used (A = 168)
+Or are there still replacement plugs from Euromold that would fit?
+For this transformer, we would also swap out the bushings from System 1 and System 2.
+These bushings are all from HSP (SETFt ...).
+Would it be advisable to use the same bushings (if available) from HSP
+again in this case?
+
+For other transformers, we have also used suitable bushings from Moser Glaser
+in the past.  
+A bushing replacement is also pending for three other 450 MVA transformers. To keep things
+clear, however, I am referring here only to the 200 MVA power coupler mentioned above.
+These projects are planned for 2028. Do you offer such services as part of your transformer maintenance program? That is, bushing replacement?
+
+2. The serial numbers of our three 450 MVA grid-coupling transformers are as follows:
+Two are from ELIN and are of the same type (TDQ-405R44D9K-99): 1632330 and 1632331
+The third is from SCHORCH (now GE?): Type TC 2456E, 627150101
+For these three transformers as well, we have installed the same Euromold connectors (Type K180AR-2/J)
+on System 4.
+And the bushings (Systems 1 and 2) are all from HSP (SOTF, SETF).
+I first need to clarify internally and with the company how we will handle the maintenance of our transformers
+here—that is, whether we will simply replace the bushings or focus more on monitoring.
+We perform diagnostic measurements every 5 years.
+Therefore, before you invest time in detailed planning or preparing a quote, a rough cost estimate would be
+more than sufficient for us during the current decision-making and budgeting phase.
+For budgeting purposes, a non-binding cost estimate for replacing the bushings would be very
+helpful—specifically for replacing the bushings in Systems 1, 2, and 4 of the relevant
+transformers.
+
+";AT;02/08/26;On-site Refurbishment
