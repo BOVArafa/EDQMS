@@ -1,0 +1,39 @@
+﻿Title,Description
+Opportunity Development,Sales create the opprtunity and notifies the offer manager
+Offer Calculation Requested,Engineering receives a demand for creating an offer calculation
+Analyse Request,"check if request is meeting minimum information requirements for forwarding the activity (Transformer drawings, nameplate, technical specification or/and any other relevant information)."
+Offer Calculation Documentation Requested,Engineering needs more information about the scope to be able to develop the offer calculation
+Offer Calculation Documentation Released,Costumer or/and Local Engineering releases the documentation requested
+Offer Calculation Released,Engineering releases the documentation necessary for the offer team to finish the proposal
+Offer Calculation Revision Requested,Sales or the offer manager asks engineering to modify the offer calculation
+Offer Rejected,The Final Offer is rejected by the customer
+Offer Approved,The Final Offer is approved and enters the queue for Handover
+Order Handover,Offer and Order managers hands the offer proposal to the Project Manager and Engineering Manager
+Order Created,Project Manager creates the Order Structure in the systems
+Work Order Released,A list with all main project items for customer approval and manufacturing
+Project Planning Created,A detailed activity and task roadmap based on the Work Order
+Approval Documentation Released,"Drawings, Instructions, Procedures that needs customer approval before moving on with the project"
+Approval Documentation Revision Requested,Customer asks for clarifications or changes in the project or documentation sent
+Approval Documentation Approved,Customer approves the project and the documentation sent
+Critical Material List Released,List of materials with high delivery time deadlines
+Manufacturing Documentation Released ,"Drawings, instruction, procedures necessary to produce the scope"
+Manufacturing Documentation Revision Request,External or Internal Suppliers can ask for revisions about documentation errors or manufacturing improvements
+Project Documentation Request,Information needed for developing the project scope
+Project Documentation Released,"Documentation that supports project development (eg: Technical Specifications, Original Drawings, etc)"
+BOM Released,Build Of Material list prepared to be inserted in the system
+BOM Revision Requested,Material code update review requested from purchase department
+Project Released,Project is released for production or delivered to internal customers
+Project Inspection Scope Request,"If equipment is repaired at a location remote from the design engineering team, an inspection scope is required to capture all necessary information"
+Project Inspection Scope Released,The inspection scope is issued to the local engineering leader where the transformer is located
+Project Inspection Scope Report Released,The local engineering team sends back the inspection report so that the designers can develop the project
+Inspection Scope Released,"Equipment and accessories inspections as well as tests necessaries to develop technical scope, project and studies"
+Inspection Report Released,Field Service engineering develop report accordingly with the scope
+FIA Requested,Finding investigation Abalysis requested by the sales or offer manager
+FIA Report Released,Findings investigation Analysis Report
+EVENTS COUNT,
+EXECUTION TOTAL,
+,
+,
+,
+,
+,
