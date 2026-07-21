@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+/* Typography tokens — sizes/weights/line-heights from
+   projects/element-theme/src/styles/variables/_typography.scss
+   Typeface: Siemens Sans Pro is Siemens' proprietary brand typeface and is
+   NOT distributed in the OSS repo — substituted here with Noto Sans (Google
+   Fonts), the closest freely-licensable neutral humanist grotesque. Flag
+   this substitution to the user; swap in real Siemens Sans files if
+   available. */
+
+:root {
+  --se-font-family: 'Noto Sans', -apple-system, 'Segoe UI', Arial, sans-serif;
+  --se-font-family-mono: 'Roboto Mono', 'SFMono-Regular', Consolas, monospace;
+
+  /* Headings */
+  --se-font-size-h1: 30px;   --se-line-height-h1: 36px;   --se-weight-h1: 400;
+  --se-weight-h1-bold: 700;
+  --se-font-size-h2: 20px;   --se-line-height-h2: 24px;   --se-weight-h2: 600;
+  --se-font-size-h3: 18px;   --se-line-height-h3: 24px;   --se-weight-h3: 600;
+  --se-font-size-h4: 16px;   --se-line-height-h4: 20px;   --se-weight-h4: 600;
+  --se-weight-h4-bold: 700;
+  --se-font-size-h5: 14px;   --se-line-height-h5: 16px;   --se-weight-h5: 600;
+  --se-weight-h5-bold: 700;
+
+  /* Body */
+  --se-font-size-body-lg: 16px; --se-line-height-body-lg: 20px; --se-weight-body-lg: 400;
+  --se-font-size-body: 14px;    --se-line-height-body: 16px;    --se-weight-body: 400;
+  --se-font-size-caption: 12px; --se-line-height-caption: 16px; --se-weight-caption: 400;
+
+  /* Display */
+  --se-font-size-display-xl: 56px;   --se-line-height-display-xl: 72px;
+  --se-font-size-display-lg: 48px;   --se-line-height-display-lg: 64px;
+  --se-font-size-display-bold: 40px; --se-line-height-display-bold: 52px; --se-weight-display-bold: 700;
+  --se-font-size-display: 40px;      --se-line-height-display: 52px;     --se-weight-display: 400;
+}
