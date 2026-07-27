@@ -2170,7 +2170,7 @@
         }
       }
     },
-    "Inventory": {
+    "Portfolio": {
       "tables": {
         "Product Scopes": {
           "visibility": "show",
@@ -2231,9 +2231,9 @@
               "constraints": null
             },
             {
-              "name": "productClassID",
+              "name": "productSpecID",
               "type": "VARCHAR",
-              "rule": "mirror: DISTINCT(\"Product Groups\".\"productClassID\")",
+              "rule": "mirror: DISTINCT(\"Product Groups\".\"productSpecID\")",
               "notes": null,
               "table-display": false,
               "subitem-display": false,
@@ -2493,12 +2493,12 @@
           "cards": null,
           "table-filters": true
         },
-        "Product Class": {
+        "Product Spec": {
           "visibility": "show",
           "description": "Technical classification of products by voltage rating and power rating ranges (ISO §8.1).",
           "attributes": [
             {
-              "name": "productClassID",
+              "name": "productSpecID",
               "type": "INT",
               "rule": null,
               "notes": "Displayed as \"Class Name\" in UI",
@@ -2525,16 +2525,16 @@
               "constraints": null
             },
             {
-              "name": "productClassName",
+              "name": "productSpecName",
               "type": "VARCHAR",
-              "rule": "computed: CONCAT(voltageRate,'kV - ', powerRating, 'MVA')",
+              "rule": "computed: CONCAT(powerRating,'MVA - ', voltageRate, 'kV')",
               "notes": null,
               "table-display": false,
               "subitem-display": true,
               "constraints": null
             },
             {
-              "name": "productClassOwner",
+              "name": "productSpecOwner",
               "type": "email",
               "rule": "FK → People (display: userName)",
               "notes": "Accountability owner (ISO 9001:2015 §5.3, §6.2.2(c))",
@@ -2566,7 +2566,7 @@
             {
               "name": "productGroupName",
               "type": "INT",
-              "rule": "computed: CONCAT(productName from productID,'-',productClassName from productClassID)",
+              "rule": "computed: CONCAT(productName from productID,'-',productSpecName from productSpecID)",
               "notes": null,
               "table-display": false,
               "subitem-display": false,
@@ -2591,9 +2591,9 @@
               "constraints": null
             },
             {
-              "name": "productClassID",
+              "name": "productSpecID",
               "type": "rollup",
-              "rule": "rollup → Product Class (display: productClassName)",
+              "rule": "rollup → Product Spec (display: productSpecName)",
               "notes": "multivalued",
               "table-display": true,
               "subitem-display": true,
@@ -2633,11 +2633,11 @@
                 "check": null,
                 "field-rule": null
               },
-              "Product Class": {
+              "Product Spec": {
                 "field-type": {
                   "select": "shadcn-select"
                 },
-                "attribute": "productClassID",
+                "attribute": "productSpecID",
                 "tooltip": null,
                 "step": null,
                 "check": null,
