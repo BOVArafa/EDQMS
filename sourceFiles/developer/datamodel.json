@@ -2527,7 +2527,7 @@
             {
               "name": "productSpecName",
               "type": "VARCHAR",
-              "rule": "computed: CONCAT(voltageRate,'kV - ', powerRating, 'MVA')",
+              "rule": "computed: CONCAT(powerRating,'MVA - ', voltageRate, 'kV')",
               "notes": null,
               "table-display": false,
               "subitem-display": true,
