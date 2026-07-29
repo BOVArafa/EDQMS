@@ -7,7 +7,7 @@
           "description": "Manufacturing site entity (ISO §4.1 organisational context) with business segment classification: LPT (Large Power Transformers), MT (Medium Transformers), or DT (Distribution Transformers).",
           "attributes": [
             {
-              "name": "factoryID",
+              "name": "customerID",
               "type": "INT",
               "rule": null,
               "notes": "Auto-generated primary key",
@@ -16,7 +16,7 @@
               "constraints": "PK"
             },
             {
-              "name": "factoryName",
+              "name": "customerName",
               "type": "VARCHAR",
               "rule": null,
               "notes": "Short code, e.g. \"PN\"",
@@ -72,7 +72,7 @@
             {
               "name": "forecasts",
               "type": "rollup",
-              "rule": "rollup → Forecasts (via: factoryID)",
+              "rule": "rollup → Forecasts (via: customerID)",
               "notes": "All forecast records belonging to this factory",
               "table-display": false,
               "subitem-display": false,
@@ -123,7 +123,7 @@
                 "field-type": {
                   "field": "shadcn-input"
                 },
-                "attribute": "factoryName",
+                "attribute": "customerName",
                 "tooltip": null,
                 "step": null,
                 "check": null,
@@ -189,9 +189,9 @@
               "constraints": "PK"
             },
             {
-              "name": "factoryID",
+              "name": "customerID",
               "type": "INT",
-              "rule": "FK → Factories (display: CONCAT(factoryName,'-',city)",
+              "rule": "FK → Factories (display: CONCAT(customerName,'-',city)",
               "notes": "Factory submitting this forecast",
               "table-display": true,
               "subitem-display": true,
@@ -348,14 +348,14 @@
                     "check": null,
                     "field-rule": "FK -> Events (display: eventName): Multivalued field"
                   },
-                  "factoryName": {
+                  "customerName": {
                     "field-type": {
                       "combobox": "shadcn-combobox"
                     },
                     "tooltip": null,
                     "default": "ALL",
                     "check": null,
-                    "field-rule": "FK -> Factories (display: factoryName): Multivalued field"
+                    "field-rule": "FK -> Factories (display: customerName): Multivalued field"
                   }
                 }
               }
@@ -368,7 +368,7 @@
                 "field-type": {
                   "SelectGroups": "shadcn-select"
                 },
-                "attribute": "factoryID",
+                "attribute": "customerID",
                 "tooltip": null,
                 "step": null,
                 "check": null,
@@ -437,7 +437,7 @@
             {
               "name": "forecastID",
               "type": "INT",
-              "rule": "FK → Forecasts (display: CONCAT(factoryName,'-',city,' | ', period))",
+              "rule": "FK → Forecasts (display: CONCAT(customerName,'-',city,' | ', period))",
               "notes": "Parent forecast",
               "table-display": true,
               "subitem-display": true,
@@ -527,7 +527,7 @@
             {
               "name": "region",
               "type": "VARCHAR",
-              "rule": "mirror: DISTINCT(\"Forecasts\".\"factoryID\" → \"Factories\".\"region\")",
+              "rule": "mirror: DISTINCT(\"Forecasts\".\"customerID\" → \"Factories\".\"region\")",
               "notes": "Region of the factory that owns the parent forecast (via forecastID → Factories.region). Used by Report-B.",
               "table-display": false,
               "subitem-display": false,
@@ -614,7 +614,7 @@
                 "tooltip": null,
                 "step": null,
                 "check": null,
-                "field-rule": "SelectLabel = Forecasts.factoryName"
+                "field-rule": "SelectLabel = Forecasts.customerName"
               },
               "Scope": {
                 "field-type": {
@@ -1131,7 +1131,7 @@
               "constraints": null
             },
             {
-              "name": "factoryName",
+              "name": "customerName",
               "type": "VARCHAR",
               "rule": "mirror: DISTINCT(\"Tickets\".\"customerName\")",
               "notes": "From ticketID rollup",
@@ -2677,7 +2677,7 @@
             {
               "name": "customerName",
               "type": "INT",
-              "rule": "FK → Factories (display: CONCAT(factoryName + city)",
+              "rule": "FK → Factories (display: CONCAT(customerName + city)",
               "notes": "Customer / requester factory",
               "table-display": true,
               "subitem-display": false,
@@ -2978,7 +2978,7 @@
             {
               "name": "customerName",
               "type": "INT",
-              "rule": "FK → Factories (display: factoryName)",
+              "rule": "FK → Factories (display: customerName)",
               "notes": "Customer name or factory",
               "table-display": true,
               "subitem-display": true,
@@ -3291,7 +3291,7 @@
             "Report-A": {
               "overview-display": true,
               "graph_type": "bar chart - multiple",
-              "rule": "plannedExecutionTime vs. realExecutionTime side by side grouped by factoryName. Y = hours, X = FacotryNames",
+              "rule": "plannedExecutionTime vs. realExecutionTime side by side grouped by customerName. Y = hours, X = FacotryNames",
               "filters": {
                 "fields": {
                   "periodFrame": {
@@ -3321,14 +3321,14 @@
                     "check": null,
                     "field-rule": "FK -> Events (display: eventName): Multivalued field"
                   },
-                  "factoryName": {
+                  "customerName": {
                     "field-type": {
                       "combobox": "shadcn-combobox"
                     },
                     "tooltip": null,
                     "default": "ALL",
                     "check": null,
-                    "field-rule": "FK -> Factories (display: factoryName): Multivalued field"
+                    "field-rule": "FK -> Factories (display: customerName): Multivalued field"
                   }
                 }
               }
@@ -3563,9 +3563,9 @@
               "constraints": null
             },
             {
-              "name": "factoryID",
+              "name": "customerID",
               "type": "INT",
-              "rule": "FK → Factories (display: factoryName)",
+              "rule": "FK → Factories (display: customerName)",
               "notes": null,
               "table-display": true,
               "subitem-display": true,
@@ -3585,7 +3585,7 @@
             "Report-A": {
               "overview-display": true,
               "graph_type": "bar chart - multiple",
-              "rule": "availableHours vs. allocatedHours side by side grouped by factoryName. Y = hours, X = FacotryNames",
+              "rule": "availableHours vs. allocatedHours side by side grouped by customerName. Y = hours, X = FacotryNames",
               "filters": {
                 "fields": {
                   "periodFrame": {
@@ -3615,14 +3615,14 @@
                     "check": null,
                     "field-rule": "FK -> Events (display: eventName): Multivalued field"
                   },
-                  "factoryName": {
+                  "customerName": {
                     "field-type": {
                       "combobox": "shadcn-combobox"
                     },
                     "tooltip": null,
                     "default": "ALL",
                     "check": null,
-                    "field-rule": "FK -> Factories (display: factoryName): Multivalued field"
+                    "field-rule": "FK -> Factories (display: customerName): Multivalued field"
                   }
                 }
               }
@@ -3643,9 +3643,9 @@
             "Card 1-2": {
               "title": "Most Overestimated Customer",
               "card-rules": {
-                "main-data": "factoryName with the biggest utilization gap",
+                "main-data": "customerName with the biggest utilization gap",
                 "trend-data": null,
-                "detail-data": "factoryName utilization gap vs the medium utilization gap"
+                "detail-data": "customerName utilization gap vs the medium utilization gap"
               },
               "card-component": "shadcn-card",
               "card-tooltip": "Cliente que menos utilizou dos product scopes previstos em seus forecasts"
@@ -3817,7 +3817,7 @@
             "Report-A": {
               "overview-display": true,
               "graph_type": "bar chart - multiple",
-              "rule": "plannedHours vs. realExecutionTime side by side grouped by factoryName. Y = hours, X = FacotryNames",
+              "rule": "plannedHours vs. realExecutionTime side by side grouped by customerName. Y = hours, X = FacotryNames",
               "filters": {
                 "fields": {
                   "periodFrame": {
@@ -4528,7 +4528,7 @@
             {
               "name": "location",
               "type": "INT",
-              "rule": "FK → Factories (display: factoryName)",
+              "rule": "FK → Factories (display: customerName)",
               "notes": null,
               "table-display": true,
               "subitem-display": false,
