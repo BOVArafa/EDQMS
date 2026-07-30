@@ -107,6 +107,26 @@
     "squadType": "outsource",
     "departmentID": "DPT01"
    }
+  ],
+  "Regions": [
+   {
+    "regionID": "RG01",
+    "regionName": "Americas",
+    "regionDescription": "Americas region",
+    "regionOwner": null
+   },
+   {
+    "regionID": "RG02",
+    "regionName": "APAC",
+    "regionDescription": "APAC region",
+    "regionOwner": null
+   },
+   {
+    "regionID": "RG03",
+    "regionName": "EMEA",
+    "regionDescription": "EMEA region",
+    "regionOwner": null
+   }
   ]
  },
  "CRM": {
@@ -116,76 +136,76 @@
     "customerName": "PN",
     "city": "Nuremberg",
     "country": "Germany",
-    "region": "EMEA",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
-    ]
+    ],
+    "regionID": "RG03"
    },
    {
     "customerID": "FC2",
     "customerName": "DR",
     "city": "Dresden",
     "country": "Germany",
-    "region": "EMEA",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
-    ]
+    ],
+    "regionID": "RG03"
    },
    {
     "customerID": "FC3",
     "customerName": "SP",
     "city": "Sao Paulo",
     "country": "Brazil",
-    "region": "Americas",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
-    ]
+    ],
+    "regionID": "RG01"
    },
    {
     "customerID": "FC4",
     "customerName": "MX",
     "city": "Monterrey",
     "country": "Mexico",
-    "region": "Americas",
     "isActive": true,
     "businessUnitID": "BU02",
     "businessSegmentID": [
      "BS03"
-    ]
+    ],
+    "regionID": "RG01"
    },
    {
     "customerID": "FC5",
     "customerName": "SH",
     "city": "Shanghai",
     "country": "China",
-    "region": "APAC",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
-    ]
+    ],
+    "regionID": "RG02"
    },
    {
     "customerID": "FC6",
     "customerName": "MU",
     "city": "Mumbai",
     "country": "India",
-    "region": "APAC",
     "isActive": false,
     "businessUnitID": "BU02",
     "businessSegmentID": [
      "BS03"
-    ]
+    ],
+    "regionID": "RG02"
    }
   ],
   "Forecasts": [
@@ -3485,7 +3505,6 @@
     "userID": "U01",
     "userName": "Lena Fischer",
     "userEmail": "lena.fischer@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2016-03-15",
     "functionID": "F1",
@@ -3494,13 +3513,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U02",
     "userName": "Omar Haddad",
     "userEmail": "omar.haddad@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2017-03-15",
     "functionID": "F1",
@@ -3509,13 +3528,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U03",
     "userName": "Priya Nair",
     "userEmail": "priya.nair@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2018-03-15",
     "functionID": "F1",
@@ -3524,13 +3543,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U04",
     "userName": "Tomas Novak",
     "userEmail": "tomas.novak@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2019-03-15",
     "functionID": "F2",
@@ -3539,13 +3558,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U05",
     "userName": "Sofia Rossi",
     "userEmail": "sofia.rossi@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2020-03-15",
     "functionID": "F2",
@@ -3554,13 +3573,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U06",
     "userName": "Hugo Meyer",
     "userEmail": "hugo.meyer@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2021-03-15",
     "functionID": "F2",
@@ -3569,13 +3588,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U07",
     "userName": "Marta Alves",
     "userEmail": "marta.alves@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2022-03-15",
     "functionID": "F2",
@@ -3584,13 +3603,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U08",
     "userName": "Jan Kowalski",
     "userEmail": "jan.kowalski@siemens-energy.com",
-    "location": "FC2",
     "isActive": true,
     "hireDate": "2015-03-15",
     "functionID": "F2",
@@ -3599,13 +3618,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U09",
     "userName": "Eva Braun",
     "userEmail": "eva.braun@siemens-energy.com",
-    "location": "FC2",
     "isActive": true,
     "hireDate": "2016-03-15",
     "functionID": "F3",
@@ -3614,13 +3633,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U10",
     "userName": "Nils Andersson",
     "userEmail": "nils.andersson@siemens-energy.com",
-    "location": "FC2",
     "isActive": true,
     "hireDate": "2017-03-15",
     "functionID": "F3",
@@ -3629,13 +3648,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U11",
     "userName": "Ingrid Holm",
     "userEmail": "ingrid.holm@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2018-03-15",
     "functionID": "F4",
@@ -3644,13 +3663,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U12",
     "userName": "Pedro Gomes",
     "userEmail": "pedro.gomes@siemens-energy.com",
-    "location": "FC3",
     "isActive": true,
     "hireDate": "2019-03-15",
     "functionID": "F4",
@@ -3659,13 +3678,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U13",
     "userName": "Camila Dias",
     "userEmail": "camila.dias@siemens-energy.com",
-    "location": "FC3",
     "isActive": true,
     "hireDate": "2020-03-15",
     "functionID": "F1",
@@ -3674,13 +3693,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U14",
     "userName": "Rafael Lima",
     "userEmail": "rafael.lima@siemens-energy.com",
-    "location": "FC3",
     "isActive": true,
     "hireDate": "2021-03-15",
     "functionID": "F1",
@@ -3689,13 +3708,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U15",
     "userName": "Bruna Costa",
     "userEmail": "bruna.costa@siemens-energy.com",
-    "location": "FC3",
     "isActive": true,
     "hireDate": "2022-03-15",
     "functionID": "F2",
@@ -3704,13 +3723,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U16",
     "userName": "Diego Torres",
     "userEmail": "diego.torres@siemens-energy.com",
-    "location": "FC4",
     "isActive": true,
     "hireDate": "2015-03-15",
     "functionID": "F2",
@@ -3719,13 +3738,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U17",
     "userName": "Lucia Mendez",
     "userEmail": "lucia.mendez@siemens-energy.com",
-    "location": "FC4",
     "isActive": true,
     "hireDate": "2016-03-15",
     "functionID": "F3",
@@ -3734,13 +3753,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U18",
     "userName": "Mateus Rocha",
     "userEmail": "mateus.rocha@siemens-energy.com",
-    "location": "FC4",
     "isActive": true,
     "hireDate": "2017-03-15",
     "functionID": "F1",
@@ -3749,13 +3768,13 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG01"
    },
    {
     "userID": "U19",
     "userName": "Wei Zhang",
     "userEmail": "wei.zhang@siemens-energy.com",
-    "location": "FC5",
     "isActive": true,
     "hireDate": "2018-03-15",
     "functionID": "F2",
@@ -3764,13 +3783,13 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG02"
    },
    {
     "userID": "U20",
     "userName": "Hana Kim",
     "userEmail": "hana.kim@siemens-energy.com",
-    "location": "FC5",
     "isActive": true,
     "hireDate": "2019-03-15",
     "functionID": "F2",
@@ -3779,13 +3798,13 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG02"
    },
    {
     "userID": "U21",
     "userName": "Arjun Patel",
     "userEmail": "arjun.patel@siemens-energy.com",
-    "location": "FC5",
     "isActive": true,
     "hireDate": "2020-03-15",
     "functionID": "F1",
@@ -3794,13 +3813,13 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG02"
    },
    {
     "userID": "U22",
     "userName": "Mei Lin",
     "userEmail": "mei.lin@siemens-energy.com",
-    "location": "FC5",
     "isActive": true,
     "hireDate": "2021-03-15",
     "functionID": "F3",
@@ -3809,13 +3828,13 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG02"
    },
    {
     "userID": "U23",
     "userName": "Sara Vogel",
     "userEmail": "sara.vogel@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2022-03-15",
     "functionID": "F5",
@@ -3824,13 +3843,13 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    },
    {
     "userID": "U24",
     "userName": "Franz Keller",
     "userEmail": "franz.keller@siemens-energy.com",
-    "location": "FC1",
     "isActive": true,
     "hireDate": "2015-03-15",
     "functionID": "F5",
@@ -3839,7 +3858,8 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null
+    "graduationID": null,
+    "regionID": "RG03"
    }
   ],
   "Onboarding": [
@@ -3850,7 +3870,8 @@
     "isCertified": true,
     "certifications": "CERT-U01-CMP02",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB002",
@@ -3859,7 +3880,8 @@
     "isCertified": true,
     "certifications": "CERT-U01-CMP11",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB003",
@@ -3868,7 +3890,8 @@
     "isCertified": true,
     "certifications": "CERT-U02-CMP01",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB004",
@@ -3877,7 +3900,8 @@
     "isCertified": false,
     "certifications": "",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB005",
@@ -3886,7 +3910,8 @@
     "isCertified": true,
     "certifications": "CERT-U04-CMP04",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB006",
@@ -3895,7 +3920,8 @@
     "isCertified": true,
     "certifications": "CERT-U04-CMP05",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB007",
@@ -3904,7 +3930,8 @@
     "isCertified": true,
     "certifications": "CERT-U04-CMP12",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB008",
@@ -3913,7 +3940,8 @@
     "isCertified": true,
     "certifications": "CERT-U05-CMP04",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB009",
@@ -3922,7 +3950,8 @@
     "isCertified": true,
     "certifications": "CERT-U05-CMP05",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB010",
@@ -3931,7 +3960,8 @@
     "isCertified": true,
     "certifications": "CERT-U05-CMP12",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB011",
@@ -3940,7 +3970,8 @@
     "isCertified": true,
     "certifications": "CERT-U06-CMP03",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB012",
@@ -3949,7 +3980,8 @@
     "isCertified": true,
     "certifications": "CERT-U07-CMP03",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB013",
@@ -3958,7 +3990,8 @@
     "isCertified": true,
     "certifications": "CERT-U08-CMP06",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB014",
@@ -3967,7 +4000,8 @@
     "isCertified": true,
     "certifications": "CERT-U09-CMP07",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB015",
@@ -3976,7 +4010,8 @@
     "isCertified": true,
     "certifications": "CERT-U10-CMP08",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB016",
@@ -3985,7 +4020,8 @@
     "isCertified": true,
     "certifications": "CERT-U10-CMP09",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB017",
@@ -3994,7 +4030,8 @@
     "isCertified": true,
     "certifications": "CERT-U13-CMP02",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB018",
@@ -4003,7 +4040,8 @@
     "isCertified": true,
     "certifications": "CERT-U13-CMP11",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB019",
@@ -4012,7 +4050,8 @@
     "isCertified": true,
     "certifications": "CERT-U14-CMP01",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB020",
@@ -4021,7 +4060,8 @@
     "isCertified": true,
     "certifications": "CERT-U15-CMP04",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB021",
@@ -4030,7 +4070,8 @@
     "isCertified": true,
     "certifications": "CERT-U15-CMP05",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB022",
@@ -4039,7 +4080,8 @@
     "isCertified": true,
     "certifications": "CERT-U15-CMP12",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB023",
@@ -4048,7 +4090,8 @@
     "isCertified": true,
     "certifications": "CERT-U16-CMP03",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB024",
@@ -4057,7 +4100,8 @@
     "isCertified": true,
     "certifications": "CERT-U17-CMP07",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB025",
@@ -4066,7 +4110,8 @@
     "isCertified": false,
     "certifications": "",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB026",
@@ -4075,7 +4120,8 @@
     "isCertified": true,
     "certifications": "CERT-U19-CMP04",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB027",
@@ -4084,7 +4130,8 @@
     "isCertified": true,
     "certifications": "CERT-U19-CMP05",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB028",
@@ -4093,7 +4140,8 @@
     "isCertified": true,
     "certifications": "CERT-U19-CMP12",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB029",
@@ -4102,7 +4150,8 @@
     "isCertified": true,
     "certifications": "CERT-U20-CMP03",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB030",
@@ -4111,7 +4160,8 @@
     "isCertified": false,
     "certifications": "",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB031",
@@ -4120,7 +4170,8 @@
     "isCertified": true,
     "certifications": "CERT-U22-CMP07",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    },
    {
     "onboardID": "ONB032",
@@ -4129,7 +4180,8 @@
     "isCertified": true,
     "certifications": "CERT-U23-CMP10",
     "levelRank": null,
-    "trainingURL": null
+    "trainingURL": null,
+    "businessUnitID": "BU01"
    }
   ]
  },
@@ -4355,9 +4407,12 @@
     "requirementDescription": "Increase rating keeping footprint",
     "sourceID": "SRC1",
     "requirementType": "Customer",
-    "isActive": true,
+    "isActive": "Active",
     "productID": "P01",
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ2",
@@ -4365,9 +4420,12 @@
     "requirementDescription": "Meet latest withstand",
     "sourceID": "SRC2",
     "requirementType": "Regulatory",
-    "isActive": true,
+    "isActive": "Active",
     "productID": "P03",
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ3",
@@ -4375,9 +4433,12 @@
     "requirementDescription": "Acoustic limit urban site",
     "sourceID": "SRC1",
     "requirementType": "Customer",
-    "isActive": true,
+    "isActive": "Active",
     "productID": "P02",
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ4",
@@ -4385,9 +4446,12 @@
     "requirementDescription": "Audit-ready documentation",
     "sourceID": "SRC3",
     "requirementType": "Internal",
-    "isActive": true,
+    "isActive": "Active",
     "productID": null,
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ5",
@@ -4395,9 +4459,12 @@
     "requirementDescription": "Supplier part conformity",
     "sourceID": "SRC5",
     "requirementType": "Statutory",
-    "isActive": true,
+    "isActive": "Active",
     "productID": "P10",
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ6",
@@ -4405,9 +4472,12 @@
     "requirementDescription": "Temperature rise limit",
     "sourceID": "SRC2",
     "requirementType": "Regulatory",
-    "isActive": true,
+    "isActive": "Active",
     "productID": "P04",
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ7",
@@ -4415,9 +4485,12 @@
     "requirementDescription": "Contractual OTD",
     "sourceID": "SRC1",
     "requirementType": "Customer",
-    "isActive": true,
+    "isActive": "Active",
     "productID": null,
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "RQ8",
@@ -4425,9 +4498,12 @@
     "requirementDescription": "Corrective effectiveness",
     "sourceID": "SRC4",
     "requirementType": "Internal",
-    "isActive": false,
+    "isActive": "Inactive",
     "productID": "P05",
-    "customerID": []
+    "customerID": [],
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    },
    {
     "requirementID": "CN9",
@@ -4444,9 +4520,11 @@
     "customerID": [
      "FC1"
     ],
-    "isActive": true,
+    "isActive": "Active",
     "regulatoryReference": "VDE-AR-N 4130",
-    "requirementOwner": "U01"
+    "regionID": [],
+    "businessUnitID": [],
+    "regulatoryURL": null
    }
   ],
   "actionApplication": [
