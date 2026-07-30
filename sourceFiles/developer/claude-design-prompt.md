@@ -1,18 +1,4 @@
 # Claude Design Prompt — Global Engineering Portal Prototype Update
-
-## How to use this file
-1. Open **Claude Design** and start a new project.
-2. Upload `GlobalEngineeringPortal_dashboard.html` as the existing prototype.
-3. Upload `prototype_designSystem.html` as the **design-system reference** — it is the source
-   of truth for all visual tokens (colours, typography, spacing, shape, elevation). Do not edit
-   it; mirror its `--se-*` custom properties in the prototype.
-4. Paste the contents of this file as your first message.
-5. Claude Design will apply the changes described below module by module.
-
-**Recommended model:** Claude Opus 4.8
-
----
-
 ## Your Task
 
 You are updating an existing dashboard prototype for the **Global Engineering Portal** — an ISO 9001:2015-aligned Quality Management System. The attached HTML file is the current prototype.
