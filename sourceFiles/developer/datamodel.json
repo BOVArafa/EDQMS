@@ -687,7 +687,7 @@
       "tables": {
         "Tasks": {
           "visibility": "show",
-          "description": "A Task is the application of an action to a process activity (workflow). It serves only as an execution template; concrete Jobs are created from Tasks in the Workload module (where taskOwner, taskStatus, taskDueDate and projectID are set).",
+          "description": "A Task is the application of an action to a process activity (workflow). It serves only as an execution template; concrete Jobs are created from Tasks in the Workspace module (where taskOwner, taskStatus, taskDueDate and projectID are set).",
           "attributes": [
             {
               "name": "taskID",
@@ -2650,7 +2650,7 @@
         }
       }
     },
-    "Workload": {
+    "Workspace": {
       "tables": {
         "Tickets": {
           "visibility": "show",
