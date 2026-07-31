@@ -152,7 +152,8 @@
      "BS01",
      "BS02"
     ],
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerType": "internal client"
    },
    {
     "customerID": "FC2",
@@ -165,7 +166,8 @@
      "BS01",
      "BS02"
     ],
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerType": "internal client"
    },
    {
     "customerID": "FC3",
@@ -178,7 +180,8 @@
      "BS01",
      "BS02"
     ],
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerType": "internal client"
    },
    {
     "customerID": "FC4",
@@ -190,7 +193,8 @@
     "businessSegmentID": [
      "BS03"
     ],
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerType": "internal client"
    },
    {
     "customerID": "FC5",
@@ -203,7 +207,8 @@
      "BS01",
      "BS02"
     ],
-    "regionID": "RG02"
+    "regionID": "RG02",
+    "customerType": "internal client"
    },
    {
     "customerID": "FC6",
@@ -215,7 +220,8 @@
     "businessSegmentID": [
      "BS03"
     ],
-    "regionID": "RG02"
+    "regionID": "RG02",
+    "customerType": "internal client"
    }
   ],
   "Forecasts": [
