@@ -3530,7 +3530,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U02",
@@ -3545,7 +3546,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U03",
@@ -3560,7 +3562,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U04",
@@ -3575,7 +3578,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U05",
@@ -3590,7 +3594,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U06",
@@ -3605,7 +3610,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U07",
@@ -3620,7 +3626,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U08",
@@ -3635,7 +3642,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U09",
@@ -3650,7 +3658,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U10",
@@ -3665,7 +3674,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U11",
@@ -3680,7 +3690,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U12",
@@ -3695,7 +3706,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U13",
@@ -3710,7 +3722,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U14",
@@ -3725,7 +3738,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U15",
@@ -3740,7 +3754,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U16",
@@ -3755,7 +3770,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U17",
@@ -3770,7 +3786,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U18",
@@ -3785,7 +3802,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG01"
+    "regionID": "RG01",
+    "customerID": "FC3"
    },
    {
     "userID": "U19",
@@ -3800,7 +3818,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG02"
+    "regionID": "RG02",
+    "customerID": "FC5"
    },
    {
     "userID": "U20",
@@ -3815,7 +3834,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG02"
+    "regionID": "RG02",
+    "customerID": "FC5"
    },
    {
     "userID": "U21",
@@ -3830,7 +3850,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG02"
+    "regionID": "RG02",
+    "customerID": "FC5"
    },
    {
     "userID": "U22",
@@ -3845,7 +3866,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG02"
+    "regionID": "RG02",
+    "customerID": "FC5"
    },
    {
     "userID": "U23",
@@ -3860,7 +3882,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    },
    {
     "userID": "U24",
@@ -3875,7 +3898,8 @@
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
     "graduationID": null,
-    "regionID": "RG03"
+    "regionID": "RG03",
+    "customerID": "FC1"
    }
   ],
   "Onboarding": [
