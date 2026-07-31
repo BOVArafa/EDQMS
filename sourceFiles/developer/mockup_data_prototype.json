@@ -153,7 +153,7 @@
      "BS02"
     ],
     "regionID": "RG03",
-    "customerType": "internal client"
+    "customerType": "branch"
    },
    {
     "customerID": "FC2",
@@ -167,7 +167,7 @@
      "BS02"
     ],
     "regionID": "RG03",
-    "customerType": "internal client"
+    "customerType": "branch"
    },
    {
     "customerID": "FC3",
@@ -181,7 +181,7 @@
      "BS02"
     ],
     "regionID": "RG01",
-    "customerType": "internal client"
+    "customerType": "branch"
    },
    {
     "customerID": "FC4",
@@ -194,7 +194,7 @@
      "BS03"
     ],
     "regionID": "RG01",
-    "customerType": "internal client"
+    "customerType": "branch"
    },
    {
     "customerID": "FC5",
@@ -208,7 +208,7 @@
      "BS02"
     ],
     "regionID": "RG02",
-    "customerType": "internal client"
+    "customerType": "branch"
    },
    {
     "customerID": "FC6",
@@ -221,7 +221,7 @@
      "BS03"
     ],
     "regionID": "RG02",
-    "customerType": "internal client"
+    "customerType": "branch"
    }
   ],
   "Forecasts": [
