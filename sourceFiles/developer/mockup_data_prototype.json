@@ -3528,7 +3528,8 @@
     "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL1",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP02",
@@ -3536,7 +3537,8 @@
     "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL2",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP03",
@@ -3544,7 +3546,8 @@
     "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL1",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP04",
@@ -3552,7 +3555,8 @@
     "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL2",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP05",
@@ -3560,7 +3564,8 @@
     "scopeID": "SC3",
     "productID": "P01",
     "skillLevelID": "SL2",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP06",
@@ -3568,7 +3573,8 @@
     "scopeID": "SC3",
     "productID": "P01",
     "skillLevelID": "SL3",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP07",
@@ -3576,7 +3582,8 @@
     "scopeID": "SC5",
     "productID": "P04",
     "skillLevelID": "SL2",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP08",
@@ -3584,7 +3591,8 @@
     "scopeID": "SC4",
     "productID": "P03",
     "skillLevelID": "SL3",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP09",
@@ -3592,7 +3600,8 @@
     "scopeID": "SC5",
     "productID": "P05",
     "skillLevelID": "SL3",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP10",
@@ -3600,7 +3609,8 @@
     "scopeID": "SC1",
     "productID": "P03",
     "skillLevelID": "SL2",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    },
    {
     "competenceID": "CMP11",
@@ -3608,7 +3618,8 @@
     "scopeID": "SC2",
     "productID": "P02",
     "skillLevelID": "SL2",
-    "isRequired": false
+    "isRequired": false,
+    "departmentID": null
    },
    {
     "competenceID": "CMP12",
@@ -3616,7 +3627,8 @@
     "scopeID": "SC1",
     "productID": "P05",
     "skillLevelID": "SL2",
-    "isRequired": true
+    "isRequired": true,
+    "departmentID": null
    }
   ],
   "People": [
