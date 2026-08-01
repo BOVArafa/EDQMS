@@ -1162,7 +1162,8 @@
     "eventDescription": "Customer requests a technical-commercial offer",
     "eventCreatedAt": "2026-05-02T09:00:00",
     "sourceID": "SRC1",
-    "businessUnitID": null
+    "businessUnitID": null,
+    "departmentID": null
    },
    {
     "eventID": "E2",
@@ -1170,7 +1171,8 @@
     "eventDescription": "Awarded project needs full design",
     "eventCreatedAt": "2026-05-06T10:30:00",
     "sourceID": "SRC1",
-    "businessUnitID": null
+    "businessUnitID": null,
+    "departmentID": null
    },
    {
     "eventID": "E3",
@@ -1178,7 +1180,8 @@
     "eventDescription": "Design reaches review gate",
     "eventCreatedAt": "2026-05-09T14:00:00",
     "sourceID": "SRC3",
-    "businessUnitID": null
+    "businessUnitID": null,
+    "departmentID": null
    },
    {
     "eventID": "E4",
@@ -1186,7 +1189,8 @@
     "eventDescription": "Unit failure reported from field",
     "eventCreatedAt": "2026-05-14T08:15:00",
     "sourceID": "SRC4",
-    "businessUnitID": null
+    "businessUnitID": null,
+    "departmentID": null
    },
    {
     "eventID": "E5",
@@ -1194,7 +1198,8 @@
     "eventDescription": "Customer explores uprating",
     "eventCreatedAt": "2026-05-20T11:45:00",
     "sourceID": "SRC1",
-    "businessUnitID": null
+    "businessUnitID": null,
+    "departmentID": null
    },
    {
     "eventID": "E6",
@@ -1202,7 +1207,8 @@
     "eventDescription": "Scope change on active design",
     "eventCreatedAt": "2026-05-25T16:20:00",
     "sourceID": "SRC2",
-    "businessUnitID": null
+    "businessUnitID": null,
+    "departmentID": null
    }
   ],
   "Processes": [
@@ -1214,7 +1220,8 @@
     "processDescription": "Prepare technical-commercial offer",
     "parentProcessID": null,
     "processStatus": "Active",
-    "processVersion": "v1.2"
+    "processVersion": "v1.2",
+    "squadID": null
    },
    {
     "processID": "PR2",
@@ -1224,7 +1231,8 @@
     "processDescription": "Full engineering design package",
     "parentProcessID": null,
     "processStatus": "Active",
-    "processVersion": "v2.0"
+    "processVersion": "v2.0",
+    "squadID": null
    },
    {
     "processID": "PR3",
@@ -1234,7 +1242,8 @@
     "processDescription": "Quality gate review",
     "parentProcessID": "PR2",
     "processStatus": "Active",
-    "processVersion": "v1.0"
+    "processVersion": "v1.0",
+    "squadID": null
    },
    {
     "processID": "PR4",
@@ -1244,7 +1253,8 @@
     "processDescription": "Field failure root cause",
     "parentProcessID": null,
     "processStatus": "Active",
-    "processVersion": "v1.1"
+    "processVersion": "v1.1",
+    "squadID": null
    },
    {
     "processID": "PR5",
@@ -1254,7 +1264,8 @@
     "processDescription": "Assess uprating feasibility",
     "parentProcessID": null,
     "processStatus": "Active",
-    "processVersion": "v1.3"
+    "processVersion": "v1.3",
+    "squadID": null
    }
   ],
   "Activities": [
