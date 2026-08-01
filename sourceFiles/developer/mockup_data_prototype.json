@@ -124,21 +124,32 @@
     "regionName": "Americas",
     "regionDescription": "Americas region",
     "regionOwner": null,
-    "continent": "North America"
+    "continent": "North America",
+    "countryName": [
+     "Brazil",
+     "Mexico"
+    ]
    },
    {
     "regionID": "RG02",
     "regionName": "APAC",
     "regionDescription": "APAC region",
     "regionOwner": null,
-    "continent": "Asia"
+    "continent": "Asia",
+    "countryName": [
+     "China",
+     "India"
+    ]
    },
    {
     "regionID": "RG03",
     "regionName": "EMEA",
     "regionDescription": "EMEA region",
     "regionOwner": null,
-    "continent": "Europe"
+    "continent": "Europe",
+    "countryName": [
+     "Germany"
+    ]
    }
   ],
   "Branches": [
