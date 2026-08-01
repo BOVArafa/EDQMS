@@ -11,25 +11,29 @@
     "businessSegmentID": "BS01",
     "businessSegmentName": "Large Power Transformers",
     "businessSegmentDescription": "Large Power Transformers",
-    "businessSegmentCode": "LPT"
+    "businessSegmentCode": "LPT",
+    "businessSegmentOwner": "U01"
    },
    {
     "businessSegmentID": "BS02",
     "businessSegmentName": "Medium Power Transformers",
     "businessSegmentDescription": "Medium Power Transformers",
-    "businessSegmentCode": "MPT"
+    "businessSegmentCode": "MPT",
+    "businessSegmentOwner": "U01"
    },
    {
     "businessSegmentID": "BS03",
     "businessSegmentName": "Distribution Transformers",
     "businessSegmentDescription": "Distribution Transformers",
-    "businessSegmentCode": "DT"
+    "businessSegmentCode": "DT",
+    "businessSegmentOwner": null
    },
    {
     "businessSegmentID": "BS04",
     "businessSegmentName": "Switch Gear",
     "businessSegmentDescription": "Switch Gear",
-    "businessSegmentCode": "SG"
+    "businessSegmentCode": "SG",
+    "businessSegmentOwner": null
    }
   ],
   "Business Units": [
