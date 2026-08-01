@@ -1399,7 +1399,8 @@
     "activities": "A01",
     "parentStepID": null,
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF02",
@@ -1407,7 +1408,8 @@
     "activities": "A02",
     "parentStepID": "WF01",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF03",
@@ -1415,7 +1417,8 @@
     "activities": "A03",
     "parentStepID": "WF02",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF04",
@@ -1423,7 +1426,8 @@
     "activities": "A04",
     "parentStepID": "WF03",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF05",
@@ -1431,7 +1435,8 @@
     "activities": "A05",
     "parentStepID": null,
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF06",
@@ -1439,7 +1444,8 @@
     "activities": "A06",
     "parentStepID": "WF05",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF07",
@@ -1447,7 +1453,8 @@
     "activities": "A07",
     "parentStepID": "WF06",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF08",
@@ -1455,7 +1462,8 @@
     "activities": "A08",
     "parentStepID": null,
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF09",
@@ -1463,7 +1471,8 @@
     "activities": "A09",
     "parentStepID": "WF08",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF10",
@@ -1471,7 +1480,8 @@
     "activities": "A10",
     "parentStepID": null,
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF11",
@@ -1479,7 +1489,8 @@
     "activities": "A11",
     "parentStepID": "WF10",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF12",
@@ -1487,7 +1498,8 @@
     "activities": "A12",
     "parentStepID": null,
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF13",
@@ -1495,7 +1507,8 @@
     "activities": "A13",
     "parentStepID": "WF12",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    },
    {
     "workflowID": "WF14",
@@ -1503,7 +1516,8 @@
     "activities": "A14",
     "parentStepID": "WF13",
     "customerID": [],
-    "productScopeID": []
+    "productScopeID": [],
+    "activityID": null
    }
   ],
   "Actions": [
