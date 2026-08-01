@@ -161,7 +161,8 @@
     "cityName": "Nuremberg",
     "regionID": "RG03",
     "countryName": "Germany",
-    "userID": null
+    "userID": null,
+    "customerID": "FC1"
    },
    {
     "branchID": "BR2",
@@ -171,7 +172,8 @@
     "cityName": "Dresden",
     "regionID": "RG03",
     "countryName": "Germany",
-    "userID": null
+    "userID": null,
+    "customerID": "FC2"
    },
    {
     "branchID": "BR3",
@@ -181,7 +183,8 @@
     "cityName": "Sao Paulo",
     "regionID": "RG01",
     "countryName": "Brazil",
-    "userID": null
+    "userID": null,
+    "customerID": "FC3"
    },
    {
     "branchID": "BR4",
@@ -191,7 +194,8 @@
     "cityName": "Monterrey",
     "regionID": "RG01",
     "countryName": "Mexico",
-    "userID": null
+    "userID": null,
+    "customerID": "FC4"
    },
    {
     "branchID": "BR5",
@@ -201,7 +205,8 @@
     "cityName": "Shanghai",
     "regionID": "RG02",
     "countryName": "China",
-    "userID": null
+    "userID": null,
+    "customerID": "FC5"
    },
    {
     "branchID": "BR6",
@@ -211,7 +216,8 @@
     "cityName": "Mumbai",
     "regionID": "RG02",
     "countryName": "India",
-    "userID": null
+    "userID": null,
+    "customerID": "FC6"
    }
   ]
  },
