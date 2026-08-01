@@ -2121,7 +2121,6 @@
    {
     "ticketID": "001",
     "projectID": "0031",
-    "customerName": "FC1",
     "eventID": "E1",
     "forecastScopeID": "FS01",
     "ticketOwner": "U11",
@@ -2131,12 +2130,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-10-25",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC1"
    },
    {
     "ticketID": "002",
     "projectID": "0031",
-    "customerName": "FC1",
     "eventID": "E2",
     "forecastScopeID": "FS02",
     "ticketOwner": "U01",
@@ -2146,12 +2145,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-11-28",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC1"
    },
    {
     "ticketID": "003",
     "projectID": "0032",
-    "customerName": "FC1",
     "eventID": "E5",
     "forecastScopeID": "FS03",
     "ticketOwner": "U10",
@@ -2161,12 +2160,12 @@
     "ticketClosedAt": "2026-09-27T15:00:00",
     "resolutionTime": "2026-09-27",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC1"
    },
    {
     "ticketID": "004",
     "projectID": "0033",
-    "customerName": "FC3",
     "eventID": "E1",
     "forecastScopeID": "FS06",
     "ticketOwner": "U11",
@@ -2176,12 +2175,12 @@
     "ticketClosedAt": "2026-08-14T12:00:00",
     "resolutionTime": "2026-08-14",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC3"
    },
    {
     "ticketID": "005",
     "projectID": "0033",
-    "customerName": "FC3",
     "eventID": "E2",
     "forecastScopeID": "FS07",
     "ticketOwner": "U01",
@@ -2191,12 +2190,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-10-30",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC3"
    },
    {
     "ticketID": "006",
     "projectID": "0033",
-    "customerName": "FC3",
     "eventID": "E3",
     "forecastScopeID": "FS08",
     "ticketOwner": "U24",
@@ -2206,12 +2205,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-11-14",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC3"
    },
    {
     "ticketID": "007",
     "projectID": "0035",
-    "customerName": "FC5",
     "eventID": "E4",
     "forecastScopeID": "FS09",
     "ticketOwner": "U23",
@@ -2221,12 +2220,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-10-18",
     "isEscalated": true,
-    "escalatedToEventID": "E4"
+    "escalatedToEventID": "E4",
+    "customerID": "FC5"
    },
    {
     "ticketID": "008",
     "projectID": "0034",
-    "customerName": "FC4",
     "eventID": "E1",
     "forecastScopeID": "FS11",
     "ticketOwner": "U11",
@@ -2236,12 +2235,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-11-08",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC4"
    },
    {
     "ticketID": "009",
     "projectID": "0037",
-    "customerName": "FC5",
     "eventID": "E5",
     "forecastScopeID": "FS10",
     "ticketOwner": "U10",
@@ -2251,12 +2250,12 @@
     "ticketClosedAt": "2026-09-12T14:00:00",
     "resolutionTime": "2026-09-12",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC5"
    },
    {
     "ticketID": "010",
     "projectID": "0036",
-    "customerName": "FC2",
     "eventID": "E2",
     "forecastScopeID": "FS13",
     "ticketOwner": "U01",
@@ -2266,12 +2265,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-12-03",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC2"
    },
    {
     "ticketID": "011",
     "projectID": "0034",
-    "customerName": "FC4",
     "eventID": "E1",
     "forecastScopeID": "FS12",
     "ticketOwner": "U11",
@@ -2281,12 +2280,12 @@
     "ticketClosedAt": null,
     "resolutionTime": "2026-11-18",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC4"
    },
    {
     "ticketID": "012",
     "projectID": "0035",
-    "customerName": "FC5",
     "eventID": "E4",
     "forecastScopeID": "FS14",
     "ticketOwner": "U23",
@@ -2296,7 +2295,8 @@
     "ticketClosedAt": "2026-10-08T16:00:00",
     "resolutionTime": "2026-10-08",
     "isEscalated": false,
-    "escalatedToEventID": null
+    "escalatedToEventID": null,
+    "customerID": "FC5"
    }
   ],
   "Projects": [
