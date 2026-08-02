@@ -2076,7 +2076,7 @@
      "PC5"
     ],
     "isActive": true,
-    "classCodeName": null
+    "classCodeName": "PC-LPT-01"
    },
    {
     "productGroupID": "PG2",
@@ -2086,7 +2086,7 @@
      "PC3"
     ],
     "isActive": true,
-    "classCodeName": null
+    "classCodeName": "PC-LPT-02"
    },
    {
     "productGroupID": "PG3",
@@ -2096,7 +2096,7 @@
      "PC2"
     ],
     "isActive": true,
-    "classCodeName": null
+    "classCodeName": "PC-MT-01"
    },
    {
     "productGroupID": "PG4",
@@ -2106,7 +2106,7 @@
      "PC2"
     ],
     "isActive": true,
-    "classCodeName": null
+    "classCodeName": "PC-MT-02"
    },
    {
     "productGroupID": "PG5",
@@ -2116,7 +2116,7 @@
      "PC4"
     ],
     "isActive": true,
-    "classCodeName": null
+    "classCodeName": "PC-DT-01"
    },
    {
     "productGroupID": "PG6",
@@ -2126,7 +2126,7 @@
      "PC4"
     ],
     "isActive": true,
-    "classCodeName": null
+    "classCodeName": "PC-DT-02"
    }
   ]
  },
