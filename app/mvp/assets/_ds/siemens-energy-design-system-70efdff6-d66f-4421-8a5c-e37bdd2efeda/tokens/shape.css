@@ -1,0 +1,15 @@
+/* Shape & elevation tokens — docs/fundamentals/shapes.md + elevation.md */
+:root {
+  --se-radius-0: 0px;
+  --se-radius-1: 2px;  /* buttons, inputs */
+  --se-radius-2: 4px;  /* cards, containers (default) */
+  --se-radius-3: 8px;  /* larger containers */
+  --se-radius-pill: 100px;
+
+  --se-elevation-1: 0 0 4px var(--se-shadow-color-1), 0 4px 4px var(--se-shadow-color-2);
+  --se-elevation-2: 0 0 8px var(--se-shadow-color-1), 0 8px 8px var(--se-shadow-color-2);
+  --se-elevation-3: 0 0 16px var(--se-shadow-color-1), 0 16px 16px var(--se-shadow-color-2);
+  --se-elevation-4: 0 0 32px var(--se-shadow-color-1), 0 32px 32px var(--se-shadow-color-2);
+
+  --se-focus-ring: 0 0 0 1px rgba(255, 255, 255, 0.7), 0 0 0 7px var(--se-focus-default);
+}
