@@ -533,9 +533,7 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF01"
    },
    {
     "taskID": "032",
@@ -552,9 +550,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF02"
    },
    {
     "taskID": "033",
@@ -568,9 +564,7 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF03"
    },
    {
     "taskID": "045",
@@ -586,9 +580,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF04"
    },
    {
     "taskID": "101",
@@ -605,9 +597,7 @@
     ],
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
-    "parentStepID": "WF05",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF05"
    },
    {
     "taskID": "102",
@@ -624,9 +614,7 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
-    "parentStepID": "WF06",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF06"
    },
    {
     "taskID": "103",
@@ -640,9 +628,7 @@
     "constrainIDs": [],
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
-    "parentStepID": "WF07",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF07"
    },
    {
     "taskID": "104",
@@ -658,9 +644,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO10",
-    "parentStepID": "WF12",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF12"
    },
    {
     "taskID": "105",
@@ -676,9 +660,7 @@
     ],
     "taskInputID": "HO10",
     "taskOutputID": "HO10",
-    "parentStepID": "WF13",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF13"
    },
    {
     "taskID": "106",
@@ -692,9 +674,7 @@
     "constrainIDs": [],
     "taskInputID": "HO10",
     "taskOutputID": "HO03",
-    "parentStepID": "WF14",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF14"
    },
    {
     "taskID": "107",
@@ -708,9 +688,7 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF01"
    },
    {
     "taskID": "108",
@@ -727,9 +705,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF02"
    },
    {
     "taskID": "109",
@@ -743,9 +719,7 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF03"
    },
    {
     "taskID": "110",
@@ -761,9 +735,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF04"
    },
    {
     "taskID": "111",
@@ -780,9 +752,7 @@
     ],
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
-    "parentStepID": "WF05",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF05"
    },
    {
     "taskID": "112",
@@ -799,9 +769,7 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
-    "parentStepID": "WF06",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF06"
    },
    {
     "taskID": "113",
@@ -815,9 +783,7 @@
     "constrainIDs": [],
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
-    "parentStepID": "WF07",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF07"
    },
    {
     "taskID": "114",
@@ -833,9 +799,7 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO06",
-    "parentStepID": "WF08",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF08"
    },
    {
     "taskID": "115",
@@ -852,9 +816,7 @@
     ],
     "taskInputID": "HO06",
     "taskOutputID": "HO07",
-    "parentStepID": "WF09",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF09"
    },
    {
     "taskID": "116",
@@ -868,9 +830,7 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO08",
-    "parentStepID": "WF10",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF10"
    },
    {
     "taskID": "117",
@@ -884,9 +844,7 @@
     "constrainIDs": [],
     "taskInputID": "HO08",
     "taskOutputID": "HO09",
-    "parentStepID": "WF11",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF11"
    },
    {
     "taskID": "118",
@@ -900,9 +858,7 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF01"
    },
    {
     "taskID": "119",
@@ -919,9 +875,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF02"
    },
    {
     "taskID": "120",
@@ -935,9 +889,7 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF03"
    },
    {
     "taskID": "121",
@@ -953,9 +905,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF04"
    },
    {
     "taskID": "122",
@@ -971,9 +921,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO10",
-    "parentStepID": "WF12",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF12"
    },
    {
     "taskID": "123",
@@ -989,9 +937,7 @@
     ],
     "taskInputID": "HO10",
     "taskOutputID": "HO10",
-    "parentStepID": "WF13",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF13"
    },
    {
     "taskID": "124",
@@ -1005,9 +951,7 @@
     "constrainIDs": [],
     "taskInputID": "HO10",
     "taskOutputID": "HO03",
-    "parentStepID": "WF14",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF14"
    },
    {
     "taskID": "125",
@@ -1024,9 +968,7 @@
     ],
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
-    "parentStepID": "WF05",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF05"
    },
    {
     "taskID": "126",
@@ -1043,9 +985,7 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
-    "parentStepID": "WF06",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF06"
    },
    {
     "taskID": "127",
@@ -1059,9 +999,7 @@
     "constrainIDs": [],
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
-    "parentStepID": "WF07",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF07"
    },
    {
     "taskID": "128",
@@ -1075,9 +1013,7 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF01"
    },
    {
     "taskID": "129",
@@ -1094,9 +1030,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF02"
    },
    {
     "taskID": "130",
@@ -1110,9 +1044,7 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF03"
    },
    {
     "taskID": "131",
@@ -1128,9 +1060,7 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF04"
    },
    {
     "taskID": "132",
@@ -1144,9 +1074,7 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO08",
-    "parentStepID": "WF10",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF10"
    },
    {
     "taskID": "133",
@@ -1160,9 +1088,7 @@
     "constrainIDs": [],
     "taskInputID": "HO08",
     "taskOutputID": "HO09",
-    "parentStepID": "WF11",
-    "taskInput": [],
-    "taskOutput": []
+    "parentStepID": "WF11"
    }
   ],
   "Events": [
@@ -1838,6 +1764,489 @@
     "channelName": "Teams",
     "channelOwner": "Microsoft",
     "channelStatus": "Inactive"
+   }
+  ],
+  "Procedures": [
+   {
+    "procedureID": "PRC01",
+    "procedureRegistry": "PRC-012",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "012",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC02",
+    "procedureRegistry": "PRC-032",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "032",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC03",
+    "procedureRegistry": "PRC-033",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "033",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC04",
+    "procedureRegistry": "PRC-045",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "045",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC05",
+    "procedureRegistry": "PRC-101",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "101",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC06",
+    "procedureRegistry": "PRC-102",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "102",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC07",
+    "procedureRegistry": "PRC-103",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "103",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC08",
+    "procedureRegistry": "PRC-104",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR5",
+    "taskID": "104",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC09",
+    "procedureRegistry": "PRC-105",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR5",
+    "taskID": "105",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC10",
+    "procedureRegistry": "PRC-106",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR5",
+    "taskID": "106",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC11",
+    "procedureRegistry": "PRC-107",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "107",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC12",
+    "procedureRegistry": "PRC-108",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "108",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC13",
+    "procedureRegistry": "PRC-109",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "109",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC14",
+    "procedureRegistry": "PRC-110",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "110",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC15",
+    "procedureRegistry": "PRC-111",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "111",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC16",
+    "procedureRegistry": "PRC-112",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "112",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC17",
+    "procedureRegistry": "PRC-113",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "113",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC18",
+    "procedureRegistry": "PRC-114",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR3",
+    "taskID": "114",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC19",
+    "procedureRegistry": "PRC-115",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR3",
+    "taskID": "115",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC20",
+    "procedureRegistry": "PRC-116",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR4",
+    "taskID": "116",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC21",
+    "procedureRegistry": "PRC-117",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR4",
+    "taskID": "117",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC22",
+    "procedureRegistry": "PRC-118",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "118",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC23",
+    "procedureRegistry": "PRC-119",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "119",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC24",
+    "procedureRegistry": "PRC-120",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "120",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC25",
+    "procedureRegistry": "PRC-121",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "121",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC26",
+    "procedureRegistry": "PRC-122",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR5",
+    "taskID": "122",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC27",
+    "procedureRegistry": "PRC-123",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR5",
+    "taskID": "123",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC28",
+    "procedureRegistry": "PRC-124",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR5",
+    "taskID": "124",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC29",
+    "procedureRegistry": "PRC-125",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "125",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC30",
+    "procedureRegistry": "PRC-126",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "126",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC31",
+    "procedureRegistry": "PRC-127",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR2",
+    "taskID": "127",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC32",
+    "procedureRegistry": "PRC-128",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "128",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC33",
+    "procedureRegistry": "PRC-129",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "129",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC34",
+    "procedureRegistry": "PRC-130",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "130",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC35",
+    "procedureRegistry": "PRC-131",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR1",
+    "taskID": "131",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC36",
+    "procedureRegistry": "PRC-132",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR4",
+    "taskID": "132",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
+   },
+   {
+    "procedureID": "PRC37",
+    "procedureRegistry": "PRC-133",
+    "procedureURL": null,
+    "businessUnitID": null,
+    "departmentID": null,
+    "processID": "PR4",
+    "taskID": "133",
+    "requirementID": [],
+    "taskInput": [],
+    "taskOutput": [],
+    "procedureOwner": null
    }
   ]
  },
@@ -3553,7 +3962,8 @@
     "productID": "P01",
     "skillLevelID": "SL1",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP02",
@@ -3562,7 +3972,8 @@
     "productID": "P01",
     "skillLevelID": "SL2",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP03",
@@ -3571,7 +3982,8 @@
     "productID": "P01",
     "skillLevelID": "SL1",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP04",
@@ -3580,7 +3992,8 @@
     "productID": "P01",
     "skillLevelID": "SL2",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP05",
@@ -3589,7 +4002,8 @@
     "productID": "P01",
     "skillLevelID": "SL2",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP06",
@@ -3598,7 +4012,8 @@
     "productID": "P01",
     "skillLevelID": "SL3",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP07",
@@ -3607,7 +4022,8 @@
     "productID": "P04",
     "skillLevelID": "SL2",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP08",
@@ -3616,7 +4032,8 @@
     "productID": "P03",
     "skillLevelID": "SL3",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP09",
@@ -3625,7 +4042,8 @@
     "productID": "P05",
     "skillLevelID": "SL3",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP10",
@@ -3634,7 +4052,8 @@
     "productID": "P03",
     "skillLevelID": "SL2",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP11",
@@ -3643,7 +4062,8 @@
     "productID": "P02",
     "skillLevelID": "SL2",
     "isRequired": false,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    },
    {
     "competenceID": "CMP12",
@@ -3652,7 +4072,8 @@
     "productID": "P05",
     "skillLevelID": "SL2",
     "isRequired": true,
-    "departmentID": null
+    "departmentID": null,
+    "procedureID": []
    }
   ],
   "People": [
