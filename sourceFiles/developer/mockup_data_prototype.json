@@ -3775,90 +3775,100 @@
     "roleName": "JR Electrical Designer",
     "functionID": "F1",
     "skillLevelID": "SL1",
-    "graduationID": "G1",
-    "quantity": 6,
-    "isActive": true
+    "graduationID": [
+     "G1"
+    ],
+    "quantity": 6
    },
    {
     "roleID": "R02",
     "roleName": "SR Electrical Designer",
     "functionID": "F1",
     "skillLevelID": "SL2",
-    "graduationID": "G1",
-    "quantity": 4,
-    "isActive": true
+    "graduationID": [
+     "G1"
+    ],
+    "quantity": 4
    },
    {
     "roleID": "R03",
     "roleName": "JR Mechanical Designer",
     "functionID": "F2",
     "skillLevelID": "SL1",
-    "graduationID": "G2",
-    "quantity": 5,
-    "isActive": true
+    "graduationID": [
+     "G2"
+    ],
+    "quantity": 5
    },
    {
     "roleID": "R04",
     "roleName": "SR Mechanical Designer",
     "functionID": "F2",
     "skillLevelID": "SL2",
-    "graduationID": "G2",
-    "quantity": 4,
-    "isActive": true
+    "graduationID": [
+     "G2"
+    ],
+    "quantity": 4
    },
    {
     "roleID": "R05",
     "roleName": "Expert Mechanical Designer",
     "functionID": "F2",
     "skillLevelID": "SL3",
-    "graduationID": "G2",
-    "quantity": 2,
-    "isActive": true
+    "graduationID": [
+     "G2"
+    ],
+    "quantity": 2
    },
    {
     "roleID": "R06",
     "roleName": "Analyst",
     "functionID": "F3",
     "skillLevelID": "SL2",
-    "graduationID": "G3",
-    "quantity": 3,
-    "isActive": true
+    "graduationID": [
+     "G3"
+    ],
+    "quantity": 3
    },
    {
     "roleID": "R07",
     "roleName": "SR Analyst",
     "functionID": "F3",
     "skillLevelID": "SL3",
-    "graduationID": "G3",
-    "quantity": 2,
-    "isActive": true
+    "graduationID": [
+     "G3"
+    ],
+    "quantity": 2
    },
    {
     "roleID": "R08",
     "roleName": "Planner",
     "functionID": "F4",
     "skillLevelID": "SL2",
-    "graduationID": "G3",
-    "quantity": 3,
-    "isActive": true
+    "graduationID": [
+     "G3"
+    ],
+    "quantity": 3
    },
    {
     "roleID": "R09",
     "roleName": "Quality Engineer",
     "functionID": "F5",
     "skillLevelID": "SL2",
-    "graduationID": "G1",
-    "quantity": 2,
-    "isActive": true
+    "graduationID": [
+     "G1"
+    ],
+    "quantity": 2
    },
    {
     "roleID": "R10",
     "roleName": "Quality Manager",
     "functionID": "F5",
     "skillLevelID": "SL4",
-    "graduationID": "G1",
-    "quantity": 1,
-    "isActive": true
+    "graduationID": [
+     "G1"
+    ],
+    "quantity": 1
    }
   ],
   "Skill Levels": [
