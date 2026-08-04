@@ -3865,26 +3865,22 @@
    {
     "skillLevelID": "SL1",
     "levelName": "Junior",
-    "levelDescription": "0-3 years of experience",
-    "levelRank": 1
+    "levelDescription": "0-3 years of experience"
    },
    {
     "skillLevelID": "SL2",
     "levelName": "Senior",
-    "levelDescription": "4-8 years of experience",
-    "levelRank": 2
+    "levelDescription": "4-8 years of experience"
    },
    {
     "skillLevelID": "SL3",
     "levelName": "Expert",
-    "levelDescription": "9-15 years of experience",
-    "levelRank": 3
+    "levelDescription": "9-15 years of experience"
    },
    {
     "skillLevelID": "SL4",
     "levelName": "Principal",
-    "levelDescription": "15+ years of experience",
-    "levelRank": 4
+    "levelDescription": "15+ years of experience"
    }
   ],
   "Functions": [
