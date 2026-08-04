@@ -128,7 +128,6 @@
     "regionName": "Americas",
     "regionDescription": "Americas region",
     "regionOwner": null,
-    "continent": "North America",
     "countryName": [
      "Brazil",
      "Mexico"
@@ -139,7 +138,6 @@
     "regionName": "APAC",
     "regionDescription": "APAC region",
     "regionOwner": null,
-    "continent": "Asia",
     "countryName": [
      "China",
      "India"
@@ -150,7 +148,6 @@
     "regionName": "EMEA",
     "regionDescription": "EMEA region",
     "regionOwner": null,
-    "continent": "Europe",
     "countryName": [
      "Germany"
     ]
