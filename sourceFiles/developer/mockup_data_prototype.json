@@ -2475,64 +2475,64 @@
   "Product Groups": [
    {
     "productGroupID": "PG1",
-    "businessSegment": "LPT",
     "products": "P01",
     "productSpecID": [
      "PC3",
      "PC5"
     ],
     "isActive": true,
-    "classCodeName": "PC-LPT-01"
+    "classCodeName": "PC-LPT-01",
+    "businessUnitID": "BU01"
    },
    {
     "productGroupID": "PG2",
-    "businessSegment": "LPT",
     "products": "P02",
     "productSpecID": [
      "PC3"
     ],
     "isActive": true,
-    "classCodeName": "PC-LPT-02"
+    "classCodeName": "PC-LPT-02",
+    "businessUnitID": "BU01"
    },
    {
     "productGroupID": "PG3",
-    "businessSegment": "MT",
     "products": "P03",
     "productSpecID": [
      "PC2"
     ],
     "isActive": true,
-    "classCodeName": "PC-MT-01"
+    "classCodeName": "PC-MT-01",
+    "businessUnitID": null
    },
    {
     "productGroupID": "PG4",
-    "businessSegment": "MT",
     "products": "P04",
     "productSpecID": [
      "PC2"
     ],
     "isActive": true,
-    "classCodeName": "PC-MT-02"
+    "classCodeName": "PC-MT-02",
+    "businessUnitID": null
    },
    {
     "productGroupID": "PG5",
-    "businessSegment": "DT",
     "products": "P05",
     "productSpecID": [
      "PC4"
     ],
     "isActive": true,
-    "classCodeName": "PC-DT-01"
+    "classCodeName": "PC-DT-01",
+    "businessUnitID": "BU02"
    },
    {
     "productGroupID": "PG6",
-    "businessSegment": "DT",
     "products": "P06",
     "productSpecID": [
      "PC4"
     ],
     "isActive": true,
-    "classCodeName": "PC-DT-02"
+    "classCodeName": "PC-DT-02",
+    "businessUnitID": "BU02"
    }
   ]
  },
