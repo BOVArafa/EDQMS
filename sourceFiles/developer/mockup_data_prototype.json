@@ -3949,122 +3949,122 @@
    {
     "competenceID": "CMP01",
     "roleID": "R01",
-    "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL1",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP02",
     "roleID": "R02",
-    "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL2",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP03",
     "roleID": "R03",
-    "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL1",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP04",
     "roleID": "R04",
-    "scopeID": "SC1",
     "productID": "P01",
     "skillLevelID": "SL2",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP05",
     "roleID": "R04",
-    "scopeID": "SC3",
     "productID": "P01",
     "skillLevelID": "SL2",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP06",
     "roleID": "R05",
-    "scopeID": "SC3",
     "productID": "P01",
     "skillLevelID": "SL3",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP07",
     "roleID": "R06",
-    "scopeID": "SC5",
     "productID": "P04",
     "skillLevelID": "SL2",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP08",
     "roleID": "R07",
-    "scopeID": "SC4",
     "productID": "P03",
     "skillLevelID": "SL3",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP09",
     "roleID": "R07",
-    "scopeID": "SC5",
     "productID": "P05",
     "skillLevelID": "SL3",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP10",
     "roleID": "R09",
-    "scopeID": "SC1",
     "productID": "P03",
     "skillLevelID": "SL2",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP11",
     "roleID": "R02",
-    "scopeID": "SC2",
     "productID": "P02",
     "skillLevelID": "SL2",
     "isRequired": false,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    },
    {
     "competenceID": "CMP12",
     "roleID": "R04",
-    "scopeID": "SC1",
     "productID": "P05",
     "skillLevelID": "SL2",
     "isRequired": true,
     "departmentID": null,
-    "procedureID": []
+    "procedureID": [],
+    "productScopeID": null
    }
   ],
   "People": [
