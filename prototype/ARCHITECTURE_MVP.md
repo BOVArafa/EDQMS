@@ -1,6 +1,6 @@
 # EDQMS — Proposta de Arquitetura para o MVP
 
-**Powergrid Governance Portal · Siemens Energy**
+**Division Governance Portal · Siemens Energy**
 Versão 1.0 · 29/07/2026 · Documento de arquitetura (base para desenvolvimento do MVP a partir do protótipo)
 
 ---
