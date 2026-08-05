@@ -1059,7 +1059,8 @@
     "eventCreatedAt": "2026-05-02T09:00:00",
     "sourceID": "SRC1",
     "businessUnitID": null,
-    "departmentID": null
+    "scopeID": [],
+    "productID": []
    },
    {
     "eventID": "E2",
@@ -1068,7 +1069,8 @@
     "eventCreatedAt": "2026-05-06T10:30:00",
     "sourceID": "SRC1",
     "businessUnitID": null,
-    "departmentID": null
+    "scopeID": [],
+    "productID": []
    },
    {
     "eventID": "E3",
@@ -1077,7 +1079,8 @@
     "eventCreatedAt": "2026-05-09T14:00:00",
     "sourceID": "SRC3",
     "businessUnitID": null,
-    "departmentID": null
+    "scopeID": [],
+    "productID": []
    },
    {
     "eventID": "E4",
@@ -1086,7 +1089,8 @@
     "eventCreatedAt": "2026-05-14T08:15:00",
     "sourceID": "SRC4",
     "businessUnitID": null,
-    "departmentID": null
+    "scopeID": [],
+    "productID": []
    },
    {
     "eventID": "E5",
@@ -1095,7 +1099,8 @@
     "eventCreatedAt": "2026-05-20T11:45:00",
     "sourceID": "SRC1",
     "businessUnitID": null,
-    "departmentID": null
+    "scopeID": [],
+    "productID": []
    },
    {
     "eventID": "E6",
@@ -1104,7 +1109,8 @@
     "eventCreatedAt": "2026-05-25T16:20:00",
     "sourceID": "SRC2",
     "businessUnitID": null,
-    "departmentID": null
+    "scopeID": [],
+    "productID": []
    }
   ],
   "Processes": [
@@ -1117,7 +1123,9 @@
     "parentProcessID": null,
     "processStatus": "Active",
     "processVersion": "v1.2",
-    "squadID": null
+    "squadID": null,
+    "departmentID": null,
+    "productScopeID": []
    },
    {
     "processID": "PR2",
@@ -1128,7 +1136,9 @@
     "parentProcessID": null,
     "processStatus": "Active",
     "processVersion": "v2.0",
-    "squadID": null
+    "squadID": null,
+    "departmentID": null,
+    "productScopeID": []
    },
    {
     "processID": "PR3",
@@ -1139,7 +1149,9 @@
     "parentProcessID": "PR2",
     "processStatus": "Active",
     "processVersion": "v1.0",
-    "squadID": null
+    "squadID": null,
+    "departmentID": null,
+    "productScopeID": []
    },
    {
     "processID": "PR4",
@@ -1150,7 +1162,9 @@
     "parentProcessID": null,
     "processStatus": "Active",
     "processVersion": "v1.1",
-    "squadID": null
+    "squadID": null,
+    "departmentID": null,
+    "productScopeID": []
    },
    {
     "processID": "PR5",
@@ -1161,7 +1175,9 @@
     "parentProcessID": null,
     "processStatus": "Active",
     "processVersion": "v1.3",
-    "squadID": null
+    "squadID": null,
+    "departmentID": null,
+    "productScopeID": []
    }
   ],
   "Activities": [
@@ -1704,518 +1720,518 @@
     "procedureRegistry": "PRC-012",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "012",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 5
+    "executionTime": 5,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC02",
     "procedureRegistry": "PRC-032",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "032",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC03",
     "procedureRegistry": "PRC-033",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "033",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC04",
     "procedureRegistry": "PRC-045",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "045",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 15
+    "executionTime": 15,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC05",
     "procedureRegistry": "PRC-101",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "101",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 20
+    "executionTime": 20,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC06",
     "procedureRegistry": "PRC-102",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "102",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 18
+    "executionTime": 18,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC07",
     "procedureRegistry": "PRC-103",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "103",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 12
+    "executionTime": 12,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC08",
     "procedureRegistry": "PRC-104",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR5",
     "taskID": "104",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 9
+    "executionTime": 9,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC09",
     "procedureRegistry": "PRC-105",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR5",
     "taskID": "105",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 14
+    "executionTime": 14,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC10",
     "procedureRegistry": "PRC-106",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR5",
     "taskID": "106",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 7
+    "executionTime": 7,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC11",
     "procedureRegistry": "PRC-107",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "107",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 5
+    "executionTime": 5,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC12",
     "procedureRegistry": "PRC-108",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "108",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC13",
     "procedureRegistry": "PRC-109",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "109",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC14",
     "procedureRegistry": "PRC-110",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "110",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 15
+    "executionTime": 15,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC15",
     "procedureRegistry": "PRC-111",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "111",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 20
+    "executionTime": 20,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC16",
     "procedureRegistry": "PRC-112",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "112",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 18
+    "executionTime": 18,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC17",
     "procedureRegistry": "PRC-113",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "113",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 12
+    "executionTime": 12,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC18",
     "procedureRegistry": "PRC-114",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR3",
     "taskID": "114",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 6
+    "executionTime": 6,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC19",
     "procedureRegistry": "PRC-115",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR3",
     "taskID": "115",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 4
+    "executionTime": 4,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC20",
     "procedureRegistry": "PRC-116",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR4",
     "taskID": "116",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 16
+    "executionTime": 16,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC21",
     "procedureRegistry": "PRC-117",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR4",
     "taskID": "117",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 10
+    "executionTime": 10,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC22",
     "procedureRegistry": "PRC-118",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "118",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 5
+    "executionTime": 5,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC23",
     "procedureRegistry": "PRC-119",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "119",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC24",
     "procedureRegistry": "PRC-120",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "120",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC25",
     "procedureRegistry": "PRC-121",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "121",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 15
+    "executionTime": 15,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC26",
     "procedureRegistry": "PRC-122",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR5",
     "taskID": "122",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 9
+    "executionTime": 9,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC27",
     "procedureRegistry": "PRC-123",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR5",
     "taskID": "123",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 14
+    "executionTime": 14,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC28",
     "procedureRegistry": "PRC-124",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR5",
     "taskID": "124",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 7
+    "executionTime": 7,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC29",
     "procedureRegistry": "PRC-125",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "125",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 20
+    "executionTime": 20,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC30",
     "procedureRegistry": "PRC-126",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "126",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 18
+    "executionTime": 18,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC31",
     "procedureRegistry": "PRC-127",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR2",
     "taskID": "127",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 12
+    "executionTime": 12,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC32",
     "procedureRegistry": "PRC-128",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "128",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 5
+    "executionTime": 5,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC33",
     "procedureRegistry": "PRC-129",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "129",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC34",
     "procedureRegistry": "PRC-130",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "130",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 8
+    "executionTime": 8,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC35",
     "procedureRegistry": "PRC-131",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR1",
     "taskID": "131",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 15
+    "executionTime": 15,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC36",
     "procedureRegistry": "PRC-132",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR4",
     "taskID": "132",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 16
+    "executionTime": 16,
+    "productScopeID": []
    },
    {
     "procedureID": "PRC37",
     "procedureRegistry": "PRC-133",
     "procedureURL": null,
     "businessUnitID": null,
-    "departmentID": null,
     "processID": "PR4",
     "taskID": "133",
     "requirementID": [],
     "taskInput": [],
     "taskOutput": [],
     "procedureOwner": null,
-    "executionTime": 10
+    "executionTime": 10,
+    "productScopeID": []
    }
   ]
  },
