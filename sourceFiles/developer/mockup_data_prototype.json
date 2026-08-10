@@ -4124,7 +4124,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U02",
@@ -4140,7 +4142,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U03",
@@ -4156,7 +4160,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U04",
@@ -4172,7 +4178,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U05",
@@ -4188,7 +4196,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U06",
@@ -4204,7 +4214,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U07",
@@ -4220,7 +4232,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U08",
@@ -4236,7 +4250,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U09",
@@ -4252,7 +4268,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U10",
@@ -4268,7 +4286,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U11",
@@ -4284,7 +4304,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U12",
@@ -4300,7 +4322,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U13",
@@ -4316,7 +4340,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U14",
@@ -4332,7 +4358,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U15",
@@ -4348,7 +4376,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U16",
@@ -4364,7 +4394,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U17",
@@ -4380,7 +4412,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U18",
@@ -4396,7 +4430,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG01",
-    "branchID": "BR3"
+    "branchID": "BR3",
+    "countryName": "Brazil",
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U19",
@@ -4412,7 +4448,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG02",
-    "branchID": "BR5"
+    "branchID": "BR5",
+    "countryName": "China",
+    "cityName": "Shanghai"
    },
    {
     "userID": "U20",
@@ -4428,7 +4466,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG02",
-    "branchID": "BR5"
+    "branchID": "BR5",
+    "countryName": "China",
+    "cityName": "Shanghai"
    },
    {
     "userID": "U21",
@@ -4444,7 +4484,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG02",
-    "branchID": "BR5"
+    "branchID": "BR5",
+    "countryName": "China",
+    "cityName": "Shanghai"
    },
    {
     "userID": "U22",
@@ -4460,7 +4502,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG02",
-    "branchID": "BR5"
+    "branchID": "BR5",
+    "countryName": "China",
+    "cityName": "Shanghai"
    },
    {
     "userID": "U23",
@@ -4476,7 +4520,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U24",
@@ -4492,7 +4538,9 @@
     "departmentID": "DPT01",
     "graduationID": null,
     "regionID": "RG03",
-    "branchID": "BR1"
+    "branchID": "BR1",
+    "countryName": "Germany",
+    "cityName": "Nuremberg"
    }
   ],
   "Onboarding": [
