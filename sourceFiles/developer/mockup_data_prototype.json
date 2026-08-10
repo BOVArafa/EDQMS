@@ -3805,100 +3805,100 @@
     "roleName": "JR Electrical Designer",
     "functionID": "F1",
     "skillLevelID": "SL1",
-    "graduationID": [
+    "quantity": 6,
+    "jobFamilyID": [
      "G1"
-    ],
-    "quantity": 6
+    ]
    },
    {
     "roleID": "R02",
     "roleName": "SR Electrical Designer",
     "functionID": "F1",
     "skillLevelID": "SL2",
-    "graduationID": [
+    "quantity": 4,
+    "jobFamilyID": [
      "G1"
-    ],
-    "quantity": 4
+    ]
    },
    {
     "roleID": "R03",
     "roleName": "JR Mechanical Designer",
     "functionID": "F2",
     "skillLevelID": "SL1",
-    "graduationID": [
+    "quantity": 5,
+    "jobFamilyID": [
      "G2"
-    ],
-    "quantity": 5
+    ]
    },
    {
     "roleID": "R04",
     "roleName": "SR Mechanical Designer",
     "functionID": "F2",
     "skillLevelID": "SL2",
-    "graduationID": [
+    "quantity": 4,
+    "jobFamilyID": [
      "G2"
-    ],
-    "quantity": 4
+    ]
    },
    {
     "roleID": "R05",
     "roleName": "Expert Mechanical Designer",
     "functionID": "F2",
     "skillLevelID": "SL3",
-    "graduationID": [
+    "quantity": 2,
+    "jobFamilyID": [
      "G2"
-    ],
-    "quantity": 2
+    ]
    },
    {
     "roleID": "R06",
     "roleName": "Analyst",
     "functionID": "F3",
     "skillLevelID": "SL2",
-    "graduationID": [
+    "quantity": 3,
+    "jobFamilyID": [
      "G3"
-    ],
-    "quantity": 3
+    ]
    },
    {
     "roleID": "R07",
     "roleName": "SR Analyst",
     "functionID": "F3",
     "skillLevelID": "SL3",
-    "graduationID": [
+    "quantity": 2,
+    "jobFamilyID": [
      "G3"
-    ],
-    "quantity": 2
+    ]
    },
    {
     "roleID": "R08",
     "roleName": "Planner",
     "functionID": "F4",
     "skillLevelID": "SL2",
-    "graduationID": [
+    "quantity": 3,
+    "jobFamilyID": [
      "G3"
-    ],
-    "quantity": 3
+    ]
    },
    {
     "roleID": "R09",
     "roleName": "Quality Engineer",
     "functionID": "F5",
     "skillLevelID": "SL2",
-    "graduationID": [
+    "quantity": 2,
+    "jobFamilyID": [
      "G1"
-    ],
-    "quantity": 2
+    ]
    },
    {
     "roleID": "R10",
     "roleName": "Quality Manager",
     "functionID": "F5",
     "skillLevelID": "SL4",
-    "graduationID": [
+    "quantity": 1,
+    "jobFamilyID": [
      "G1"
-    ],
-    "quantity": 1
+    ]
    }
   ],
   "Skill Levels": [
@@ -3963,28 +3963,6 @@
     "functionID": "F6",
     "functionName": "Manager",
     "businessUnitID": "BU01"
-   }
-  ],
-  "Graduation": [
-   {
-    "graduationID": "G1",
-    "graduationName": "Electrical Engineering",
-    "field": "Engineering"
-   },
-   {
-    "graduationID": "G2",
-    "graduationName": "Mechanical Engineering",
-    "field": "Engineering"
-   },
-   {
-    "graduationID": "G3",
-    "graduationName": "Industrial Engineering",
-    "field": "Engineering"
-   },
-   {
-    "graduationID": "G4",
-    "graduationName": "Technical Diploma",
-    "field": "Technical"
    }
   ],
   "Competence": [
@@ -4122,11 +4100,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U02",
@@ -4140,11 +4118,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U03",
@@ -4158,11 +4136,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U04",
@@ -4176,11 +4154,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U05",
@@ -4194,11 +4172,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U06",
@@ -4212,11 +4190,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U07",
@@ -4230,11 +4208,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U08",
@@ -4248,11 +4226,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U09",
@@ -4266,11 +4244,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U10",
@@ -4284,11 +4262,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U11",
@@ -4302,11 +4280,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U12",
@@ -4320,11 +4298,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U13",
@@ -4338,11 +4316,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U14",
@@ -4356,11 +4334,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U15",
@@ -4374,11 +4352,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U16",
@@ -4392,11 +4370,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U17",
@@ -4410,11 +4388,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U18",
@@ -4428,11 +4406,11 @@
     "squadID": "SQ2",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo"
+    "cityName": "Sao Paulo",
+    "jobFamilyID": null
    },
    {
     "userID": "U19",
@@ -4446,11 +4424,11 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai"
+    "cityName": "Shanghai",
+    "jobFamilyID": null
    },
    {
     "userID": "U20",
@@ -4464,11 +4442,11 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai"
+    "cityName": "Shanghai",
+    "jobFamilyID": null
    },
    {
     "userID": "U21",
@@ -4482,11 +4460,11 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai"
+    "cityName": "Shanghai",
+    "jobFamilyID": null
    },
    {
     "userID": "U22",
@@ -4500,11 +4478,11 @@
     "squadID": "SQ3",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai"
+    "cityName": "Shanghai",
+    "jobFamilyID": null
    },
    {
     "userID": "U23",
@@ -4518,11 +4496,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    },
    {
     "userID": "U24",
@@ -4536,11 +4514,11 @@
     "squadID": "SQ1",
     "businessUnitID": "BU01",
     "departmentID": "DPT01",
-    "graduationID": null,
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg"
+    "cityName": "Nuremberg",
+    "jobFamilyID": null
    }
   ],
   "Onboarding": [
@@ -4895,6 +4873,24 @@
     "trainingURL": null,
     "businessUnitID": "BU01",
     "departmentID": "DPT01"
+   }
+  ],
+  "Job Family": [
+   {
+    "field": "Engineering",
+    "jobFamilyID": "G1"
+   },
+   {
+    "field": "Engineering",
+    "jobFamilyID": "G2"
+   },
+   {
+    "field": "Engineering",
+    "jobFamilyID": "G3"
+   },
+   {
+    "field": "Technical",
+    "jobFamilyID": "G4"
    }
   ]
  },
