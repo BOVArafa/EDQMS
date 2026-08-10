@@ -156,69 +156,111 @@
   "Branches": [
    {
     "branchID": "BR1",
-    "businessSegmentID": "BS01",
-    "businessUnitID": "BU01",
+    "businessSegmentID": [
+     "BS01"
+    ],
+    "businessUnitID": [
+     "BU01"
+    ],
     "branchName": "PN",
     "cityName": "Nuremberg",
     "regionID": "RG03",
     "countryName": "Germany",
     "userID": null,
-    "customerID": "FC1"
+    "customerID": "FC1",
+    "departmentID": [
+     "DPT01"
+    ]
    },
    {
     "branchID": "BR2",
-    "businessSegmentID": "BS01",
-    "businessUnitID": "BU01",
+    "businessSegmentID": [
+     "BS01"
+    ],
+    "businessUnitID": [
+     "BU01"
+    ],
     "branchName": "DR",
     "cityName": "Dresden",
     "regionID": "RG03",
     "countryName": "Germany",
     "userID": null,
-    "customerID": "FC2"
+    "customerID": "FC2",
+    "departmentID": [
+     "DPT01"
+    ]
    },
    {
     "branchID": "BR3",
-    "businessSegmentID": "BS01",
-    "businessUnitID": "BU01",
+    "businessSegmentID": [
+     "BS01"
+    ],
+    "businessUnitID": [
+     "BU01"
+    ],
     "branchName": "SP",
     "cityName": "Sao Paulo",
     "regionID": "RG01",
     "countryName": "Brazil",
     "userID": null,
-    "customerID": "FC3"
+    "customerID": "FC3",
+    "departmentID": [
+     "DPT01"
+    ]
    },
    {
     "branchID": "BR4",
-    "businessSegmentID": "BS03",
-    "businessUnitID": "BU02",
+    "businessSegmentID": [
+     "BS03"
+    ],
+    "businessUnitID": [
+     "BU02"
+    ],
     "branchName": "MX",
     "cityName": "Monterrey",
     "regionID": "RG01",
     "countryName": "Mexico",
     "userID": null,
-    "customerID": "FC4"
+    "customerID": "FC4",
+    "departmentID": [
+     "DPT03"
+    ]
    },
    {
     "branchID": "BR5",
-    "businessSegmentID": "BS01",
-    "businessUnitID": "BU01",
+    "businessSegmentID": [
+     "BS01"
+    ],
+    "businessUnitID": [
+     "BU01"
+    ],
     "branchName": "SH",
     "cityName": "Shanghai",
     "regionID": "RG02",
     "countryName": "China",
     "userID": null,
-    "customerID": "FC5"
+    "customerID": "FC5",
+    "departmentID": [
+     "DPT01"
+    ]
    },
    {
     "branchID": "BR6",
-    "businessSegmentID": "BS03",
-    "businessUnitID": "BU02",
+    "businessSegmentID": [
+     "BS03"
+    ],
+    "businessUnitID": [
+     "BU02"
+    ],
     "branchName": "MU",
     "cityName": "Mumbai",
     "regionID": "RG02",
     "countryName": "India",
     "userID": null,
-    "customerID": "FC6"
+    "customerID": "FC6",
+    "departmentID": [
+     "DPT03"
+    ]
    }
   ]
  },
