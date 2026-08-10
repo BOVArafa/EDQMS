@@ -2369,7 +2369,8 @@
     ],
     "isActive": true,
     "businessUnitID": [],
-    "scopeClassID": []
+    "scopeClassID": [],
+    "scopeDescription": null
    },
    {
     "scopeID": "SC2",
@@ -2379,7 +2380,8 @@
     ],
     "isActive": true,
     "businessUnitID": [],
-    "scopeClassID": []
+    "scopeClassID": [],
+    "scopeDescription": null
    },
    {
     "scopeID": "SC3",
@@ -2390,7 +2392,8 @@
     ],
     "isActive": true,
     "businessUnitID": [],
-    "scopeClassID": []
+    "scopeClassID": [],
+    "scopeDescription": null
    },
    {
     "scopeID": "SC4",
@@ -2400,7 +2403,8 @@
     ],
     "isActive": true,
     "businessUnitID": [],
-    "scopeClassID": []
+    "scopeClassID": [],
+    "scopeDescription": null
    },
    {
     "scopeID": "SC5",
@@ -2410,7 +2414,8 @@
     ],
     "isActive": true,
     "businessUnitID": [],
-    "scopeClassID": []
+    "scopeClassID": [],
+    "scopeDescription": null
    }
   ],
   "Products": [
