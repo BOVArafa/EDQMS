@@ -1093,68 +1093,6 @@
     "parentStepID": "WF11"
    }
   ],
-  "Events": [
-   {
-    "eventID": "E1",
-    "eventTitle": "Offer Calculation Requested",
-    "eventDescription": "Customer requests a technical-commercial offer",
-    "eventCreatedAt": "2026-05-02T09:00:00",
-    "sourceID": "SRC1",
-    "businessUnitID": null,
-    "scopeID": [],
-    "productID": []
-   },
-   {
-    "eventID": "E2",
-    "eventTitle": "Design Package Requested",
-    "eventDescription": "Awarded project needs full design",
-    "eventCreatedAt": "2026-05-06T10:30:00",
-    "sourceID": "SRC1",
-    "businessUnitID": null,
-    "scopeID": [],
-    "productID": []
-   },
-   {
-    "eventID": "E3",
-    "eventTitle": "Design Review Triggered",
-    "eventDescription": "Design reaches review gate",
-    "eventCreatedAt": "2026-05-09T14:00:00",
-    "sourceID": "SRC3",
-    "businessUnitID": null,
-    "scopeID": [],
-    "productID": []
-   },
-   {
-    "eventID": "E4",
-    "eventTitle": "Field Failure Reported",
-    "eventDescription": "Unit failure reported from field",
-    "eventCreatedAt": "2026-05-14T08:15:00",
-    "sourceID": "SRC4",
-    "businessUnitID": null,
-    "scopeID": [],
-    "productID": []
-   },
-   {
-    "eventID": "E5",
-    "eventTitle": "Uprating Study Requested",
-    "eventDescription": "Customer explores uprating",
-    "eventCreatedAt": "2026-05-20T11:45:00",
-    "sourceID": "SRC1",
-    "businessUnitID": null,
-    "scopeID": [],
-    "productID": []
-   },
-   {
-    "eventID": "E6",
-    "eventTitle": "Customer Change Request",
-    "eventDescription": "Scope change on active design",
-    "eventCreatedAt": "2026-05-25T16:20:00",
-    "sourceID": "SRC2",
-    "businessUnitID": null,
-    "scopeID": [],
-    "productID": []
-   }
-  ],
   "Processes": [
    {
     "processID": "PR1",
@@ -5439,6 +5377,68 @@
   ]
  },
  "Portfolio": {
-  "Classes": []
+  "Classes": [],
+  "Events": [
+   {
+    "eventID": "E1",
+    "eventTitle": "Offer Calculation Requested",
+    "eventDescription": "Customer requests a technical-commercial offer",
+    "eventCreatedAt": "2026-05-02T09:00:00",
+    "sourceID": "SRC1",
+    "businessUnitID": null,
+    "scopeID": [],
+    "productID": []
+   },
+   {
+    "eventID": "E2",
+    "eventTitle": "Design Package Requested",
+    "eventDescription": "Awarded project needs full design",
+    "eventCreatedAt": "2026-05-06T10:30:00",
+    "sourceID": "SRC1",
+    "businessUnitID": null,
+    "scopeID": [],
+    "productID": []
+   },
+   {
+    "eventID": "E3",
+    "eventTitle": "Design Review Triggered",
+    "eventDescription": "Design reaches review gate",
+    "eventCreatedAt": "2026-05-09T14:00:00",
+    "sourceID": "SRC3",
+    "businessUnitID": null,
+    "scopeID": [],
+    "productID": []
+   },
+   {
+    "eventID": "E4",
+    "eventTitle": "Field Failure Reported",
+    "eventDescription": "Unit failure reported from field",
+    "eventCreatedAt": "2026-05-14T08:15:00",
+    "sourceID": "SRC4",
+    "businessUnitID": null,
+    "scopeID": [],
+    "productID": []
+   },
+   {
+    "eventID": "E5",
+    "eventTitle": "Uprating Study Requested",
+    "eventDescription": "Customer explores uprating",
+    "eventCreatedAt": "2026-05-20T11:45:00",
+    "sourceID": "SRC1",
+    "businessUnitID": null,
+    "scopeID": [],
+    "productID": []
+   },
+   {
+    "eventID": "E6",
+    "eventTitle": "Customer Change Request",
+    "eventDescription": "Scope change on active design",
+    "eventCreatedAt": "2026-05-25T16:20:00",
+    "sourceID": "SRC2",
+    "businessUnitID": null,
+    "scopeID": [],
+    "productID": []
+   }
+  ]
  }
 }
