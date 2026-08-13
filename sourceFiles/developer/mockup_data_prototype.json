@@ -2696,7 +2696,12 @@
     "resolutionTime": "2026-10-25",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC1"
+    "customerID": "FC1",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "002",
@@ -2711,7 +2716,12 @@
     "resolutionTime": "2026-11-28",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC1"
+    "customerID": "FC1",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "003",
@@ -2726,7 +2736,12 @@
     "resolutionTime": "2026-09-27",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC1"
+    "customerID": "FC1",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "004",
@@ -2741,7 +2756,12 @@
     "resolutionTime": "2026-08-14",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC3"
+    "customerID": "FC3",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "005",
@@ -2756,7 +2776,12 @@
     "resolutionTime": "2026-10-30",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC3"
+    "customerID": "FC3",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "006",
@@ -2771,7 +2796,12 @@
     "resolutionTime": "2026-11-14",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC3"
+    "customerID": "FC3",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "007",
@@ -2786,7 +2816,12 @@
     "resolutionTime": "2026-10-18",
     "isEscalated": true,
     "escalatedToEventID": "E4",
-    "customerID": "FC5"
+    "customerID": "FC5",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "008",
@@ -2801,7 +2836,12 @@
     "resolutionTime": "2026-11-08",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC4"
+    "customerID": "FC4",
+    "businessUnitID": "BU02",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "009",
@@ -2816,7 +2856,12 @@
     "resolutionTime": "2026-09-12",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC5"
+    "customerID": "FC5",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "010",
@@ -2831,7 +2876,12 @@
     "resolutionTime": "2026-12-03",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC2"
+    "customerID": "FC2",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "011",
@@ -2846,7 +2896,12 @@
     "resolutionTime": "2026-11-18",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC4"
+    "customerID": "FC4",
+    "businessUnitID": "BU02",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    },
    {
     "ticketID": "012",
@@ -2861,7 +2916,12 @@
     "resolutionTime": "2026-10-08",
     "isEscalated": false,
     "escalatedToEventID": null,
-    "customerID": "FC5"
+    "customerID": "FC5",
+    "businessUnitID": "BU01",
+    "processID": null,
+    "products": null,
+    "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
    }
   ],
   "Projects": [
@@ -2870,56 +2930,72 @@
     "projectName": "Grid Co Uprating",
     "projectOwner": "U11",
     "projectStatus": "In Progress",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0032",
     "projectName": "Metro Substation",
     "projectOwner": "U01",
     "projectStatus": "In Progress",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0033",
     "projectName": "SP Rewind",
     "projectOwner": "U11",
     "projectStatus": "Planning",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0034",
     "projectName": "MX Distribution",
     "projectOwner": "U11",
     "projectStatus": "In Progress",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0035",
     "projectName": "SH Failure Fix",
     "projectOwner": "U23",
     "projectStatus": "On Hold",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0036",
     "projectName": "DR Cooling Upgrade",
     "projectOwner": "U10",
     "projectStatus": "In Progress",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0037",
     "projectName": "APAC Uprating Study",
     "projectOwner": "U10",
     "projectStatus": "Closed",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    },
    {
     "projectID": "0038",
     "projectName": "Legacy Support",
     "projectOwner": "U11",
     "projectStatus": "Closed",
-    "customerID": null
+    "customerID": null,
+    "businessUnitID": null,
+    "slaID": []
    }
   ],
   "Jobs": [
