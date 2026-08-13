@@ -556,6 +556,74 @@
     "eventID": "E2",
     "notes": ""
    }
+  ],
+  "SLA": [
+   {
+    "slaID": "SLA01",
+    "slaCode": "SLA-0001",
+    "businessUnitID": "BU01",
+    "customerID": "FC1",
+    "branchID": "BR1",
+    "departmentID": "DPT01",
+    "payloadID": [],
+    "isActive": "Active",
+    "slaOwner": "U01"
+   },
+   {
+    "slaID": "SLA02",
+    "slaCode": "SLA-0002",
+    "businessUnitID": "BU01",
+    "customerID": "FC2",
+    "branchID": "BR2",
+    "departmentID": "DPT01",
+    "payloadID": [],
+    "isActive": "Active",
+    "slaOwner": "U01"
+   },
+   {
+    "slaID": "SLA03",
+    "slaCode": "SLA-0003",
+    "businessUnitID": "BU01",
+    "customerID": "FC3",
+    "branchID": "BR3",
+    "departmentID": "DPT01",
+    "payloadID": [],
+    "isActive": "Active",
+    "slaOwner": "U01"
+   },
+   {
+    "slaID": "SLA04",
+    "slaCode": "SLA-0004",
+    "businessUnitID": "BU02",
+    "customerID": "FC4",
+    "branchID": "BR4",
+    "departmentID": "DPT03",
+    "payloadID": [],
+    "isActive": "Active",
+    "slaOwner": "U01"
+   },
+   {
+    "slaID": "SLA05",
+    "slaCode": "SLA-0005",
+    "businessUnitID": "BU01",
+    "customerID": "FC5",
+    "branchID": "BR5",
+    "departmentID": "DPT01",
+    "payloadID": [],
+    "isActive": "Active",
+    "slaOwner": "U01"
+   },
+   {
+    "slaID": "SLA06",
+    "slaCode": "SLA-0006",
+    "businessUnitID": "BU02",
+    "customerID": "FC6",
+    "branchID": "BR6",
+    "departmentID": "DPT03",
+    "payloadID": [],
+    "isActive": "Active",
+    "slaOwner": "U01"
+   }
   ]
  },
  "Operation": {
