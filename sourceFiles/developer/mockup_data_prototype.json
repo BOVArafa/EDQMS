@@ -269,84 +269,66 @@
    {
     "customerID": "FC1",
     "customerName": "PN",
-    "city": "Nuremberg",
-    "country": "Germany",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
     ],
-    "regionID": "RG03",
-    "customerType": "branch"
+    "customerType": "Internal Client"
    },
    {
     "customerID": "FC2",
     "customerName": "DR",
-    "city": "Dresden",
-    "country": "Germany",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
     ],
-    "regionID": "RG03",
-    "customerType": "branch"
+    "customerType": "Internal Client"
    },
    {
     "customerID": "FC3",
     "customerName": "SP",
-    "city": "Sao Paulo",
-    "country": "Brazil",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
     ],
-    "regionID": "RG01",
-    "customerType": "branch"
+    "customerType": "Internal Client"
    },
    {
     "customerID": "FC4",
     "customerName": "MX",
-    "city": "Monterrey",
-    "country": "Mexico",
     "isActive": true,
     "businessUnitID": "BU02",
     "businessSegmentID": [
      "BS03"
     ],
-    "regionID": "RG01",
-    "customerType": "branch"
+    "customerType": "Internal Client"
    },
    {
     "customerID": "FC5",
     "customerName": "SH",
-    "city": "Shanghai",
-    "country": "China",
     "isActive": true,
     "businessUnitID": "BU01",
     "businessSegmentID": [
      "BS01",
      "BS02"
     ],
-    "regionID": "RG02",
-    "customerType": "branch"
+    "customerType": "Internal Client"
    },
    {
     "customerID": "FC6",
     "customerName": "MU",
-    "city": "Mumbai",
-    "country": "India",
     "isActive": false,
     "businessUnitID": "BU02",
     "businessSegmentID": [
      "BS03"
     ],
-    "regionID": "RG02",
-    "customerType": "branch"
+    "customerType": "Internal Client"
    }
   ],
   "Forecasts": [
