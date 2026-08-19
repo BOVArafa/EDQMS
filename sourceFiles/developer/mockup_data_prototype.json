@@ -2701,7 +2701,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "002",
@@ -2721,7 +2722,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "003",
@@ -2741,7 +2743,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "004",
@@ -2761,7 +2764,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "005",
@@ -2781,7 +2785,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "006",
@@ -2801,7 +2806,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "007",
@@ -2821,7 +2827,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "008",
@@ -2841,7 +2848,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "009",
@@ -2861,7 +2869,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "010",
@@ -2881,7 +2890,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "011",
@@ -2901,7 +2911,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    },
    {
     "ticketID": "012",
@@ -2921,7 +2932,8 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%"
+    "requirementName": "Uprating without capacity loss, IEC 60076-5 short-circuit, Noise below 65 dB, Traceable design records, Bushing dielectric conformity, Thermal rise <= 65K, On-time delivery 95%, Failure recurrence < 2%",
+    "productScopeID": null
    }
   ],
   "Projects": [
