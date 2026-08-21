@@ -3067,7 +3067,10 @@
     "realExecutionTime": 5,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J002",
@@ -3082,8 +3085,11 @@
     "realEndDate": "2026-09-16",
     "realExecutionTime": 11,
     "predecesorJob": "J001",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J001"
    },
    {
     "jobID": "J003",
@@ -3098,8 +3104,11 @@
     "realEndDate": "2026-09-23",
     "realExecutionTime": 6,
     "predecesorJob": "J002",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0031",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J002"
    },
    {
     "jobID": "J004",
@@ -3114,8 +3123,11 @@
     "realEndDate": "2026-10-02",
     "realExecutionTime": 21,
     "predecesorJob": "J003",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": "J003"
    },
    {
     "jobID": "J005",
@@ -3131,7 +3143,10 @@
     "realExecutionTime": 23,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 18.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J006",
@@ -3146,8 +3161,11 @@
     "realEndDate": "2026-09-24",
     "realExecutionTime": 16,
     "predecesorJob": "J005",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0031",
+    "plannedExecutionTime": 12.0,
+    "predecessorJobID": "J005"
    },
    {
     "jobID": "J007",
@@ -3162,8 +3180,11 @@
     "realEndDate": "2026-10-01",
     "realExecutionTime": 18,
     "predecesorJob": "J006",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 20.0,
+    "predecessorJobID": "J006"
    },
    {
     "jobID": "J008",
@@ -3179,7 +3200,10 @@
     "realExecutionTime": 7,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Active"
+    "jobStatus": "Active",
+    "projectID": "0032",
+    "plannedExecutionTime": 14.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J009",
@@ -3194,8 +3218,11 @@
     "realEndDate": "2026-10-01",
     "realExecutionTime": 20,
     "predecesorJob": "J008",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0032",
+    "plannedExecutionTime": 7.0,
+    "predecessorJobID": "J008"
    },
    {
     "jobID": "J010",
@@ -3210,8 +3237,11 @@
     "realEndDate": null,
     "realExecutionTime": null,
     "predecesorJob": "J009",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Queued"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Queued",
+    "projectID": "0032",
+    "plannedExecutionTime": 9.0,
+    "predecessorJobID": "J009"
    },
    {
     "jobID": "J011",
@@ -3227,7 +3257,10 @@
     "realExecutionTime": 11,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J012",
@@ -3242,8 +3275,11 @@
     "realEndDate": null,
     "realExecutionTime": null,
     "predecesorJob": "J011",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Queued"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Queued",
+    "projectID": "0033",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": "J011"
    },
    {
     "jobID": "J013",
@@ -3258,8 +3294,11 @@
     "realEndDate": "2026-10-14",
     "realExecutionTime": 7,
     "predecesorJob": "J012",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": "J012"
    },
    {
     "jobID": "J014",
@@ -3274,8 +3313,11 @@
     "realEndDate": "2026-10-23",
     "realExecutionTime": 23,
     "predecesorJob": "J013",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0033",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J013"
    },
    {
     "jobID": "J015",
@@ -3291,7 +3333,10 @@
     "realExecutionTime": null,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Queued"
+    "jobStatus": "Queued",
+    "projectID": "0033",
+    "plannedExecutionTime": 12.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J016",
@@ -3306,8 +3351,11 @@
     "realEndDate": "2026-10-15",
     "realExecutionTime": 17,
     "predecesorJob": "J015",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 20.0,
+    "predecessorJobID": "J015"
    },
    {
     "jobID": "J017",
@@ -3322,8 +3370,11 @@
     "realEndDate": "2026-10-22",
     "realExecutionTime": 20,
     "predecesorJob": "J016",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0033",
+    "plannedExecutionTime": 18.0,
+    "predecessorJobID": "J016"
    },
    {
     "jobID": "J018",
@@ -3339,7 +3390,10 @@
     "realExecutionTime": 5,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 4.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J019",
@@ -3354,8 +3408,11 @@
     "realEndDate": "2026-10-22",
     "realExecutionTime": 12,
     "predecesorJob": "J018",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0033",
+    "plannedExecutionTime": 6.0,
+    "predecessorJobID": "J018"
    },
    {
     "jobID": "J020",
@@ -3371,7 +3428,10 @@
     "realExecutionTime": 24,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Active"
+    "jobStatus": "Active",
+    "projectID": "0035",
+    "plannedExecutionTime": 10.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J021",
@@ -3386,8 +3446,11 @@
     "realEndDate": "2026-10-29",
     "realExecutionTime": 12,
     "predecesorJob": "J020",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Stoped"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Stoped",
+    "projectID": "0035",
+    "plannedExecutionTime": 16.0,
+    "predecessorJobID": "J020"
    },
    {
     "jobID": "J022",
@@ -3403,7 +3466,10 @@
     "realExecutionTime": 7,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Stoped"
+    "jobStatus": "Stoped",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J023",
@@ -3418,8 +3484,11 @@
     "realEndDate": "2026-11-04",
     "realExecutionTime": 5,
     "predecesorJob": "J022",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J022"
    },
    {
     "jobID": "J024",
@@ -3434,8 +3503,11 @@
     "realEndDate": "2026-11-12",
     "realExecutionTime": 12,
     "predecesorJob": "J023",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0034",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": "J023"
    },
    {
     "jobID": "J025",
@@ -3450,8 +3522,11 @@
     "realEndDate": "2026-09-10",
     "realExecutionTime": 15,
     "predecesorJob": "J024",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": "J024"
    },
    {
     "jobID": "J026",
@@ -3467,7 +3542,10 @@
     "realExecutionTime": 6,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0037",
+    "plannedExecutionTime": 14.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J027",
@@ -3482,8 +3560,11 @@
     "realEndDate": "2026-11-12",
     "realExecutionTime": 18,
     "predecesorJob": "J026",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0037",
+    "plannedExecutionTime": 7.0,
+    "predecessorJobID": "J026"
    },
    {
     "jobID": "J028",
@@ -3498,8 +3579,11 @@
     "realEndDate": "2026-09-09",
     "realExecutionTime": 7,
     "predecesorJob": "J027",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0037",
+    "plannedExecutionTime": 9.0,
+    "predecessorJobID": "J027"
    },
    {
     "jobID": "J029",
@@ -3515,7 +3599,10 @@
     "realExecutionTime": 24,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Active"
+    "jobStatus": "Active",
+    "projectID": "0036",
+    "plannedExecutionTime": 18.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J030",
@@ -3530,8 +3617,11 @@
     "realEndDate": "2026-09-10",
     "realExecutionTime": 18,
     "predecesorJob": "J029",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0036",
+    "plannedExecutionTime": 12.0,
+    "predecessorJobID": "J029"
    },
    {
     "jobID": "J031",
@@ -3546,8 +3636,11 @@
     "realEndDate": "2026-09-17",
     "realExecutionTime": 15,
     "predecesorJob": "J030",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0036",
+    "plannedExecutionTime": 20.0,
+    "predecessorJobID": "J030"
    },
    {
     "jobID": "J032",
@@ -3563,7 +3656,10 @@
     "realExecutionTime": 5,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J033",
@@ -3578,8 +3674,11 @@
     "realEndDate": "2026-09-16",
     "realExecutionTime": 11,
     "predecesorJob": "J032",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": "J032"
    },
    {
     "jobID": "J034",
@@ -3594,8 +3693,11 @@
     "realEndDate": "2026-09-23",
     "realExecutionTime": 6,
     "predecesorJob": "J033",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J033"
    },
    {
     "jobID": "J035",
@@ -3610,8 +3712,11 @@
     "realEndDate": "2026-10-02",
     "realExecutionTime": 21,
     "predecesorJob": "J034",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J034"
    },
    {
     "jobID": "J036",
@@ -3627,7 +3732,10 @@
     "realExecutionTime": 19,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0035",
+    "plannedExecutionTime": 10.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J037",
@@ -3642,8 +3750,11 @@
     "realEndDate": "2026-09-23",
     "realExecutionTime": 8,
     "predecesorJob": "J036",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0035",
+    "plannedExecutionTime": 16.0,
+    "predecessorJobID": "J036"
    }
   ]
  },
