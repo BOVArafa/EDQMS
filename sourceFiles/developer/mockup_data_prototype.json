@@ -344,7 +344,9 @@
     "status": "Approved",
     "createdBy": "U11",
     "createdAt": "2025-12-01T09:00:00",
-    "slaID": "SLA01"
+    "slaID": "SLA01",
+    "totalEstimatedHours": 354.0,
+    "weeklyUsageQuota": 88
    },
    {
     "forecastID": "FO2",
@@ -358,7 +360,9 @@
     "status": "Submitted",
     "createdBy": "U11",
     "createdAt": "2026-08-15T10:00:00",
-    "slaID": "SLA01"
+    "slaID": "SLA01",
+    "totalEstimatedHours": 498.0,
+    "weeklyUsageQuota": 124
    },
    {
     "forecastID": "FO3",
@@ -372,7 +376,9 @@
     "status": "Approved",
     "createdBy": "U11",
     "createdAt": "2026-06-10T09:30:00",
-    "slaID": "SLA03"
+    "slaID": "SLA03",
+    "totalEstimatedHours": 356.0,
+    "weeklyUsageQuota": 89
    },
    {
     "forecastID": "FO4",
@@ -386,7 +392,9 @@
     "status": "Draft",
     "createdBy": "U11",
     "createdAt": "2026-09-20T08:00:00",
-    "slaID": "SLA05"
+    "slaID": "SLA05",
+    "totalEstimatedHours": 112.0,
+    "weeklyUsageQuota": 28
    },
    {
     "forecastID": "FO5",
@@ -400,7 +408,9 @@
     "status": "Draft",
     "createdBy": "U11",
     "createdAt": "2026-11-05T09:00:00",
-    "slaID": "SLA04"
+    "slaID": "SLA04",
+    "totalEstimatedHours": 438.0,
+    "weeklyUsageQuota": 110
    },
    {
     "forecastID": "FO6",
@@ -414,7 +424,9 @@
     "status": "Submitted",
     "createdBy": "U11",
     "createdAt": "2026-09-25T11:00:00",
-    "slaID": "SLA02"
+    "slaID": "SLA02",
+    "totalEstimatedHours": 202.0,
+    "weeklyUsageQuota": 50
    }
   ],
   "Forecast Scopes": [
@@ -423,126 +435,162 @@
     "forecastID": "FO2",
     "productScopeID": "PS01",
     "eventID": "E1",
-    "notes": "Offer calc capacity (scenario)"
+    "notes": "Offer calc capacity (scenario)",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS02",
     "forecastID": "FO2",
     "productScopeID": "PS01",
     "eventID": "E2",
-    "notes": "Design package demand"
+    "notes": "Design package demand",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS03",
     "forecastID": "FO2",
     "productScopeID": "PS02",
     "eventID": "E5",
-    "notes": "Uprating study"
+    "notes": "Uprating study",
+    "functionID": null,
+    "estimatedHours": 60.0
    },
    {
     "forecastScopeID": "FS04",
     "forecastID": "FO1",
     "productScopeID": "PS01",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS05",
     "forecastID": "FO1",
     "productScopeID": "PS02",
     "eventID": "E5",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 60.0
    },
    {
     "forecastScopeID": "FS06",
     "forecastID": "FO3",
     "productScopeID": "PS04",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS07",
     "forecastID": "FO3",
     "productScopeID": "PS04",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS08",
     "forecastID": "FO3",
     "productScopeID": "PS04",
     "eventID": "E3",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 10.0
    },
    {
     "forecastScopeID": "FS09",
     "forecastID": "FO4",
     "productScopeID": "PS06",
     "eventID": "E4",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 52.0
    },
    {
     "forecastScopeID": "FS10",
     "forecastID": "FO4",
     "productScopeID": "PS05",
     "eventID": "E5",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 60.0
    },
    {
     "forecastScopeID": "FS11",
     "forecastID": "FO5",
     "productScopeID": "PS07",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS12",
     "forecastID": "FO5",
     "productScopeID": "PS08",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS13",
     "forecastID": "FO6",
     "productScopeID": "PS03",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS14",
     "forecastID": "FO6",
     "productScopeID": "PS09",
     "eventID": "E4",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 52.0
    },
    {
     "forecastScopeID": "FS15",
     "forecastID": "FO2",
     "productScopeID": "PS04",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS16",
     "forecastID": "FO3",
     "productScopeID": "PS06",
     "eventID": "E4",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 52.0
    },
    {
     "forecastScopeID": "FS17",
     "forecastID": "FO1",
     "productScopeID": "PS03",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS18",
     "forecastID": "FO5",
     "productScopeID": "PS08",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    }
   ],
   "SLA": [
@@ -2707,7 +2755,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "002",
@@ -2727,7 +2775,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "003",
@@ -2747,7 +2795,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "004",
@@ -2767,7 +2815,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "005",
@@ -2787,7 +2835,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "006",
@@ -2807,7 +2855,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "007",
@@ -2827,7 +2875,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "008",
@@ -2847,7 +2895,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "009",
@@ -2867,7 +2915,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "010",
@@ -2887,7 +2935,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "011",
@@ -2907,7 +2955,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    },
    {
     "ticketID": "012",
@@ -2927,7 +2975,7 @@
     "processID": null,
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
-    "productScopeID": null
+    "productScopeID": "PS01"
    }
   ],
   "Projects": [
@@ -3012,14 +3060,17 @@
     "taskID": "012",
     "userID": "U02",
     "projectName": "Grid Co Uprating",
-    "startDate": "2026-09-07",
+    "startDate": "2026-03-08",
     "endDate": "2026-09-08",
-    "realStartDate": "2026-09-08",
-    "realEndDate": "2026-09-09",
-    "realExecutionTime": 5,
+    "realStartDate": "2026-03-09",
+    "realEndDate": "2026-03-10",
+    "realExecutionTime": 24.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J002",
@@ -3028,14 +3079,17 @@
     "taskID": "032",
     "userID": "U05",
     "projectName": "Grid Co Uprating",
-    "startDate": "2026-09-14",
+    "startDate": "2026-03-15",
     "endDate": "2026-09-15",
-    "realStartDate": "2026-09-15",
-    "realEndDate": "2026-09-16",
-    "realExecutionTime": 11,
+    "realStartDate": "2026-03-16",
+    "realEndDate": "2026-03-17",
+    "realExecutionTime": 24.0,
     "predecesorJob": "J001",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J001"
    },
    {
     "jobID": "J003",
@@ -3047,11 +3101,14 @@
     "startDate": "2026-09-21",
     "endDate": "2026-09-22",
     "realStartDate": "2026-09-22",
-    "realEndDate": "2026-09-23",
+    "realEndDate": null,
     "realExecutionTime": 6,
     "predecesorJob": "J002",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0031",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J002"
    },
    {
     "jobID": "J004",
@@ -3060,100 +3117,118 @@
     "taskID": "045",
     "userID": "U19",
     "projectName": "Grid Co Uprating",
-    "startDate": "2026-09-28",
+    "startDate": "2026-03-29",
     "endDate": "2026-09-30",
-    "realStartDate": "2026-09-29",
-    "realEndDate": "2026-10-02",
-    "realExecutionTime": 21,
+    "realStartDate": "2026-03-30",
+    "realEndDate": "2026-04-02",
+    "realExecutionTime": 72.0,
     "predecesorJob": "J003",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": "J003"
    },
    {
     "jobID": "J005",
     "jobName": "Electrical Design",
     "ticketID": "002",
-    "taskID": "101",
+    "taskID": "112",
     "userID": "U13",
     "projectName": "Grid Co Uprating",
-    "startDate": "2026-09-14",
+    "startDate": "2026-03-15",
     "endDate": "2026-09-16",
-    "realStartDate": "2026-09-15",
-    "realEndDate": "2026-09-18",
-    "realExecutionTime": 23,
+    "realStartDate": "2026-03-16",
+    "realEndDate": "2026-03-19",
+    "realExecutionTime": 72.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 18.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J006",
     "jobName": "Mechanical Layout",
     "ticketID": "002",
-    "taskID": "102",
+    "taskID": "113",
     "userID": "U15",
     "projectName": "Grid Co Uprating",
     "startDate": "2026-09-21",
     "endDate": "2026-09-23",
     "realStartDate": "2026-09-22",
-    "realEndDate": "2026-09-24",
+    "realEndDate": null,
     "realExecutionTime": 16,
     "predecesorJob": "J005",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0031",
+    "plannedExecutionTime": 12.0,
+    "predecessorJobID": "J005"
    },
    {
     "jobID": "J007",
     "jobName": "Design Documentation",
     "ticketID": "002",
-    "taskID": "103",
+    "taskID": "125",
     "userID": "U20",
     "projectName": "Grid Co Uprating",
-    "startDate": "2026-09-28",
+    "startDate": "2026-03-29",
     "endDate": "2026-09-30",
-    "realStartDate": "2026-09-29",
-    "realEndDate": "2026-10-01",
-    "realExecutionTime": 18,
+    "realStartDate": "2026-03-30",
+    "realEndDate": "2026-04-01",
+    "realExecutionTime": 48.0,
     "predecesorJob": "J006",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0031",
+    "plannedExecutionTime": 20.0,
+    "predecessorJobID": "J006"
    },
    {
     "jobID": "J008",
     "jobName": "Load Assessment",
     "ticketID": "003",
-    "taskID": "104",
+    "taskID": "105",
     "userID": "U22",
     "projectName": "Metro Substation",
     "startDate": "2026-09-21",
     "endDate": "2026-09-22",
     "realStartDate": "2026-09-22",
-    "realEndDate": "2026-09-23",
+    "realEndDate": null,
     "realExecutionTime": 7,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Active"
+    "jobStatus": "Active",
+    "projectID": "0032",
+    "plannedExecutionTime": 14.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J009",
     "jobName": "Thermal Study",
     "ticketID": "003",
-    "taskID": "105",
+    "taskID": "106",
     "userID": "U10",
     "projectName": "Metro Substation",
-    "startDate": "2026-09-28",
+    "startDate": "2026-03-29",
     "endDate": "2026-09-30",
-    "realStartDate": "2026-09-29",
-    "realEndDate": "2026-10-01",
-    "realExecutionTime": 20,
+    "realStartDate": "2026-03-30",
+    "realEndDate": "2026-04-01",
+    "realExecutionTime": 48.0,
     "predecesorJob": "J008",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0032",
+    "plannedExecutionTime": 7.0,
+    "predecessorJobID": "J008"
    },
    {
     "jobID": "J010",
     "jobName": "Uprating Report",
     "ticketID": "003",
-    "taskID": "106",
+    "taskID": "122",
     "userID": "U17",
     "projectName": "Metro Substation",
     "startDate": "2026-10-05",
@@ -3162,30 +3237,36 @@
     "realEndDate": null,
     "realExecutionTime": null,
     "predecesorJob": "J009",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Queued"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Queued",
+    "projectID": "0032",
+    "plannedExecutionTime": 9.0,
+    "predecessorJobID": "J009"
    },
    {
     "jobID": "J011",
     "jobName": "Requirement Capture",
     "ticketID": "004",
-    "taskID": "107",
+    "taskID": "120",
     "userID": "U18",
     "projectName": "SP Rewind",
-    "startDate": "2026-09-28",
+    "startDate": "2026-03-29",
     "endDate": "2026-09-29",
-    "realStartDate": "2026-09-29",
-    "realEndDate": "2026-09-30",
-    "realExecutionTime": 11,
+    "realStartDate": "2026-03-30",
+    "realEndDate": "2026-03-31",
+    "realExecutionTime": 24.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J012",
     "jobName": "Electrical Sizing",
     "ticketID": "004",
-    "taskID": "108",
+    "taskID": "121",
     "userID": "U04",
     "projectName": "SP Rewind",
     "startDate": "2026-10-05",
@@ -3194,46 +3275,55 @@
     "realEndDate": null,
     "realExecutionTime": null,
     "predecesorJob": "J011",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Queued"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Queued",
+    "projectID": "0033",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": "J011"
    },
    {
     "jobID": "J013",
     "jobName": "Offer Costing",
     "ticketID": "004",
-    "taskID": "109",
+    "taskID": "128",
     "userID": "U07",
     "projectName": "SP Rewind",
-    "startDate": "2026-10-12",
+    "startDate": "2026-04-12",
     "endDate": "2026-10-13",
-    "realStartDate": "2026-10-13",
-    "realEndDate": "2026-10-14",
-    "realExecutionTime": 7,
+    "realStartDate": "2026-04-13",
+    "realEndDate": "2026-04-14",
+    "realExecutionTime": 24.0,
     "predecesorJob": "J012",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": "J012"
    },
    {
     "jobID": "J014",
     "jobName": "Mechanical Sizing",
     "ticketID": "004",
-    "taskID": "110",
+    "taskID": "129",
     "userID": "U15",
     "projectName": "SP Rewind",
     "startDate": "2026-10-19",
     "endDate": "2026-10-21",
     "realStartDate": "2026-10-20",
-    "realEndDate": "2026-10-23",
+    "realEndDate": null,
     "realExecutionTime": 23,
     "predecesorJob": "J013",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0033",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J013"
    },
    {
     "jobID": "J015",
     "jobName": "Electrical Design",
     "ticketID": "005",
-    "taskID": "111",
+    "taskID": "113",
     "userID": "U01",
     "projectName": "SP Rewind",
     "startDate": "2026-10-05",
@@ -3243,93 +3333,111 @@
     "realExecutionTime": null,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Queued"
+    "jobStatus": "Queued",
+    "projectID": "0033",
+    "plannedExecutionTime": 12.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J016",
     "jobName": "Mechanical Layout",
     "ticketID": "005",
-    "taskID": "112",
+    "taskID": "125",
     "userID": "U05",
     "projectName": "SP Rewind",
-    "startDate": "2026-10-12",
+    "startDate": "2026-04-12",
     "endDate": "2026-10-14",
-    "realStartDate": "2026-10-13",
-    "realEndDate": "2026-10-15",
-    "realExecutionTime": 17,
+    "realStartDate": "2026-04-13",
+    "realEndDate": "2026-04-15",
+    "realExecutionTime": 48.0,
     "predecesorJob": "J015",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 20.0,
+    "predecessorJobID": "J015"
    },
    {
     "jobID": "J017",
     "jobName": "Design Documentation",
     "ticketID": "005",
-    "taskID": "113",
+    "taskID": "126",
     "userID": "U16",
     "projectName": "SP Rewind",
     "startDate": "2026-10-19",
     "endDate": "2026-10-21",
     "realStartDate": "2026-10-20",
-    "realEndDate": "2026-10-22",
+    "realEndDate": null,
     "realExecutionTime": 20,
     "predecesorJob": "J016",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0033",
+    "plannedExecutionTime": 18.0,
+    "predecessorJobID": "J016"
    },
    {
     "jobID": "J018",
     "jobName": "Peer Review",
     "ticketID": "006",
-    "taskID": "114",
+    "taskID": "115",
     "userID": "U08",
     "projectName": "SP Rewind",
-    "startDate": "2026-10-12",
+    "startDate": "2026-04-12",
     "endDate": "2026-10-13",
-    "realStartDate": "2026-10-13",
-    "realEndDate": "2026-10-14",
-    "realExecutionTime": 5,
+    "realStartDate": "2026-04-13",
+    "realEndDate": "2026-04-14",
+    "realExecutionTime": 24.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0033",
+    "plannedExecutionTime": 4.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J019",
     "jobName": "Compliance Check",
     "ticketID": "006",
-    "taskID": "115",
+    "taskID": "114",
     "userID": "U23",
     "projectName": "SP Rewind",
     "startDate": "2026-10-19",
     "endDate": "2026-10-20",
     "realStartDate": "2026-10-20",
-    "realEndDate": "2026-10-22",
+    "realEndDate": null,
     "realExecutionTime": 12,
     "predecesorJob": "J018",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0033",
+    "plannedExecutionTime": 6.0,
+    "predecessorJobID": "J018"
    },
    {
     "jobID": "J020",
     "jobName": "Root Cause Analysis",
     "ticketID": "007",
-    "taskID": "116",
+    "taskID": "133",
     "userID": "U10",
     "projectName": "SH Failure Fix",
     "startDate": "2026-10-19",
     "endDate": "2026-10-21",
     "realStartDate": "2026-10-20",
-    "realEndDate": "2026-10-23",
+    "realEndDate": null,
     "realExecutionTime": 24,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Active"
+    "jobStatus": "Active",
+    "projectID": "0035",
+    "plannedExecutionTime": 10.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J021",
     "jobName": "Corrective Proposal",
     "ticketID": "007",
-    "taskID": "117",
+    "taskID": "116",
     "userID": "U17",
     "projectName": "SH Failure Fix",
     "startDate": "2026-10-26",
@@ -3338,14 +3446,18 @@
     "realEndDate": "2026-10-29",
     "realExecutionTime": 12,
     "predecesorJob": "J020",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Stoped"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Stoped",
+    "projectID": "0035",
+    "plannedExecutionTime": 16.0,
+    "predecessorJobID": "J020",
+    "stoppedAt": "2026-10-27T01:00:00"
    },
    {
     "jobID": "J022",
     "jobName": "Requirement Capture",
     "ticketID": "008",
-    "taskID": "118",
+    "taskID": "108",
     "userID": "U14",
     "projectName": "MX Distribution",
     "startDate": "2026-10-26",
@@ -3355,247 +3467,296 @@
     "realExecutionTime": 7,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Stoped"
+    "jobStatus": "Stoped",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": null,
+    "stoppedAt": "2026-10-27T01:00:00"
    },
    {
     "jobID": "J023",
     "jobName": "Electrical Sizing",
     "ticketID": "008",
-    "taskID": "119",
+    "taskID": "109",
     "userID": "U04",
     "projectName": "MX Distribution",
-    "startDate": "2026-11-02",
+    "startDate": "2026-05-03",
     "endDate": "2026-11-03",
-    "realStartDate": "2026-11-03",
-    "realEndDate": "2026-11-04",
-    "realExecutionTime": 5,
+    "realStartDate": "2026-05-04",
+    "realEndDate": "2026-05-05",
+    "realExecutionTime": 24.0,
     "predecesorJob": "J022",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J022"
    },
    {
     "jobID": "J024",
     "jobName": "Offer Costing",
     "ticketID": "008",
-    "taskID": "120",
+    "taskID": "110",
     "userID": "U07",
     "projectName": "MX Distribution",
     "startDate": "2026-11-09",
     "endDate": "2026-11-10",
     "realStartDate": "2026-11-10",
-    "realEndDate": "2026-11-12",
+    "realEndDate": null,
     "realExecutionTime": 12,
     "predecesorJob": "J023",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0034",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": "J023"
    },
    {
     "jobID": "J025",
     "jobName": "Mechanical Sizing",
     "ticketID": "008",
-    "taskID": "121",
+    "taskID": "118",
     "userID": "U15",
     "projectName": "MX Distribution",
-    "startDate": "2026-09-07",
+    "startDate": "2026-03-08",
     "endDate": "2026-09-09",
-    "realStartDate": "2026-09-08",
-    "realEndDate": "2026-09-10",
-    "realExecutionTime": 15,
+    "realStartDate": "2026-03-09",
+    "realEndDate": "2026-03-11",
+    "realExecutionTime": 48.0,
     "predecesorJob": "J024",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": "J024"
    },
    {
     "jobID": "J026",
     "jobName": "Load Assessment",
     "ticketID": "009",
-    "taskID": "122",
+    "taskID": "105",
     "userID": "U22",
     "projectName": "APAC Uprating Study",
-    "startDate": "2026-11-02",
+    "startDate": "2026-05-03",
     "endDate": "2026-11-03",
-    "realStartDate": "2026-11-03",
-    "realEndDate": "2026-11-04",
-    "realExecutionTime": 6,
+    "realStartDate": "2026-05-04",
+    "realEndDate": "2026-05-05",
+    "realExecutionTime": 24.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0037",
+    "plannedExecutionTime": 14.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J027",
     "jobName": "Thermal Study",
     "ticketID": "009",
-    "taskID": "123",
+    "taskID": "106",
     "userID": "U10",
     "projectName": "APAC Uprating Study",
     "startDate": "2026-11-09",
     "endDate": "2026-11-11",
     "realStartDate": "2026-11-10",
-    "realEndDate": "2026-11-12",
+    "realEndDate": null,
     "realExecutionTime": 18,
     "predecesorJob": "J026",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0037",
+    "plannedExecutionTime": 7.0,
+    "predecessorJobID": "J026"
    },
    {
     "jobID": "J028",
     "jobName": "Uprating Report",
     "ticketID": "009",
-    "taskID": "124",
+    "taskID": "122",
     "userID": "U17",
     "projectName": "APAC Uprating Study",
-    "startDate": "2026-09-07",
+    "startDate": "2026-03-08",
     "endDate": "2026-09-08",
-    "realStartDate": "2026-09-08",
-    "realEndDate": "2026-09-09",
-    "realExecutionTime": 7,
+    "realStartDate": "2026-03-09",
+    "realEndDate": "2026-03-10",
+    "realExecutionTime": 24.0,
     "predecesorJob": "J027",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0037",
+    "plannedExecutionTime": 9.0,
+    "predecessorJobID": "J027"
    },
    {
     "jobID": "J029",
     "jobName": "Electrical Design",
     "ticketID": "010",
-    "taskID": "125",
+    "taskID": "102",
     "userID": "U13",
     "projectName": "DR Cooling Upgrade",
     "startDate": "2026-11-09",
     "endDate": "2026-11-11",
     "realStartDate": "2026-11-10",
-    "realEndDate": "2026-11-13",
+    "realEndDate": null,
     "realExecutionTime": 24,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Active"
+    "jobStatus": "Active",
+    "projectID": "0036",
+    "plannedExecutionTime": 18.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J030",
     "jobName": "Mechanical Layout",
     "ticketID": "010",
-    "taskID": "126",
+    "taskID": "103",
     "userID": "U15",
     "projectName": "DR Cooling Upgrade",
-    "startDate": "2026-09-07",
+    "startDate": "2026-03-08",
     "endDate": "2026-09-09",
-    "realStartDate": "2026-09-08",
-    "realEndDate": "2026-09-10",
-    "realExecutionTime": 18,
+    "realStartDate": "2026-03-09",
+    "realEndDate": "2026-03-11",
+    "realExecutionTime": 48.0,
     "predecesorJob": "J029",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0036",
+    "plannedExecutionTime": 12.0,
+    "predecessorJobID": "J029"
    },
    {
     "jobID": "J031",
     "jobName": "Design Documentation",
     "ticketID": "010",
-    "taskID": "127",
+    "taskID": "111",
     "userID": "U20",
     "projectName": "DR Cooling Upgrade",
-    "startDate": "2026-09-14",
+    "startDate": "2026-03-15",
     "endDate": "2026-09-16",
-    "realStartDate": "2026-09-15",
-    "realEndDate": "2026-09-17",
-    "realExecutionTime": 15,
+    "realStartDate": "2026-03-16",
+    "realEndDate": "2026-03-18",
+    "realExecutionTime": 48.0,
     "predecesorJob": "J030",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0036",
+    "plannedExecutionTime": 20.0,
+    "predecessorJobID": "J030"
    },
    {
     "jobID": "J032",
     "jobName": "Requirement Capture",
     "ticketID": "011",
-    "taskID": "128",
+    "taskID": "131",
     "userID": "U02",
     "projectName": "MX Distribution",
-    "startDate": "2026-09-07",
+    "startDate": "2026-03-08",
     "endDate": "2026-09-08",
-    "realStartDate": "2026-09-08",
-    "realEndDate": "2026-09-09",
-    "realExecutionTime": 5,
+    "realStartDate": "2026-03-09",
+    "realEndDate": "2026-03-10",
+    "realExecutionTime": 24.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 15.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J033",
     "jobName": "Electrical Sizing",
     "ticketID": "011",
-    "taskID": "129",
+    "taskID": "012",
     "userID": "U19",
     "projectName": "MX Distribution",
-    "startDate": "2026-09-14",
+    "startDate": "2026-03-15",
     "endDate": "2026-09-15",
-    "realStartDate": "2026-09-15",
-    "realEndDate": "2026-09-16",
-    "realExecutionTime": 11,
+    "realStartDate": "2026-03-16",
+    "realEndDate": "2026-03-17",
+    "realExecutionTime": 24.0,
     "predecesorJob": "J032",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 5.0,
+    "predecessorJobID": "J032"
    },
    {
     "jobID": "J034",
     "jobName": "Offer Costing",
     "ticketID": "011",
-    "taskID": "130",
+    "taskID": "032",
     "userID": "U06",
     "projectName": "MX Distribution",
     "startDate": "2026-09-21",
     "endDate": "2026-09-22",
     "realStartDate": "2026-09-22",
-    "realEndDate": "2026-09-23",
+    "realEndDate": null,
     "realExecutionTime": 6,
     "predecesorJob": "J033",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J033"
    },
    {
     "jobID": "J035",
     "jobName": "Mechanical Sizing",
     "ticketID": "011",
-    "taskID": "131",
+    "taskID": "033",
     "userID": "U05",
     "projectName": "MX Distribution",
-    "startDate": "2026-09-28",
+    "startDate": "2026-03-29",
     "endDate": "2026-09-30",
-    "realStartDate": "2026-09-29",
-    "realEndDate": "2026-10-02",
-    "realExecutionTime": 21,
+    "realStartDate": "2026-03-30",
+    "realEndDate": "2026-04-02",
+    "realExecutionTime": 72.0,
     "predecesorJob": "J034",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Done"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Done",
+    "projectID": "0034",
+    "plannedExecutionTime": 8.0,
+    "predecessorJobID": "J034"
    },
    {
     "jobID": "J036",
     "jobName": "Root Cause Analysis",
     "ticketID": "012",
-    "taskID": "132",
+    "taskID": "133",
     "userID": "U10",
     "projectName": "SH Failure Fix",
-    "startDate": "2026-09-14",
+    "startDate": "2026-03-15",
     "endDate": "2026-09-16",
-    "realStartDate": "2026-09-15",
-    "realEndDate": "2026-09-17",
-    "realExecutionTime": 19,
+    "realStartDate": "2026-03-16",
+    "realEndDate": "2026-03-18",
+    "realExecutionTime": 48.0,
     "predecesorJob": null,
     "dependencyType": null,
-    "jobStatus": "Done"
+    "jobStatus": "Done",
+    "projectID": "0035",
+    "plannedExecutionTime": 10.0,
+    "predecessorJobID": null
    },
    {
     "jobID": "J037",
     "jobName": "Corrective Proposal",
     "ticketID": "012",
-    "taskID": "133",
+    "taskID": "116",
     "userID": "U09",
     "projectName": "SH Failure Fix",
     "startDate": "2026-09-21",
     "endDate": "2026-09-22",
     "realStartDate": "2026-09-22",
-    "realEndDate": "2026-09-23",
+    "realEndDate": null,
     "realExecutionTime": 8,
     "predecesorJob": "J036",
-    "dependencyType": "Finish-to-Start",
-    "jobStatus": "Active"
+    "dependencyType": "finish-to-start",
+    "jobStatus": "Active",
+    "projectID": "0035",
+    "plannedExecutionTime": 16.0,
+    "predecessorJobID": "J036"
    }
   ]
  },
