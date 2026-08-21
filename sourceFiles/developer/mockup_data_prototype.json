@@ -344,7 +344,9 @@
     "status": "Approved",
     "createdBy": "U11",
     "createdAt": "2025-12-01T09:00:00",
-    "slaID": "SLA01"
+    "slaID": "SLA01",
+    "totalEstimatedHours": 354.0,
+    "weeklyUsageQuota": 88
    },
    {
     "forecastID": "FO2",
@@ -358,7 +360,9 @@
     "status": "Submitted",
     "createdBy": "U11",
     "createdAt": "2026-08-15T10:00:00",
-    "slaID": "SLA01"
+    "slaID": "SLA01",
+    "totalEstimatedHours": 498.0,
+    "weeklyUsageQuota": 124
    },
    {
     "forecastID": "FO3",
@@ -372,7 +376,9 @@
     "status": "Approved",
     "createdBy": "U11",
     "createdAt": "2026-06-10T09:30:00",
-    "slaID": "SLA03"
+    "slaID": "SLA03",
+    "totalEstimatedHours": 356.0,
+    "weeklyUsageQuota": 89
    },
    {
     "forecastID": "FO4",
@@ -386,7 +392,9 @@
     "status": "Draft",
     "createdBy": "U11",
     "createdAt": "2026-09-20T08:00:00",
-    "slaID": "SLA05"
+    "slaID": "SLA05",
+    "totalEstimatedHours": 112.0,
+    "weeklyUsageQuota": 28
    },
    {
     "forecastID": "FO5",
@@ -400,7 +408,9 @@
     "status": "Draft",
     "createdBy": "U11",
     "createdAt": "2026-11-05T09:00:00",
-    "slaID": "SLA04"
+    "slaID": "SLA04",
+    "totalEstimatedHours": 438.0,
+    "weeklyUsageQuota": 110
    },
    {
     "forecastID": "FO6",
@@ -414,7 +424,9 @@
     "status": "Submitted",
     "createdBy": "U11",
     "createdAt": "2026-09-25T11:00:00",
-    "slaID": "SLA02"
+    "slaID": "SLA02",
+    "totalEstimatedHours": 202.0,
+    "weeklyUsageQuota": 50
    }
   ],
   "Forecast Scopes": [
@@ -423,126 +435,162 @@
     "forecastID": "FO2",
     "productScopeID": "PS01",
     "eventID": "E1",
-    "notes": "Offer calc capacity (scenario)"
+    "notes": "Offer calc capacity (scenario)",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS02",
     "forecastID": "FO2",
     "productScopeID": "PS01",
     "eventID": "E2",
-    "notes": "Design package demand"
+    "notes": "Design package demand",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS03",
     "forecastID": "FO2",
     "productScopeID": "PS02",
     "eventID": "E5",
-    "notes": "Uprating study"
+    "notes": "Uprating study",
+    "functionID": null,
+    "estimatedHours": 60.0
    },
    {
     "forecastScopeID": "FS04",
     "forecastID": "FO1",
     "productScopeID": "PS01",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS05",
     "forecastID": "FO1",
     "productScopeID": "PS02",
     "eventID": "E5",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 60.0
    },
    {
     "forecastScopeID": "FS06",
     "forecastID": "FO3",
     "productScopeID": "PS04",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS07",
     "forecastID": "FO3",
     "productScopeID": "PS04",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS08",
     "forecastID": "FO3",
     "productScopeID": "PS04",
     "eventID": "E3",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 10.0
    },
    {
     "forecastScopeID": "FS09",
     "forecastID": "FO4",
     "productScopeID": "PS06",
     "eventID": "E4",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 52.0
    },
    {
     "forecastScopeID": "FS10",
     "forecastID": "FO4",
     "productScopeID": "PS05",
     "eventID": "E5",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 60.0
    },
    {
     "forecastScopeID": "FS11",
     "forecastID": "FO5",
     "productScopeID": "PS07",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS12",
     "forecastID": "FO5",
     "productScopeID": "PS08",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS13",
     "forecastID": "FO6",
     "productScopeID": "PS03",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS14",
     "forecastID": "FO6",
     "productScopeID": "PS09",
     "eventID": "E4",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 52.0
    },
    {
     "forecastScopeID": "FS15",
     "forecastID": "FO2",
     "productScopeID": "PS04",
     "eventID": "E1",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 144.0
    },
    {
     "forecastScopeID": "FS16",
     "forecastID": "FO3",
     "productScopeID": "PS06",
     "eventID": "E4",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 52.0
    },
    {
     "forecastScopeID": "FS17",
     "forecastID": "FO1",
     "productScopeID": "PS03",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    },
    {
     "forecastScopeID": "FS18",
     "forecastID": "FO5",
     "productScopeID": "PS08",
     "eventID": "E2",
-    "notes": ""
+    "notes": "",
+    "functionID": null,
+    "estimatedHours": 150.0
    }
   ],
   "SLA": [
