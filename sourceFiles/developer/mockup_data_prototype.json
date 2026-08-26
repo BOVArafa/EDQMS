@@ -1694,7 +1694,8 @@
     "createdAt": "2026-04-01",
     "channelID": "CH1",
     "type": "data",
-    "templateTitle": "Req Spec Template"
+    "templateTitle": "Req Spec Template",
+    "customerFlag": true
    },
    {
     "handoutID": "HO02",
@@ -1703,7 +1704,8 @@
     "createdAt": "2026-04-02",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Datasheet Template"
+    "templateTitle": "Datasheet Template",
+    "customerFlag": true
    },
    {
     "handoutID": "HO03",
@@ -1712,7 +1714,8 @@
     "createdAt": "2026-04-03",
     "channelID": "CH2",
     "type": "file",
-    "templateTitle": "Offer Template"
+    "templateTitle": "Offer Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO04",
@@ -1721,7 +1724,8 @@
     "createdAt": "2026-04-04",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Drawing Template"
+    "templateTitle": "Drawing Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO05",
@@ -1730,7 +1734,8 @@
     "createdAt": "2026-04-05",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Layout Template"
+    "templateTitle": "Layout Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO06",
@@ -1739,7 +1744,8 @@
     "createdAt": "2026-04-06",
     "channelID": "CH3",
     "type": "file",
-    "templateTitle": "Review Template"
+    "templateTitle": "Review Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO07",
@@ -1748,7 +1754,8 @@
     "createdAt": "2026-04-07",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Cert Template"
+    "templateTitle": "Cert Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO08",
@@ -1757,7 +1764,8 @@
     "createdAt": "2026-04-08",
     "channelID": "CH3",
     "type": "file",
-    "templateTitle": "RCA Template"
+    "templateTitle": "RCA Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO09",
@@ -1766,7 +1774,8 @@
     "createdAt": "2026-04-09",
     "channelID": "CH1",
     "type": "data",
-    "templateTitle": "CAP Template"
+    "templateTitle": "CAP Template",
+    "customerFlag": false
    },
    {
     "handoutID": "HO10",
@@ -1775,7 +1784,8 @@
     "createdAt": "2026-04-10",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Thermal Template"
+    "templateTitle": "Thermal Template",
+    "customerFlag": false
    }
   ],
   "Channels": [
