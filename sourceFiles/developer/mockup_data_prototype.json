@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 64
+  "schemaVersion": 65
  },
  "Organization": {
   "Business Segments": [
@@ -4316,40 +4316,46 @@
     "functionName": "Electrical Design",
     "businessUnitID": [
      "BU01"
-    ]
+    ],
+    "jobFamilyID": "G1"
    },
    {
     "functionID": "F2",
     "functionName": "Mechanical Design",
     "businessUnitID": [
      "BU01"
-    ]
+    ],
+    "jobFamilyID": "G2"
    },
    {
     "functionID": "F3",
     "functionName": "Analysis",
     "businessUnitID": [
      "BU01"
-    ]
+    ],
+    "jobFamilyID": "G3"
    },
    {
     "functionID": "F4",
     "functionName": "Planning",
     "businessUnitID": [
      "BU01"
-    ]
+    ],
+    "jobFamilyID": "G3"
    },
    {
     "functionID": "F5",
     "functionName": "Quality",
     "businessUnitID": [
      "BU01"
-    ]
+    ],
+    "jobFamilyID": "G1"
    },
    {
     "functionID": "F6",
     "functionName": "Manager",
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "jobFamilyID": null
    }
   ],
   "Competence": [
@@ -4502,8 +4508,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U02",
@@ -4520,8 +4525,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U03",
@@ -4538,8 +4542,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U04",
@@ -4556,8 +4559,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U05",
@@ -4574,8 +4576,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U06",
@@ -4592,8 +4593,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U07",
@@ -4610,8 +4610,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U08",
@@ -4628,8 +4627,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U09",
@@ -4646,8 +4644,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U10",
@@ -4664,8 +4661,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U11",
@@ -4682,8 +4678,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U12",
@@ -4700,8 +4695,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U13",
@@ -4718,8 +4712,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U14",
@@ -4736,8 +4729,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U15",
@@ -4754,8 +4746,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U16",
@@ -4772,8 +4763,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U17",
@@ -4790,8 +4780,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U18",
@@ -4808,8 +4797,7 @@
     "regionID": "RG01",
     "branchID": "BR3",
     "countryName": "Brazil",
-    "cityName": "Sao Paulo",
-    "jobFamilyID": null
+    "cityName": "Sao Paulo"
    },
    {
     "userID": "U19",
@@ -4826,8 +4814,7 @@
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai",
-    "jobFamilyID": null
+    "cityName": "Shanghai"
    },
    {
     "userID": "U20",
@@ -4844,8 +4831,7 @@
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai",
-    "jobFamilyID": null
+    "cityName": "Shanghai"
    },
    {
     "userID": "U21",
@@ -4862,8 +4848,7 @@
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai",
-    "jobFamilyID": null
+    "cityName": "Shanghai"
    },
    {
     "userID": "U22",
@@ -4880,8 +4865,7 @@
     "regionID": "RG02",
     "branchID": "BR5",
     "countryName": "China",
-    "cityName": "Shanghai",
-    "jobFamilyID": null
+    "cityName": "Shanghai"
    },
    {
     "userID": "U23",
@@ -4898,8 +4882,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    },
    {
     "userID": "U24",
@@ -4916,8 +4899,7 @@
     "regionID": "RG03",
     "branchID": "BR1",
     "countryName": "Germany",
-    "cityName": "Nuremberg",
-    "jobFamilyID": null
+    "cityName": "Nuremberg"
    }
   ],
   "Onboarding": [
