@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 61
+  "schemaVersion": 62
  },
  "Organization": {
   "Business Segments": [
@@ -2466,8 +2466,7 @@
     "scopeID": "SC1",
     "isActive": true,
     "createdAt": "2026-01-10",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS02",
@@ -2475,8 +2474,7 @@
     "scopeID": "SC3",
     "isActive": true,
     "createdAt": "2026-01-12",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS03",
@@ -2484,8 +2482,7 @@
     "scopeID": "SC2",
     "isActive": true,
     "createdAt": "2026-01-15",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS04",
@@ -2493,8 +2490,7 @@
     "scopeID": "SC1",
     "isActive": true,
     "createdAt": "2026-02-01",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS05",
@@ -2502,8 +2498,7 @@
     "scopeID": "SC4",
     "isActive": true,
     "createdAt": "2026-02-05",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS06",
@@ -2511,8 +2506,7 @@
     "scopeID": "SC5",
     "isActive": true,
     "createdAt": "2026-02-10",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS07",
@@ -2520,8 +2514,7 @@
     "scopeID": "SC1",
     "isActive": true,
     "createdAt": "2026-03-01",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS08",
@@ -2529,8 +2522,7 @@
     "scopeID": "SC2",
     "isActive": true,
     "createdAt": "2026-03-04",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS09",
@@ -2538,8 +2530,7 @@
     "scopeID": "SC3",
     "isActive": true,
     "createdAt": "2026-03-08",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    },
    {
     "productScopeID": "PS10",
@@ -2547,8 +2538,7 @@
     "scopeID": "SC1",
     "isActive": true,
     "createdAt": "2026-03-12",
-    "businessUnitID": null,
-    "requirementID": []
+    "businessUnitID": null
    }
   ],
   "Scopes": [
@@ -5627,7 +5617,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ2",
@@ -5641,7 +5632,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ3",
@@ -5655,7 +5647,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ4",
@@ -5669,7 +5662,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ5",
@@ -5683,7 +5677,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ6",
@@ -5697,7 +5692,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ7",
@@ -5711,7 +5707,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "RQ8",
@@ -5725,7 +5722,8 @@
     "businessUnitID": [],
     "regulatoryURL": null,
     "branchID": [],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    },
    {
     "requirementID": "CN9",
@@ -5747,7 +5745,8 @@
     "branchID": [
      "BR1"
     ],
-    "customerID": null
+    "customerID": null,
+    "productScopeID": []
    }
   ],
   "actionApplication": [
