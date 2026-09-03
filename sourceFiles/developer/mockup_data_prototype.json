@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 65
+  "schemaVersion": 66
  },
  "Organization": {
   "Business Segments": [
@@ -682,7 +682,8 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01"
+    "parentStepID": "WF01",
+    "predecessorTask": null
    },
    {
     "taskID": "032",
@@ -698,7 +699,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02"
+    "parentStepID": "WF02",
+    "predecessorTask": "012"
    },
    {
     "taskID": "033",
@@ -711,7 +713,8 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03"
+    "parentStepID": "WF03",
+    "predecessorTask": "032"
    },
    {
     "taskID": "045",
@@ -726,7 +729,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04"
+    "parentStepID": "WF04",
+    "predecessorTask": "033"
    },
    {
     "taskID": "101",
@@ -742,7 +746,8 @@
     ],
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
-    "parentStepID": "WF05"
+    "parentStepID": "WF05",
+    "predecessorTask": null
    },
    {
     "taskID": "102",
@@ -758,7 +763,8 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
-    "parentStepID": "WF06"
+    "parentStepID": "WF06",
+    "predecessorTask": "101"
    },
    {
     "taskID": "103",
@@ -771,7 +777,8 @@
     "constrainIDs": [],
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
-    "parentStepID": "WF07"
+    "parentStepID": "WF07",
+    "predecessorTask": "102"
    },
    {
     "taskID": "104",
@@ -786,7 +793,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO10",
-    "parentStepID": "WF12"
+    "parentStepID": "WF12",
+    "predecessorTask": null
    },
    {
     "taskID": "105",
@@ -801,7 +809,8 @@
     ],
     "taskInputID": "HO10",
     "taskOutputID": "HO10",
-    "parentStepID": "WF13"
+    "parentStepID": "WF13",
+    "predecessorTask": "104"
    },
    {
     "taskID": "106",
@@ -814,7 +823,8 @@
     "constrainIDs": [],
     "taskInputID": "HO10",
     "taskOutputID": "HO03",
-    "parentStepID": "WF14"
+    "parentStepID": "WF14",
+    "predecessorTask": "105"
    },
    {
     "taskID": "107",
@@ -827,7 +837,8 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01"
+    "parentStepID": "WF01",
+    "predecessorTask": "045"
    },
    {
     "taskID": "108",
@@ -843,7 +854,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02"
+    "parentStepID": "WF02",
+    "predecessorTask": "107"
    },
    {
     "taskID": "109",
@@ -856,7 +868,8 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03"
+    "parentStepID": "WF03",
+    "predecessorTask": "108"
    },
    {
     "taskID": "110",
@@ -871,7 +884,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04"
+    "parentStepID": "WF04",
+    "predecessorTask": "109"
    },
    {
     "taskID": "111",
@@ -887,7 +901,8 @@
     ],
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
-    "parentStepID": "WF05"
+    "parentStepID": "WF05",
+    "predecessorTask": "103"
    },
    {
     "taskID": "112",
@@ -903,7 +918,8 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
-    "parentStepID": "WF06"
+    "parentStepID": "WF06",
+    "predecessorTask": "111"
    },
    {
     "taskID": "113",
@@ -916,7 +932,8 @@
     "constrainIDs": [],
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
-    "parentStepID": "WF07"
+    "parentStepID": "WF07",
+    "predecessorTask": "112"
    },
    {
     "taskID": "114",
@@ -931,7 +948,8 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO06",
-    "parentStepID": "WF08"
+    "parentStepID": "WF08",
+    "predecessorTask": null
    },
    {
     "taskID": "115",
@@ -947,7 +965,8 @@
     ],
     "taskInputID": "HO06",
     "taskOutputID": "HO07",
-    "parentStepID": "WF09"
+    "parentStepID": "WF09",
+    "predecessorTask": "114"
    },
    {
     "taskID": "116",
@@ -960,7 +979,8 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO08",
-    "parentStepID": "WF10"
+    "parentStepID": "WF10",
+    "predecessorTask": null
    },
    {
     "taskID": "117",
@@ -973,7 +993,8 @@
     "constrainIDs": [],
     "taskInputID": "HO08",
     "taskOutputID": "HO09",
-    "parentStepID": "WF11"
+    "parentStepID": "WF11",
+    "predecessorTask": "116"
    },
    {
     "taskID": "118",
@@ -986,7 +1007,8 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01"
+    "parentStepID": "WF01",
+    "predecessorTask": "110"
    },
    {
     "taskID": "119",
@@ -1002,7 +1024,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02"
+    "parentStepID": "WF02",
+    "predecessorTask": "118"
    },
    {
     "taskID": "120",
@@ -1015,7 +1038,8 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03"
+    "parentStepID": "WF03",
+    "predecessorTask": "119"
    },
    {
     "taskID": "121",
@@ -1030,7 +1054,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04"
+    "parentStepID": "WF04",
+    "predecessorTask": "120"
    },
    {
     "taskID": "122",
@@ -1045,7 +1070,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO10",
-    "parentStepID": "WF12"
+    "parentStepID": "WF12",
+    "predecessorTask": "106"
    },
    {
     "taskID": "123",
@@ -1060,7 +1086,8 @@
     ],
     "taskInputID": "HO10",
     "taskOutputID": "HO10",
-    "parentStepID": "WF13"
+    "parentStepID": "WF13",
+    "predecessorTask": "122"
    },
    {
     "taskID": "124",
@@ -1073,7 +1100,8 @@
     "constrainIDs": [],
     "taskInputID": "HO10",
     "taskOutputID": "HO03",
-    "parentStepID": "WF14"
+    "parentStepID": "WF14",
+    "predecessorTask": "123"
    },
    {
     "taskID": "125",
@@ -1089,7 +1117,8 @@
     ],
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
-    "parentStepID": "WF05"
+    "parentStepID": "WF05",
+    "predecessorTask": "113"
    },
    {
     "taskID": "126",
@@ -1105,7 +1134,8 @@
     ],
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
-    "parentStepID": "WF06"
+    "parentStepID": "WF06",
+    "predecessorTask": "125"
    },
    {
     "taskID": "127",
@@ -1118,7 +1148,8 @@
     "constrainIDs": [],
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
-    "parentStepID": "WF07"
+    "parentStepID": "WF07",
+    "predecessorTask": "126"
    },
    {
     "taskID": "128",
@@ -1131,7 +1162,8 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
-    "parentStepID": "WF01"
+    "parentStepID": "WF01",
+    "predecessorTask": "121"
    },
    {
     "taskID": "129",
@@ -1147,7 +1179,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
-    "parentStepID": "WF02"
+    "parentStepID": "WF02",
+    "predecessorTask": "128"
    },
    {
     "taskID": "130",
@@ -1160,7 +1193,8 @@
     "constrainIDs": [],
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
-    "parentStepID": "WF03"
+    "parentStepID": "WF03",
+    "predecessorTask": "129"
    },
    {
     "taskID": "131",
@@ -1175,7 +1209,8 @@
     ],
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
-    "parentStepID": "WF04"
+    "parentStepID": "WF04",
+    "predecessorTask": "130"
    },
    {
     "taskID": "132",
@@ -1188,7 +1223,8 @@
     "constrainIDs": [],
     "taskInputID": "HO01",
     "taskOutputID": "HO08",
-    "parentStepID": "WF10"
+    "parentStepID": "WF10",
+    "predecessorTask": "117"
    },
    {
     "taskID": "133",
@@ -1201,7 +1237,8 @@
     "constrainIDs": [],
     "taskInputID": "HO08",
     "taskOutputID": "HO09",
-    "parentStepID": "WF11"
+    "parentStepID": "WF11",
+    "predecessorTask": "132"
    }
   ],
   "Processes": [
@@ -1828,7 +1865,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 5,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC02",
@@ -1842,7 +1880,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC03",
@@ -1856,7 +1895,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC04",
@@ -1870,7 +1910,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 15,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC05",
@@ -1884,7 +1925,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 20,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC06",
@@ -1898,7 +1940,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 18,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC07",
@@ -1912,7 +1955,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 12,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC08",
@@ -1926,7 +1970,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 9,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC09",
@@ -1940,7 +1985,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 14,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC10",
@@ -1954,7 +2000,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 7,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC11",
@@ -1968,7 +2015,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 5,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC12",
@@ -1982,7 +2030,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC13",
@@ -1996,7 +2045,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC14",
@@ -2010,7 +2060,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 15,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC15",
@@ -2024,7 +2075,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 20,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC16",
@@ -2038,7 +2090,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 18,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC17",
@@ -2052,7 +2105,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 12,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC18",
@@ -2066,7 +2120,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 6,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC19",
@@ -2080,7 +2135,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 4,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC20",
@@ -2094,7 +2150,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 16,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC21",
@@ -2108,7 +2165,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 10,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC22",
@@ -2122,7 +2180,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 5,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC23",
@@ -2136,7 +2195,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC24",
@@ -2150,7 +2210,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC25",
@@ -2164,7 +2225,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 15,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC26",
@@ -2178,7 +2240,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 9,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC27",
@@ -2192,7 +2255,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 14,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC28",
@@ -2206,7 +2270,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 7,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC29",
@@ -2220,7 +2285,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 20,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC30",
@@ -2234,7 +2300,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 18,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC31",
@@ -2248,7 +2315,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 12,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC32",
@@ -2262,7 +2330,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 5,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC33",
@@ -2276,7 +2345,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC34",
@@ -2290,7 +2360,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 8,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC35",
@@ -2304,7 +2375,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 15,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC36",
@@ -2318,7 +2390,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 16,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    },
    {
     "procedureID": "PRC37",
@@ -2332,7 +2405,8 @@
     "taskOutput": [],
     "procedureOwner": null,
     "executionTime": 10,
-    "productScopeID": []
+    "productScopeID": [],
+    "procedureStatus": "Approved"
    }
   ],
   "Payload": [
