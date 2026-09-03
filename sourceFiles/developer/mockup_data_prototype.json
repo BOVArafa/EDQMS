@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 68
+  "schemaVersion": 69
  },
  "Organization": {
   "Business Segments": [
@@ -2853,7 +2853,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": null
+    "supplierID": null,
+    "applicantID": null
    },
    {
     "ticketID": "002",
@@ -2874,7 +2875,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC2"
+    "supplierID": "FC2",
+    "applicantID": "FC2"
    },
    {
     "ticketID": "003",
@@ -2895,7 +2897,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC2"
+    "supplierID": "FC2",
+    "applicantID": "FC2"
    },
    {
     "ticketID": "004",
@@ -2916,7 +2919,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": null
+    "supplierID": null,
+    "applicantID": null
    },
    {
     "ticketID": "005",
@@ -2937,7 +2941,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1"
+    "supplierID": "FC1",
+    "applicantID": "FC1"
    },
    {
     "ticketID": "006",
@@ -2958,7 +2963,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1"
+    "supplierID": "FC1",
+    "applicantID": "FC1"
    },
    {
     "ticketID": "007",
@@ -2979,7 +2985,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": null
+    "supplierID": null,
+    "applicantID": null
    },
    {
     "ticketID": "008",
@@ -3000,7 +3007,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC6"
+    "supplierID": "FC6",
+    "applicantID": "FC6"
    },
    {
     "ticketID": "009",
@@ -3021,7 +3029,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1"
+    "supplierID": "FC1",
+    "applicantID": "FC1"
    },
    {
     "ticketID": "010",
@@ -3042,7 +3051,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": null
+    "supplierID": null,
+    "applicantID": null
    },
    {
     "ticketID": "011",
@@ -3063,7 +3073,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC6"
+    "supplierID": "FC6",
+    "applicantID": "FC6"
    },
    {
     "ticketID": "012",
@@ -3084,7 +3095,8 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1"
+    "supplierID": "FC1",
+    "applicantID": "FC1"
    }
   ],
   "Projects": [
