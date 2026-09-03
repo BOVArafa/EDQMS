@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 67
+  "schemaVersion": 68
  },
  "Organization": {
   "Business Segments": [
@@ -276,7 +276,7 @@
      "BS01",
      "BS02"
     ],
-    "customerType": "Internal Client"
+    "customerType": "Internal"
    },
    {
     "customerID": "FC2",
@@ -287,7 +287,7 @@
      "BS01",
      "BS02"
     ],
-    "customerType": "Internal Client"
+    "customerType": "Internal"
    },
    {
     "customerID": "FC3",
@@ -298,7 +298,7 @@
      "BS01",
      "BS02"
     ],
-    "customerType": "Internal Client"
+    "customerType": "Internal"
    },
    {
     "customerID": "FC4",
@@ -308,7 +308,7 @@
     "businessSegmentID": [
      "BS03"
     ],
-    "customerType": "Internal Client"
+    "customerType": "Internal"
    },
    {
     "customerID": "FC5",
@@ -319,7 +319,7 @@
      "BS01",
      "BS02"
     ],
-    "customerType": "Internal Client"
+    "customerType": "Internal"
    },
    {
     "customerID": "FC6",
@@ -329,7 +329,7 @@
     "businessSegmentID": [
      "BS03"
     ],
-    "customerType": "Internal Client"
+    "customerType": "Internal"
    }
   ],
   "Forecasts": [
@@ -2428,7 +2428,8 @@
      "PS10"
     ],
     "isActive": "Active",
-    "payloadOwner": "U01"
+    "payloadOwner": "U01",
+    "departmentID": null
    },
    {
     "payloadID": "PLD02",
@@ -2448,7 +2449,8 @@
      "PS10"
     ],
     "isActive": "Active",
-    "payloadOwner": "U01"
+    "payloadOwner": "U01",
+    "departmentID": null
    },
    {
     "payloadID": "PLD03",
@@ -2468,7 +2470,8 @@
      "PS10"
     ],
     "isActive": "Active",
-    "payloadOwner": "U01"
+    "payloadOwner": "U01",
+    "departmentID": null
    },
    {
     "payloadID": "PLD04",
@@ -2488,7 +2491,8 @@
      "PS10"
     ],
     "isActive": "Active",
-    "payloadOwner": "U01"
+    "payloadOwner": "U01",
+    "departmentID": null
    },
    {
     "payloadID": "PLD05",
@@ -2508,7 +2512,8 @@
      "PS10"
     ],
     "isActive": "Active",
-    "payloadOwner": "U01"
+    "payloadOwner": "U01",
+    "departmentID": null
    },
    {
     "payloadID": "PLD06",
@@ -2528,7 +2533,8 @@
      "PS10"
     ],
     "isActive": "Active",
-    "payloadOwner": "U01"
+    "payloadOwner": "U01",
+    "departmentID": null
    }
   ]
  },
