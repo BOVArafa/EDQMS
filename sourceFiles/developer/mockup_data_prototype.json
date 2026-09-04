@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 71
+  "schemaVersion": 72
  },
  "Organization": {
   "Business Segments": [
@@ -3107,7 +3107,8 @@
     "projectStatus": "In Progress",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0032",
@@ -3116,7 +3117,8 @@
     "projectStatus": "In Progress",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0033",
@@ -3125,7 +3127,8 @@
     "projectStatus": "Planning",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0034",
@@ -3134,7 +3137,8 @@
     "projectStatus": "In Progress",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0035",
@@ -3143,7 +3147,8 @@
     "projectStatus": "On Hold",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0036",
@@ -3152,7 +3157,8 @@
     "projectStatus": "In Progress",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0037",
@@ -3161,7 +3167,8 @@
     "projectStatus": "Closed",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    },
    {
     "projectID": "0038",
@@ -3170,7 +3177,8 @@
     "projectStatus": "Closed",
     "customerID": null,
     "businessUnitID": null,
-    "slaID": []
+    "slaID": [],
+    "branchID": null
    }
   ],
   "Jobs": [
