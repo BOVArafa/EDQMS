@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 76
+  "schemaVersion": 77
  },
  "Organization": {
   "Business Segments": [
@@ -1786,8 +1786,7 @@
     "createdAt": "2026-04-01",
     "channelID": "CH1",
     "type": "data",
-    "templateTitle": "Req Spec Template",
-    "customerFlag": true
+    "templateTitle": "Req Spec Template"
    },
    {
     "handoutID": "HO02",
@@ -1796,8 +1795,7 @@
     "createdAt": "2026-04-02",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Datasheet Template",
-    "customerFlag": true
+    "templateTitle": "Datasheet Template"
    },
    {
     "handoutID": "HO03",
@@ -1806,8 +1804,7 @@
     "createdAt": "2026-04-03",
     "channelID": "CH2",
     "type": "file",
-    "templateTitle": "Offer Template",
-    "customerFlag": false
+    "templateTitle": "Offer Template"
    },
    {
     "handoutID": "HO04",
@@ -1816,8 +1813,7 @@
     "createdAt": "2026-04-04",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Drawing Template",
-    "customerFlag": false
+    "templateTitle": "Drawing Template"
    },
    {
     "handoutID": "HO05",
@@ -1826,8 +1822,7 @@
     "createdAt": "2026-04-05",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Layout Template",
-    "customerFlag": false
+    "templateTitle": "Layout Template"
    },
    {
     "handoutID": "HO06",
@@ -1836,8 +1831,7 @@
     "createdAt": "2026-04-06",
     "channelID": "CH3",
     "type": "file",
-    "templateTitle": "Review Template",
-    "customerFlag": false
+    "templateTitle": "Review Template"
    },
    {
     "handoutID": "HO07",
@@ -1846,8 +1840,7 @@
     "createdAt": "2026-04-07",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Cert Template",
-    "customerFlag": false
+    "templateTitle": "Cert Template"
    },
    {
     "handoutID": "HO08",
@@ -1856,8 +1849,7 @@
     "createdAt": "2026-04-08",
     "channelID": "CH3",
     "type": "file",
-    "templateTitle": "RCA Template",
-    "customerFlag": false
+    "templateTitle": "RCA Template"
    },
    {
     "handoutID": "HO09",
@@ -1866,8 +1858,7 @@
     "createdAt": "2026-04-09",
     "channelID": "CH1",
     "type": "data",
-    "templateTitle": "CAP Template",
-    "customerFlag": false
+    "templateTitle": "CAP Template"
    },
    {
     "handoutID": "HO10",
@@ -1876,8 +1867,7 @@
     "createdAt": "2026-04-10",
     "channelID": "CH1",
     "type": "file",
-    "templateTitle": "Thermal Template",
-    "customerFlag": false
+    "templateTitle": "Thermal Template"
    }
   ],
   "Channels": [
@@ -1920,7 +1910,8 @@
     "procedureOwner": null,
     "executionTime": 5,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC02",
@@ -1935,7 +1926,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC03",
@@ -1950,7 +1942,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC04",
@@ -1965,7 +1958,8 @@
     "procedureOwner": null,
     "executionTime": 15,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC05",
@@ -1980,7 +1974,8 @@
     "procedureOwner": null,
     "executionTime": 20,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC06",
@@ -1995,7 +1990,8 @@
     "procedureOwner": null,
     "executionTime": 18,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC07",
@@ -2010,7 +2006,8 @@
     "procedureOwner": null,
     "executionTime": 12,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC08",
@@ -2025,7 +2022,8 @@
     "procedureOwner": null,
     "executionTime": 9,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC09",
@@ -2040,7 +2038,8 @@
     "procedureOwner": null,
     "executionTime": 14,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC10",
@@ -2055,7 +2054,8 @@
     "procedureOwner": null,
     "executionTime": 7,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC11",
@@ -2070,7 +2070,8 @@
     "procedureOwner": null,
     "executionTime": 5,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC12",
@@ -2085,7 +2086,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC13",
@@ -2100,7 +2102,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC14",
@@ -2115,7 +2118,8 @@
     "procedureOwner": null,
     "executionTime": 15,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC15",
@@ -2130,7 +2134,8 @@
     "procedureOwner": null,
     "executionTime": 20,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC16",
@@ -2145,7 +2150,8 @@
     "procedureOwner": null,
     "executionTime": 18,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC17",
@@ -2160,7 +2166,8 @@
     "procedureOwner": null,
     "executionTime": 12,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC18",
@@ -2175,7 +2182,8 @@
     "procedureOwner": null,
     "executionTime": 6,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC19",
@@ -2190,7 +2198,8 @@
     "procedureOwner": null,
     "executionTime": 4,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC20",
@@ -2205,7 +2214,8 @@
     "procedureOwner": null,
     "executionTime": 16,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC21",
@@ -2220,7 +2230,8 @@
     "procedureOwner": null,
     "executionTime": 10,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC22",
@@ -2235,7 +2246,8 @@
     "procedureOwner": null,
     "executionTime": 5,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC23",
@@ -2250,7 +2262,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC24",
@@ -2265,7 +2278,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC25",
@@ -2280,7 +2294,8 @@
     "procedureOwner": null,
     "executionTime": 15,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC26",
@@ -2295,7 +2310,8 @@
     "procedureOwner": null,
     "executionTime": 9,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC27",
@@ -2310,7 +2326,8 @@
     "procedureOwner": null,
     "executionTime": 14,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC28",
@@ -2325,7 +2342,8 @@
     "procedureOwner": null,
     "executionTime": 7,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC29",
@@ -2340,7 +2358,8 @@
     "procedureOwner": null,
     "executionTime": 20,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC30",
@@ -2355,7 +2374,8 @@
     "procedureOwner": null,
     "executionTime": 18,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC31",
@@ -2370,7 +2390,8 @@
     "procedureOwner": null,
     "executionTime": 12,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC32",
@@ -2385,7 +2406,8 @@
     "procedureOwner": null,
     "executionTime": 5,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC33",
@@ -2400,7 +2422,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC34",
@@ -2415,7 +2438,8 @@
     "procedureOwner": null,
     "executionTime": 8,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC35",
@@ -2430,7 +2454,8 @@
     "procedureOwner": null,
     "executionTime": 15,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC36",
@@ -2445,7 +2470,8 @@
     "procedureOwner": null,
     "executionTime": 16,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    },
    {
     "procedureID": "PRC37",
@@ -2460,7 +2486,8 @@
     "procedureOwner": null,
     "executionTime": 10,
     "productScopeID": [],
-    "procedureStatus": "Approved"
+    "procedureStatus": "Approved",
+    "customerInputID": []
    }
   ],
   "Payload": [
