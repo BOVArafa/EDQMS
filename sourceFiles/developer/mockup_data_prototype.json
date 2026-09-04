@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 73
+  "schemaVersion": 74
  },
  "Organization": {
   "Business Segments": [
@@ -168,7 +168,9 @@
     "regionID": "RG03",
     "countryName": "Germany",
     "userID": null,
-    "customerID": "FC1",
+    "customerID": [
+     "FC1"
+    ],
     "departmentID": [
      "DPT01"
     ]
@@ -186,7 +188,9 @@
     "regionID": "RG03",
     "countryName": "Germany",
     "userID": null,
-    "customerID": "FC2",
+    "customerID": [
+     "FC2"
+    ],
     "departmentID": [
      "DPT01"
     ]
@@ -204,7 +208,9 @@
     "regionID": "RG01",
     "countryName": "Brazil",
     "userID": null,
-    "customerID": "FC3",
+    "customerID": [
+     "FC3"
+    ],
     "departmentID": [
      "DPT01"
     ]
@@ -222,7 +228,9 @@
     "regionID": "RG01",
     "countryName": "Mexico",
     "userID": null,
-    "customerID": "FC4",
+    "customerID": [
+     "FC4"
+    ],
     "departmentID": [
      "DPT03"
     ]
@@ -240,7 +248,9 @@
     "regionID": "RG02",
     "countryName": "China",
     "userID": null,
-    "customerID": "FC5",
+    "customerID": [
+     "FC5"
+    ],
     "departmentID": [
      "DPT01"
     ]
@@ -258,7 +268,9 @@
     "regionID": "RG02",
     "countryName": "India",
     "userID": null,
-    "customerID": "FC6",
+    "customerID": [
+     "FC6"
+    ],
     "departmentID": [
      "DPT03"
     ]
