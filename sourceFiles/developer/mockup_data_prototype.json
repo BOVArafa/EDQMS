@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 75
+  "schemaVersion": 76
  },
  "Organization": {
   "Business Segments": [
@@ -614,7 +614,14 @@
     "customerID": "FC1",
     "branchID": "BR1",
     "departmentID": "DPT01",
-    "payloadID": [],
+    "payloadID": [
+     "PLD01",
+     "PLD02",
+     "PLD03",
+     "PLD04",
+     "PLD05",
+     "PLD06"
+    ],
     "isActive": "Active",
     "slaOwner": "U01",
     "supplierID": "FC2"
@@ -626,7 +633,14 @@
     "customerID": "FC2",
     "branchID": "BR2",
     "departmentID": "DPT01",
-    "payloadID": [],
+    "payloadID": [
+     "PLD01",
+     "PLD02",
+     "PLD03",
+     "PLD04",
+     "PLD05",
+     "PLD06"
+    ],
     "isActive": "Active",
     "slaOwner": "U01",
     "supplierID": "FC1"
@@ -638,7 +652,14 @@
     "customerID": "FC3",
     "branchID": "BR3",
     "departmentID": "DPT01",
-    "payloadID": [],
+    "payloadID": [
+     "PLD01",
+     "PLD02",
+     "PLD03",
+     "PLD04",
+     "PLD05",
+     "PLD06"
+    ],
     "isActive": "Active",
     "slaOwner": "U01",
     "supplierID": "FC1"
@@ -650,7 +671,14 @@
     "customerID": "FC4",
     "branchID": "BR4",
     "departmentID": "DPT03",
-    "payloadID": [],
+    "payloadID": [
+     "PLD01",
+     "PLD02",
+     "PLD03",
+     "PLD04",
+     "PLD05",
+     "PLD06"
+    ],
     "isActive": "Active",
     "slaOwner": "U01",
     "supplierID": "FC6"
@@ -662,7 +690,14 @@
     "customerID": "FC5",
     "branchID": "BR5",
     "departmentID": "DPT01",
-    "payloadID": [],
+    "payloadID": [
+     "PLD01",
+     "PLD02",
+     "PLD03",
+     "PLD04",
+     "PLD05",
+     "PLD06"
+    ],
     "isActive": "Active",
     "slaOwner": "U01",
     "supplierID": "FC1"
@@ -674,7 +709,14 @@
     "customerID": "FC6",
     "branchID": "BR6",
     "departmentID": "DPT03",
-    "payloadID": [],
+    "payloadID": [
+     "PLD01",
+     "PLD02",
+     "PLD03",
+     "PLD04",
+     "PLD05",
+     "PLD06"
+    ],
     "isActive": "Active",
     "slaOwner": "U01",
     "supplierID": "FC4"
@@ -2866,7 +2908,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": null,
-    "applicantID": null
+    "applicantID": null,
+    "payloadID": [
+     "PLD01"
+    ],
+    "slaID": [
+     "SLA01"
+    ]
    },
    {
     "ticketID": "002",
@@ -2888,7 +2936,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC2",
-    "applicantID": "FC2"
+    "applicantID": "FC2",
+    "payloadID": [
+     "PLD02"
+    ],
+    "slaID": [
+     "SLA01"
+    ]
    },
    {
     "ticketID": "003",
@@ -2910,7 +2964,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC2",
-    "applicantID": "FC2"
+    "applicantID": "FC2",
+    "payloadID": [
+     "PLD05"
+    ],
+    "slaID": [
+     "SLA01"
+    ]
    },
    {
     "ticketID": "004",
@@ -2932,7 +2992,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": null,
-    "applicantID": null
+    "applicantID": null,
+    "payloadID": [
+     "PLD01"
+    ],
+    "slaID": [
+     "SLA03"
+    ]
    },
    {
     "ticketID": "005",
@@ -2954,7 +3020,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC1",
-    "applicantID": "FC1"
+    "applicantID": "FC1",
+    "payloadID": [
+     "PLD02"
+    ],
+    "slaID": [
+     "SLA03"
+    ]
    },
    {
     "ticketID": "006",
@@ -2976,7 +3048,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC1",
-    "applicantID": "FC1"
+    "applicantID": "FC1",
+    "payloadID": [
+     "PLD03"
+    ],
+    "slaID": [
+     "SLA03"
+    ]
    },
    {
     "ticketID": "007",
@@ -2998,7 +3076,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": null,
-    "applicantID": null
+    "applicantID": null,
+    "payloadID": [
+     "PLD04"
+    ],
+    "slaID": [
+     "SLA05"
+    ]
    },
    {
     "ticketID": "008",
@@ -3020,7 +3104,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC6",
-    "applicantID": "FC6"
+    "applicantID": "FC6",
+    "payloadID": [
+     "PLD01"
+    ],
+    "slaID": [
+     "SLA04"
+    ]
    },
    {
     "ticketID": "009",
@@ -3042,7 +3132,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC1",
-    "applicantID": "FC1"
+    "applicantID": "FC1",
+    "payloadID": [
+     "PLD05"
+    ],
+    "slaID": [
+     "SLA05"
+    ]
    },
    {
     "ticketID": "010",
@@ -3064,7 +3160,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": null,
-    "applicantID": null
+    "applicantID": null,
+    "payloadID": [
+     "PLD02"
+    ],
+    "slaID": [
+     "SLA02"
+    ]
    },
    {
     "ticketID": "011",
@@ -3086,7 +3188,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC6",
-    "applicantID": "FC6"
+    "applicantID": "FC6",
+    "payloadID": [
+     "PLD01"
+    ],
+    "slaID": [
+     "SLA04"
+    ]
    },
    {
     "ticketID": "012",
@@ -3108,7 +3216,13 @@
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
     "supplierID": "FC1",
-    "applicantID": "FC1"
+    "applicantID": "FC1",
+    "payloadID": [
+     "PLD04"
+    ],
+    "slaID": [
+     "SLA05"
+    ]
    }
   ],
   "Projects": [
@@ -3117,9 +3231,11 @@
     "projectName": "Grid Co Uprating",
     "projectOwner": "U11",
     "projectStatus": "In Progress",
-    "customerID": null,
+    "customerID": "FC1",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA01"
+    ],
     "branchID": null
    },
    {
@@ -3127,9 +3243,11 @@
     "projectName": "Metro Substation",
     "projectOwner": "U01",
     "projectStatus": "In Progress",
-    "customerID": null,
+    "customerID": "FC1",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA01"
+    ],
     "branchID": null
    },
    {
@@ -3137,9 +3255,11 @@
     "projectName": "SP Rewind",
     "projectOwner": "U11",
     "projectStatus": "Planning",
-    "customerID": null,
+    "customerID": "FC3",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA03"
+    ],
     "branchID": null
    },
    {
@@ -3147,9 +3267,11 @@
     "projectName": "MX Distribution",
     "projectOwner": "U11",
     "projectStatus": "In Progress",
-    "customerID": null,
+    "customerID": "FC4",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA04"
+    ],
     "branchID": null
    },
    {
@@ -3157,9 +3279,11 @@
     "projectName": "SH Failure Fix",
     "projectOwner": "U23",
     "projectStatus": "On Hold",
-    "customerID": null,
+    "customerID": "FC5",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA05"
+    ],
     "branchID": null
    },
    {
@@ -3167,9 +3291,11 @@
     "projectName": "DR Cooling Upgrade",
     "projectOwner": "U10",
     "projectStatus": "In Progress",
-    "customerID": null,
+    "customerID": "FC2",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA02"
+    ],
     "branchID": null
    },
    {
@@ -3177,9 +3303,11 @@
     "projectName": "APAC Uprating Study",
     "projectOwner": "U10",
     "projectStatus": "Closed",
-    "customerID": null,
+    "customerID": "FC5",
     "businessUnitID": null,
-    "slaID": [],
+    "slaID": [
+     "SLA05"
+    ],
     "branchID": null
    },
    {
