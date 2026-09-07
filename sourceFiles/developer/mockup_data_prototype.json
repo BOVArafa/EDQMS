@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 87
+  "schemaVersion": 88
  },
  "Organization": {
   "Business Segments": [
@@ -1408,7 +1408,8 @@
     "processVersion": "v1.2",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "businessUnitID": null
    },
    {
     "processID": "PR2",
@@ -1421,7 +1422,8 @@
     "processVersion": "v2.0",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "businessUnitID": null
    },
    {
     "processID": "PR3",
@@ -1434,7 +1436,8 @@
     "processVersion": "v1.0",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "businessUnitID": null
    },
    {
     "processID": "PR4",
@@ -1447,7 +1450,8 @@
     "processVersion": "v1.1",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "businessUnitID": null
    },
    {
     "processID": "PR5",
@@ -1460,7 +1464,8 @@
     "processVersion": "v1.3",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "businessUnitID": null
    }
   ],
   "Activities": [
