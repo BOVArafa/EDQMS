@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 77
+  "schemaVersion": 78
  },
  "Organization": {
   "Business Segments": [
@@ -4458,100 +4458,90 @@
     "roleID": "R01",
     "roleName": "JR Electrical Designer",
     "functionID": "F1",
-    "skillLevelID": "SL1",
     "quantity": 6,
-    "jobFamilyID": [
-     "G1"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R02",
     "roleName": "SR Electrical Designer",
     "functionID": "F1",
-    "skillLevelID": "SL2",
     "quantity": 4,
-    "jobFamilyID": [
-     "G1"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R03",
     "roleName": "JR Mechanical Designer",
     "functionID": "F2",
-    "skillLevelID": "SL1",
     "quantity": 5,
-    "jobFamilyID": [
-     "G2"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R04",
     "roleName": "SR Mechanical Designer",
     "functionID": "F2",
-    "skillLevelID": "SL2",
     "quantity": 4,
-    "jobFamilyID": [
-     "G2"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R05",
     "roleName": "Expert Mechanical Designer",
     "functionID": "F2",
-    "skillLevelID": "SL3",
     "quantity": 2,
-    "jobFamilyID": [
-     "G2"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R06",
     "roleName": "Analyst",
     "functionID": "F3",
-    "skillLevelID": "SL2",
     "quantity": 3,
-    "jobFamilyID": [
-     "G3"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R07",
     "roleName": "SR Analyst",
     "functionID": "F3",
-    "skillLevelID": "SL3",
     "quantity": 2,
-    "jobFamilyID": [
-     "G3"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R08",
     "roleName": "Planner",
     "functionID": "F4",
-    "skillLevelID": "SL2",
     "quantity": 3,
-    "jobFamilyID": [
-     "G3"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R09",
     "roleName": "Quality Engineer",
     "functionID": "F5",
-    "skillLevelID": "SL2",
     "quantity": 2,
-    "jobFamilyID": [
-     "G1"
+    "departmentID": [
+     "DPT01"
     ]
    },
    {
     "roleID": "R10",
     "roleName": "Quality Manager",
     "functionID": "F5",
-    "skillLevelID": "SL4",
     "quantity": 1,
-    "jobFamilyID": [
-     "G1"
+    "departmentID": [
+     "DPT01"
     ]
    }
   ],
@@ -5621,20 +5611,20 @@
   ],
   "Job Family": [
    {
-    "field": "Engineering",
-    "jobFamilyID": "G1"
+    "jobFamilyID": "G1",
+    "jobFamilyDescription": "Engineering"
    },
    {
-    "field": "Engineering",
-    "jobFamilyID": "G2"
+    "jobFamilyID": "G2",
+    "jobFamilyDescription": "Engineering"
    },
    {
-    "field": "Engineering",
-    "jobFamilyID": "G3"
+    "jobFamilyID": "G3",
+    "jobFamilyDescription": "Engineering"
    },
    {
-    "field": "Technical",
-    "jobFamilyID": "G4"
+    "jobFamilyID": "G4",
+    "jobFamilyDescription": "Technical"
    }
   ]
  },
