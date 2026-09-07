@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 81
+  "schemaVersion": 82
  },
  "Organization": {
   "Business Segments": [
@@ -4334,7 +4334,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "JR Electrical Designer role within the Electrical Design function"
    },
    {
     "roleID": "R02",
@@ -4344,7 +4345,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "SR Electrical Designer role within the Electrical Design function"
    },
    {
     "roleID": "R03",
@@ -4354,7 +4356,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "JR Mechanical Designer role within the Mechanical Design function"
    },
    {
     "roleID": "R04",
@@ -4364,7 +4367,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "SR Mechanical Designer role within the Mechanical Design function"
    },
    {
     "roleID": "R05",
@@ -4374,7 +4378,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "Expert Mechanical Designer role within the Mechanical Design function"
    },
    {
     "roleID": "R06",
@@ -4384,7 +4389,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "Analyst role within the Analysis function"
    },
    {
     "roleID": "R07",
@@ -4394,7 +4400,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "SR Analyst role within the Analysis function"
    },
    {
     "roleID": "R08",
@@ -4404,7 +4411,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "Planner role within the Planning function"
    },
    {
     "roleID": "R09",
@@ -4414,7 +4422,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "Quality Engineer role within the Quality function"
    },
    {
     "roleID": "R10",
@@ -4424,7 +4433,8 @@
     "departmentID": [
      "DPT01"
     ],
-    "businessUnitID": "BU01"
+    "businessUnitID": "BU01",
+    "roleDescription": "Quality Manager role within the Quality function"
    }
   ],
   "Skill Levels": [
