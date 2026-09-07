@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 85
+  "schemaVersion": 86
  },
  "Organization": {
   "Business Segments": [
@@ -737,7 +737,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
     "parentStepID": "WF01",
-    "predecessorTask": null
+    "predecessorTask": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "032",
@@ -754,7 +756,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
     "parentStepID": "WF02",
-    "predecessorTask": "012"
+    "predecessorTask": "012",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "033",
@@ -768,7 +772,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
     "parentStepID": "WF03",
-    "predecessorTask": "032"
+    "predecessorTask": "032",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "045",
@@ -784,7 +790,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
     "parentStepID": "WF04",
-    "predecessorTask": "033"
+    "predecessorTask": "033",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "101",
@@ -801,7 +809,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
     "parentStepID": "WF05",
-    "predecessorTask": null
+    "predecessorTask": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "102",
@@ -818,7 +828,9 @@
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
     "parentStepID": "WF06",
-    "predecessorTask": "101"
+    "predecessorTask": "101",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "103",
@@ -832,7 +844,9 @@
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
     "parentStepID": "WF07",
-    "predecessorTask": "102"
+    "predecessorTask": "102",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "104",
@@ -848,7 +862,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO10",
     "parentStepID": "WF12",
-    "predecessorTask": null
+    "predecessorTask": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "105",
@@ -864,7 +880,9 @@
     "taskInputID": "HO10",
     "taskOutputID": "HO10",
     "parentStepID": "WF13",
-    "predecessorTask": "104"
+    "predecessorTask": "104",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "106",
@@ -878,7 +896,9 @@
     "taskInputID": "HO10",
     "taskOutputID": "HO03",
     "parentStepID": "WF14",
-    "predecessorTask": "105"
+    "predecessorTask": "105",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "107",
@@ -892,7 +912,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
     "parentStepID": "WF01",
-    "predecessorTask": "045"
+    "predecessorTask": "045",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "108",
@@ -909,7 +931,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
     "parentStepID": "WF02",
-    "predecessorTask": "107"
+    "predecessorTask": "107",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "109",
@@ -923,7 +947,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
     "parentStepID": "WF03",
-    "predecessorTask": "108"
+    "predecessorTask": "108",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "110",
@@ -939,7 +965,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
     "parentStepID": "WF04",
-    "predecessorTask": "109"
+    "predecessorTask": "109",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "111",
@@ -956,7 +984,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
     "parentStepID": "WF05",
-    "predecessorTask": "103"
+    "predecessorTask": "103",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "112",
@@ -973,7 +1003,9 @@
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
     "parentStepID": "WF06",
-    "predecessorTask": "111"
+    "predecessorTask": "111",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "113",
@@ -987,7 +1019,9 @@
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
     "parentStepID": "WF07",
-    "predecessorTask": "112"
+    "predecessorTask": "112",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "114",
@@ -1003,7 +1037,9 @@
     "taskInputID": "HO04",
     "taskOutputID": "HO06",
     "parentStepID": "WF08",
-    "predecessorTask": null
+    "predecessorTask": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "115",
@@ -1020,7 +1056,9 @@
     "taskInputID": "HO06",
     "taskOutputID": "HO07",
     "parentStepID": "WF09",
-    "predecessorTask": "114"
+    "predecessorTask": "114",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "116",
@@ -1034,7 +1072,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO08",
     "parentStepID": "WF10",
-    "predecessorTask": null
+    "predecessorTask": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "117",
@@ -1048,7 +1088,9 @@
     "taskInputID": "HO08",
     "taskOutputID": "HO09",
     "parentStepID": "WF11",
-    "predecessorTask": "116"
+    "predecessorTask": "116",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "118",
@@ -1062,7 +1104,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
     "parentStepID": "WF01",
-    "predecessorTask": "110"
+    "predecessorTask": "110",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "119",
@@ -1079,7 +1123,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
     "parentStepID": "WF02",
-    "predecessorTask": "118"
+    "predecessorTask": "118",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "120",
@@ -1093,7 +1139,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
     "parentStepID": "WF03",
-    "predecessorTask": "119"
+    "predecessorTask": "119",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "121",
@@ -1109,7 +1157,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
     "parentStepID": "WF04",
-    "predecessorTask": "120"
+    "predecessorTask": "120",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "122",
@@ -1125,7 +1175,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO10",
     "parentStepID": "WF12",
-    "predecessorTask": "106"
+    "predecessorTask": "106",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "123",
@@ -1141,7 +1193,9 @@
     "taskInputID": "HO10",
     "taskOutputID": "HO10",
     "parentStepID": "WF13",
-    "predecessorTask": "122"
+    "predecessorTask": "122",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "124",
@@ -1155,7 +1209,9 @@
     "taskInputID": "HO10",
     "taskOutputID": "HO03",
     "parentStepID": "WF14",
-    "predecessorTask": "123"
+    "predecessorTask": "123",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "125",
@@ -1172,7 +1228,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO04",
     "parentStepID": "WF05",
-    "predecessorTask": "113"
+    "predecessorTask": "113",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "126",
@@ -1189,7 +1247,9 @@
     "taskInputID": "HO04",
     "taskOutputID": "HO05",
     "parentStepID": "WF06",
-    "predecessorTask": "125"
+    "predecessorTask": "125",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "127",
@@ -1203,7 +1263,9 @@
     "taskInputID": "HO05",
     "taskOutputID": "HO04",
     "parentStepID": "WF07",
-    "predecessorTask": "126"
+    "predecessorTask": "126",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "128",
@@ -1217,7 +1279,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO01",
     "parentStepID": "WF01",
-    "predecessorTask": "121"
+    "predecessorTask": "121",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "129",
@@ -1234,7 +1298,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO02",
     "parentStepID": "WF02",
-    "predecessorTask": "128"
+    "predecessorTask": "128",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "130",
@@ -1248,7 +1314,9 @@
     "taskInputID": "HO02",
     "taskOutputID": "HO03",
     "parentStepID": "WF03",
-    "predecessorTask": "129"
+    "predecessorTask": "129",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "131",
@@ -1264,7 +1332,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO05",
     "parentStepID": "WF04",
-    "predecessorTask": "130"
+    "predecessorTask": "130",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "132",
@@ -1278,7 +1348,9 @@
     "taskInputID": "HO01",
     "taskOutputID": "HO08",
     "parentStepID": "WF10",
-    "predecessorTask": "117"
+    "predecessorTask": "117",
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "taskID": "133",
@@ -1292,7 +1364,9 @@
     "taskInputID": "HO08",
     "taskOutputID": "HO09",
     "parentStepID": "WF11",
-    "predecessorTask": "132"
+    "predecessorTask": "132",
+    "departmentID": null,
+    "businessUnitID": null
    }
   ],
   "Processes": [
