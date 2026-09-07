@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 86
+  "schemaVersion": 87
  },
  "Organization": {
   "Business Segments": [
@@ -108,19 +108,22 @@
     "squadID": "SQ1",
     "squadName": "Core EMEA",
     "squadType": "internal",
-    "departmentID": "DPT01"
+    "departmentID": "DPT01",
+    "businessUnitID": "BU01"
    },
    {
     "squadID": "SQ2",
     "squadName": "Americas Ops",
     "squadType": "internal",
-    "departmentID": "DPT01"
+    "departmentID": "DPT01",
+    "businessUnitID": "BU01"
    },
    {
     "squadID": "SQ3",
     "squadName": "APAC Partners",
     "squadType": "outsource",
-    "departmentID": "DPT01"
+    "departmentID": "DPT01",
+    "businessUnitID": "BU01"
    }
   ],
   "Regions": [
@@ -359,7 +362,8 @@
     "createdAt": "2025-12-01T09:00:00",
     "slaID": "SLA01",
     "totalEstimatedHours": 354.0,
-    "weeklyUsageQuota": 88
+    "weeklyUsageQuota": 88,
+    "businessUnitID": "BU01"
    },
    {
     "forecastID": "FO2",
@@ -375,7 +379,8 @@
     "createdAt": "2026-08-15T10:00:00",
     "slaID": "SLA01",
     "totalEstimatedHours": 498.0,
-    "weeklyUsageQuota": 124
+    "weeklyUsageQuota": 124,
+    "businessUnitID": "BU01"
    },
    {
     "forecastID": "FO3",
@@ -391,7 +396,8 @@
     "createdAt": "2026-06-10T09:30:00",
     "slaID": "SLA03",
     "totalEstimatedHours": 356.0,
-    "weeklyUsageQuota": 89
+    "weeklyUsageQuota": 89,
+    "businessUnitID": "BU01"
    },
    {
     "forecastID": "FO4",
@@ -407,7 +413,8 @@
     "createdAt": "2026-09-20T08:00:00",
     "slaID": "SLA05",
     "totalEstimatedHours": 112.0,
-    "weeklyUsageQuota": 28
+    "weeklyUsageQuota": 28,
+    "businessUnitID": "BU01"
    },
    {
     "forecastID": "FO5",
@@ -423,7 +430,8 @@
     "createdAt": "2026-11-05T09:00:00",
     "slaID": "SLA04",
     "totalEstimatedHours": 438.0,
-    "weeklyUsageQuota": 110
+    "weeklyUsageQuota": 110,
+    "businessUnitID": "BU02"
    },
    {
     "forecastID": "FO6",
@@ -439,7 +447,8 @@
     "createdAt": "2026-09-25T11:00:00",
     "slaID": "SLA02",
     "totalEstimatedHours": 202.0,
-    "weeklyUsageQuota": 50
+    "weeklyUsageQuota": 50,
+    "businessUnitID": "BU01"
    }
   ],
   "Forecast Scopes": [
@@ -450,7 +459,8 @@
     "eventID": "E1",
     "notes": "Offer calc capacity (scenario)",
     "functionID": null,
-    "estimatedHours": 144.0
+    "estimatedHours": 144.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS02",
@@ -459,7 +469,8 @@
     "eventID": "E2",
     "notes": "Design package demand",
     "functionID": null,
-    "estimatedHours": 150.0
+    "estimatedHours": 150.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS03",
@@ -468,7 +479,8 @@
     "eventID": "E5",
     "notes": "Uprating study",
     "functionID": null,
-    "estimatedHours": 60.0
+    "estimatedHours": 60.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS04",
@@ -477,7 +489,8 @@
     "eventID": "E1",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 144.0
+    "estimatedHours": 144.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS05",
@@ -486,7 +499,8 @@
     "eventID": "E5",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 60.0
+    "estimatedHours": 60.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS06",
@@ -495,7 +509,8 @@
     "eventID": "E1",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 144.0
+    "estimatedHours": 144.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS07",
@@ -504,7 +519,8 @@
     "eventID": "E2",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 150.0
+    "estimatedHours": 150.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS08",
@@ -513,7 +529,8 @@
     "eventID": "E3",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 10.0
+    "estimatedHours": 10.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS09",
@@ -522,7 +539,8 @@
     "eventID": "E4",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 52.0
+    "estimatedHours": 52.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS10",
@@ -531,7 +549,8 @@
     "eventID": "E5",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 60.0
+    "estimatedHours": 60.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS11",
@@ -540,7 +559,8 @@
     "eventID": "E1",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 144.0
+    "estimatedHours": 144.0,
+    "businessUnitID": "BU02"
    },
    {
     "forecastScopeID": "FS12",
@@ -549,7 +569,8 @@
     "eventID": "E1",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 144.0
+    "estimatedHours": 144.0,
+    "businessUnitID": "BU02"
    },
    {
     "forecastScopeID": "FS13",
@@ -558,7 +579,8 @@
     "eventID": "E2",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 150.0
+    "estimatedHours": 150.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS14",
@@ -567,7 +589,8 @@
     "eventID": "E4",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 52.0
+    "estimatedHours": 52.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS15",
@@ -576,7 +599,8 @@
     "eventID": "E1",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 144.0
+    "estimatedHours": 144.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS16",
@@ -585,7 +609,8 @@
     "eventID": "E4",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 52.0
+    "estimatedHours": 52.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS17",
@@ -594,7 +619,8 @@
     "eventID": "E2",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 150.0
+    "estimatedHours": 150.0,
+    "businessUnitID": "BU01"
    },
    {
     "forecastScopeID": "FS18",
@@ -603,7 +629,8 @@
     "eventID": "E2",
     "notes": "",
     "functionID": null,
-    "estimatedHours": 150.0
+    "estimatedHours": 150.0,
+    "businessUnitID": "BU02"
    }
   ],
   "SLA": [
@@ -3397,7 +3424,8 @@
     "jobStatus": "Done",
     "projectID": "0031",
     "plannedExecutionTime": 5.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J002",
@@ -3416,7 +3444,8 @@
     "jobStatus": "Done",
     "projectID": "0031",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": "J001"
+    "predecessorJobID": "J001",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J003",
@@ -3435,7 +3464,8 @@
     "jobStatus": "Active",
     "projectID": "0031",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": "J002"
+    "predecessorJobID": "J002",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J004",
@@ -3454,7 +3484,8 @@
     "jobStatus": "Done",
     "projectID": "0031",
     "plannedExecutionTime": 15.0,
-    "predecessorJobID": "J003"
+    "predecessorJobID": "J003",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J005",
@@ -3473,7 +3504,8 @@
     "jobStatus": "Done",
     "projectID": "0031",
     "plannedExecutionTime": 18.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J006",
@@ -3492,7 +3524,8 @@
     "jobStatus": "Active",
     "projectID": "0031",
     "plannedExecutionTime": 12.0,
-    "predecessorJobID": "J005"
+    "predecessorJobID": "J005",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J007",
@@ -3511,7 +3544,8 @@
     "jobStatus": "Done",
     "projectID": "0031",
     "plannedExecutionTime": 20.0,
-    "predecessorJobID": "J006"
+    "predecessorJobID": "J006",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J008",
@@ -3530,7 +3564,8 @@
     "jobStatus": "Active",
     "projectID": "0032",
     "plannedExecutionTime": 14.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J009",
@@ -3549,7 +3584,8 @@
     "jobStatus": "Done",
     "projectID": "0032",
     "plannedExecutionTime": 7.0,
-    "predecessorJobID": "J008"
+    "predecessorJobID": "J008",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J010",
@@ -3568,7 +3604,8 @@
     "jobStatus": "Queued",
     "projectID": "0032",
     "plannedExecutionTime": 9.0,
-    "predecessorJobID": "J009"
+    "predecessorJobID": "J009",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J011",
@@ -3587,7 +3624,8 @@
     "jobStatus": "Done",
     "projectID": "0033",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J012",
@@ -3606,7 +3644,8 @@
     "jobStatus": "Queued",
     "projectID": "0033",
     "plannedExecutionTime": 15.0,
-    "predecessorJobID": "J011"
+    "predecessorJobID": "J011",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J013",
@@ -3625,7 +3664,8 @@
     "jobStatus": "Done",
     "projectID": "0033",
     "plannedExecutionTime": 5.0,
-    "predecessorJobID": "J012"
+    "predecessorJobID": "J012",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J014",
@@ -3644,7 +3684,8 @@
     "jobStatus": "Active",
     "projectID": "0033",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": "J013"
+    "predecessorJobID": "J013",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J015",
@@ -3663,7 +3704,8 @@
     "jobStatus": "Queued",
     "projectID": "0033",
     "plannedExecutionTime": 12.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J016",
@@ -3682,7 +3724,8 @@
     "jobStatus": "Done",
     "projectID": "0033",
     "plannedExecutionTime": 20.0,
-    "predecessorJobID": "J015"
+    "predecessorJobID": "J015",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J017",
@@ -3701,7 +3744,8 @@
     "jobStatus": "Active",
     "projectID": "0033",
     "plannedExecutionTime": 18.0,
-    "predecessorJobID": "J016"
+    "predecessorJobID": "J016",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J018",
@@ -3720,7 +3764,8 @@
     "jobStatus": "Done",
     "projectID": "0033",
     "plannedExecutionTime": 4.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J019",
@@ -3739,7 +3784,8 @@
     "jobStatus": "Active",
     "projectID": "0033",
     "plannedExecutionTime": 6.0,
-    "predecessorJobID": "J018"
+    "predecessorJobID": "J018",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J020",
@@ -3758,7 +3804,8 @@
     "jobStatus": "Active",
     "projectID": "0035",
     "plannedExecutionTime": 10.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J021",
@@ -3778,7 +3825,8 @@
     "projectID": "0035",
     "plannedExecutionTime": 16.0,
     "predecessorJobID": "J020",
-    "stoppedAt": "2026-10-27T01:00:00"
+    "stoppedAt": "2026-10-27T01:00:00",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J022",
@@ -3798,7 +3846,8 @@
     "projectID": "0034",
     "plannedExecutionTime": 8.0,
     "predecessorJobID": null,
-    "stoppedAt": "2026-10-27T01:00:00"
+    "stoppedAt": "2026-10-27T01:00:00",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J023",
@@ -3817,7 +3866,8 @@
     "jobStatus": "Done",
     "projectID": "0034",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": "J022"
+    "predecessorJobID": "J022",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J024",
@@ -3836,7 +3886,8 @@
     "jobStatus": "Active",
     "projectID": "0034",
     "plannedExecutionTime": 15.0,
-    "predecessorJobID": "J023"
+    "predecessorJobID": "J023",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J025",
@@ -3855,7 +3906,8 @@
     "jobStatus": "Done",
     "projectID": "0034",
     "plannedExecutionTime": 5.0,
-    "predecessorJobID": "J024"
+    "predecessorJobID": "J024",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J026",
@@ -3874,7 +3926,8 @@
     "jobStatus": "Done",
     "projectID": "0037",
     "plannedExecutionTime": 14.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J027",
@@ -3893,7 +3946,8 @@
     "jobStatus": "Active",
     "projectID": "0037",
     "plannedExecutionTime": 7.0,
-    "predecessorJobID": "J026"
+    "predecessorJobID": "J026",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J028",
@@ -3912,7 +3966,8 @@
     "jobStatus": "Done",
     "projectID": "0037",
     "plannedExecutionTime": 9.0,
-    "predecessorJobID": "J027"
+    "predecessorJobID": "J027",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J029",
@@ -3931,7 +3986,8 @@
     "jobStatus": "Active",
     "projectID": "0036",
     "plannedExecutionTime": 18.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J030",
@@ -3950,7 +4006,8 @@
     "jobStatus": "Done",
     "projectID": "0036",
     "plannedExecutionTime": 12.0,
-    "predecessorJobID": "J029"
+    "predecessorJobID": "J029",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J031",
@@ -3969,7 +4026,8 @@
     "jobStatus": "Done",
     "projectID": "0036",
     "plannedExecutionTime": 20.0,
-    "predecessorJobID": "J030"
+    "predecessorJobID": "J030",
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J032",
@@ -3988,7 +4046,8 @@
     "jobStatus": "Done",
     "projectID": "0034",
     "plannedExecutionTime": 15.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J033",
@@ -4007,7 +4066,8 @@
     "jobStatus": "Done",
     "projectID": "0034",
     "plannedExecutionTime": 5.0,
-    "predecessorJobID": "J032"
+    "predecessorJobID": "J032",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J034",
@@ -4026,7 +4086,8 @@
     "jobStatus": "Active",
     "projectID": "0034",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": "J033"
+    "predecessorJobID": "J033",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J035",
@@ -4045,7 +4106,8 @@
     "jobStatus": "Done",
     "projectID": "0034",
     "plannedExecutionTime": 8.0,
-    "predecessorJobID": "J034"
+    "predecessorJobID": "J034",
+    "businessUnitID": "BU02"
    },
    {
     "jobID": "J036",
@@ -4064,7 +4126,8 @@
     "jobStatus": "Done",
     "projectID": "0035",
     "plannedExecutionTime": 10.0,
-    "predecessorJobID": null
+    "predecessorJobID": null,
+    "businessUnitID": "BU01"
    },
    {
     "jobID": "J037",
@@ -4083,7 +4146,8 @@
     "jobStatus": "Active",
     "projectID": "0035",
     "plannedExecutionTime": 16.0,
-    "predecessorJobID": "J036"
+    "predecessorJobID": "J036",
+    "businessUnitID": "BU01"
    }
   ]
  },
@@ -4676,7 +4740,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP01"
+    "competenceTitle": "Competence CMP01",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP02",
@@ -4687,7 +4752,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP02"
+    "competenceTitle": "Competence CMP02",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP03",
@@ -4698,7 +4764,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP03"
+    "competenceTitle": "Competence CMP03",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP04",
@@ -4709,7 +4776,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP04"
+    "competenceTitle": "Competence CMP04",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP05",
@@ -4720,7 +4788,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP05"
+    "competenceTitle": "Competence CMP05",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP06",
@@ -4731,7 +4800,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP06"
+    "competenceTitle": "Competence CMP06",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP07",
@@ -4742,7 +4812,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP07"
+    "competenceTitle": "Competence CMP07",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP08",
@@ -4753,7 +4824,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP08"
+    "competenceTitle": "Competence CMP08",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP09",
@@ -4764,7 +4836,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP09"
+    "competenceTitle": "Competence CMP09",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP10",
@@ -4775,7 +4848,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP10"
+    "competenceTitle": "Competence CMP10",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP11",
@@ -4786,7 +4860,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP11"
+    "competenceTitle": "Competence CMP11",
+    "businessUnitID": null
    },
    {
     "competenceID": "CMP12",
@@ -4797,7 +4872,8 @@
     "departmentID": null,
     "procedureID": [],
     "productScopeID": null,
-    "competenceTitle": "Competence CMP12"
+    "competenceTitle": "Competence CMP12",
+    "businessUnitID": null
    }
   ],
   "People": [
