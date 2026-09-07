@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 84
+  "schemaVersion": 85
  },
  "Organization": {
   "Business Segments": [
@@ -1482,98 +1482,126 @@
     "processID": "PR1",
     "activities": "A01",
     "parentStepID": null,
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF02",
     "processID": "PR1",
     "activities": "A02",
     "parentStepID": "WF01",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF03",
     "processID": "PR1",
     "activities": "A03",
     "parentStepID": "WF02",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF04",
     "processID": "PR1",
     "activities": "A04",
     "parentStepID": "WF03",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF05",
     "processID": "PR2",
     "activities": "A05",
     "parentStepID": null,
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF06",
     "processID": "PR2",
     "activities": "A06",
     "parentStepID": "WF05",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF07",
     "processID": "PR2",
     "activities": "A07",
     "parentStepID": "WF06",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF08",
     "processID": "PR3",
     "activities": "A08",
     "parentStepID": null,
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF09",
     "processID": "PR3",
     "activities": "A09",
     "parentStepID": "WF08",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF10",
     "processID": "PR4",
     "activities": "A10",
     "parentStepID": null,
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF11",
     "processID": "PR4",
     "activities": "A11",
     "parentStepID": "WF10",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF12",
     "processID": "PR5",
     "activities": "A12",
     "parentStepID": null,
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF13",
     "processID": "PR5",
     "activities": "A13",
     "parentStepID": "WF12",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    },
    {
     "workflowID": "WF14",
     "processID": "PR5",
     "activities": "A14",
     "parentStepID": "WF13",
-    "activityID": null
+    "activityID": null,
+    "departmentID": null,
+    "businessUnitID": null
    }
   ],
   "Actions": [
