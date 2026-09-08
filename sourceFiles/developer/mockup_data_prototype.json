@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 95
+  "schemaVersion": 96
  },
  "Organization": {
   "Business Segments": [
@@ -3084,7 +3084,7 @@
      "SLA05",
      "SLA06"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "002",
@@ -3113,7 +3113,7 @@
     "slaID": [
      "SLA02"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "003",
@@ -3142,7 +3142,7 @@
     "slaID": [
      "SLA02"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "004",
@@ -3176,7 +3176,7 @@
      "SLA05",
      "SLA06"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "005",
@@ -3205,7 +3205,7 @@
     "slaID": [
      "SLA01"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "006",
@@ -3234,7 +3234,7 @@
     "slaID": [
      "SLA01"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "007",
@@ -3268,7 +3268,7 @@
      "SLA05",
      "SLA06"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "008",
@@ -3297,7 +3297,7 @@
     "slaID": [
      "SLA06"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "009",
@@ -3326,7 +3326,7 @@
     "slaID": [
      "SLA01"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "010",
@@ -3360,7 +3360,7 @@
      "SLA05",
      "SLA06"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "011",
@@ -3389,7 +3389,7 @@
     "slaID": [
      "SLA06"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    },
    {
     "ticketID": "012",
@@ -3418,7 +3418,7 @@
     "slaID": [
      "SLA01"
     ],
-    "addedRequirementID": []
+    "constraintID": []
    }
   ],
   "Projects": [
@@ -6091,7 +6091,11 @@
     "isActive": "Active",
     "productID": "P01",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6107,7 +6111,11 @@
     "isActive": "Active",
     "productID": "P03",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6123,7 +6131,11 @@
     "isActive": "Active",
     "productID": "P02",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6139,7 +6151,11 @@
     "isActive": "Active",
     "productID": null,
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6155,7 +6171,11 @@
     "isActive": "Active",
     "productID": "P10",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6171,7 +6191,11 @@
     "isActive": "Active",
     "productID": "P04",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6187,7 +6211,11 @@
     "isActive": "Active",
     "productID": null,
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6203,7 +6231,11 @@
     "isActive": "Inactive",
     "productID": "P05",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
@@ -6225,7 +6257,11 @@
     "isActive": "Active",
     "regulatoryReference": "VDE-AR-N 4130",
     "regionID": [],
-    "businessUnitID": [],
+    "businessUnitID": [
+     "BU01",
+     "BU02",
+     "BU03"
+    ],
     "regulatoryURL": null,
     "branchID": [
      "BR1"
