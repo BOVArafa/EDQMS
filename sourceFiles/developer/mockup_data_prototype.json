@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 94
+  "schemaVersion": 95
  },
  "Organization": {
   "Business Segments": [
@@ -3083,7 +3083,8 @@
      "SLA04",
      "SLA05",
      "SLA06"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "002",
@@ -3111,7 +3112,8 @@
     ],
     "slaID": [
      "SLA02"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "003",
@@ -3139,7 +3141,8 @@
     ],
     "slaID": [
      "SLA02"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "004",
@@ -3172,7 +3175,8 @@
      "SLA04",
      "SLA05",
      "SLA06"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "005",
@@ -3200,7 +3204,8 @@
     ],
     "slaID": [
      "SLA01"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "006",
@@ -3228,7 +3233,8 @@
     ],
     "slaID": [
      "SLA01"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "007",
@@ -3261,7 +3267,8 @@
      "SLA04",
      "SLA05",
      "SLA06"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "008",
@@ -3289,7 +3296,8 @@
     ],
     "slaID": [
      "SLA06"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "009",
@@ -3317,7 +3325,8 @@
     ],
     "slaID": [
      "SLA01"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "010",
@@ -3350,7 +3359,8 @@
      "SLA04",
      "SLA05",
      "SLA06"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "011",
@@ -3378,7 +3388,8 @@
     ],
     "slaID": [
      "SLA06"
-    ]
+    ],
+    "addedRequirementID": []
    },
    {
     "ticketID": "012",
@@ -3406,7 +3417,8 @@
     ],
     "slaID": [
      "SLA01"
-    ]
+    ],
+    "addedRequirementID": []
    }
   ],
   "Projects": [
@@ -6083,7 +6095,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ2",
@@ -6098,7 +6111,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ3",
@@ -6113,7 +6127,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ4",
@@ -6128,7 +6143,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ5",
@@ -6143,7 +6159,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ6",
@@ -6158,7 +6175,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ7",
@@ -6173,7 +6191,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "RQ8",
@@ -6188,7 +6207,8 @@
     "regulatoryURL": null,
     "branchID": [],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    },
    {
     "requirementID": "CN9",
@@ -6211,7 +6231,8 @@
      "BR1"
     ],
     "customerID": null,
-    "productScopeID": []
+    "productScopeID": [],
+    "ticketSelectable": false
    }
   ],
   "actionApplication": [
