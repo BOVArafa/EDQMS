@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 88
+  "schemaVersion": 89
  },
  "Organization": {
   "Business Segments": [
@@ -3003,7 +3003,12 @@
      "PLD01"
     ],
     "slaID": [
-     "SLA01"
+     "SLA01",
+     "SLA02",
+     "SLA03",
+     "SLA04",
+     "SLA05",
+     "SLA06"
     ]
    },
    {
@@ -3025,13 +3030,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC2",
+    "supplierID": "FC1",
     "applicantID": "FC2",
     "payloadID": [
      "PLD02"
     ],
     "slaID": [
-     "SLA01"
+     "SLA02"
     ]
    },
    {
@@ -3053,13 +3058,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC2",
+    "supplierID": "FC1",
     "applicantID": "FC2",
     "payloadID": [
      "PLD05"
     ],
     "slaID": [
-     "SLA01"
+     "SLA02"
     ]
    },
    {
@@ -3087,7 +3092,12 @@
      "PLD01"
     ],
     "slaID": [
-     "SLA03"
+     "SLA01",
+     "SLA02",
+     "SLA03",
+     "SLA04",
+     "SLA05",
+     "SLA06"
     ]
    },
    {
@@ -3109,13 +3119,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1",
+    "supplierID": "FC2",
     "applicantID": "FC1",
     "payloadID": [
      "PLD02"
     ],
     "slaID": [
-     "SLA03"
+     "SLA01"
     ]
    },
    {
@@ -3137,13 +3147,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1",
+    "supplierID": "FC2",
     "applicantID": "FC1",
     "payloadID": [
      "PLD03"
     ],
     "slaID": [
-     "SLA03"
+     "SLA01"
     ]
    },
    {
@@ -3171,7 +3181,12 @@
      "PLD04"
     ],
     "slaID": [
-     "SLA05"
+     "SLA01",
+     "SLA02",
+     "SLA03",
+     "SLA04",
+     "SLA05",
+     "SLA06"
     ]
    },
    {
@@ -3193,13 +3208,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC6",
+    "supplierID": "FC4",
     "applicantID": "FC6",
     "payloadID": [
      "PLD01"
     ],
     "slaID": [
-     "SLA04"
+     "SLA06"
     ]
    },
    {
@@ -3221,13 +3236,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1",
+    "supplierID": "FC2",
     "applicantID": "FC1",
     "payloadID": [
      "PLD05"
     ],
     "slaID": [
-     "SLA05"
+     "SLA01"
     ]
    },
    {
@@ -3255,7 +3270,12 @@
      "PLD02"
     ],
     "slaID": [
-     "SLA02"
+     "SLA01",
+     "SLA02",
+     "SLA03",
+     "SLA04",
+     "SLA05",
+     "SLA06"
     ]
    },
    {
@@ -3277,13 +3297,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC6",
+    "supplierID": "FC4",
     "applicantID": "FC6",
     "payloadID": [
      "PLD01"
     ],
     "slaID": [
-     "SLA04"
+     "SLA06"
     ]
    },
    {
@@ -3305,13 +3325,13 @@
     "products": null,
     "scopes": "Uprating, Redesign, Temperature Reduction, Life Extension, Failure Analysis",
     "productScopeID": "PS01",
-    "supplierID": "FC1",
+    "supplierID": "FC2",
     "applicantID": "FC1",
     "payloadID": [
      "PLD04"
     ],
     "slaID": [
-     "SLA05"
+     "SLA01"
     ]
    }
   ],
