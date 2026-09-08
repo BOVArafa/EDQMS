@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 99
+  "schemaVersion": 100
  },
  "Organization": {
   "Business Segments": [
@@ -7703,8 +7703,25 @@
     "eventCreatedAt": "2026-05-02T09:00:00",
     "sourceID": "SRC1",
     "businessUnitID": null,
-    "scopeID": [],
-    "productID": [],
+    "scopeID": [
+     "SC1",
+     "SC2",
+     "SC3",
+     "SC4",
+     "SC5"
+    ],
+    "productID": [
+     "P01",
+     "P02",
+     "P03",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P09",
+     "P10"
+    ],
     "departmentID": null
    },
    {
@@ -7714,8 +7731,25 @@
     "eventCreatedAt": "2026-05-06T10:30:00",
     "sourceID": "SRC1",
     "businessUnitID": null,
-    "scopeID": [],
-    "productID": [],
+    "scopeID": [
+     "SC1",
+     "SC2",
+     "SC3",
+     "SC4",
+     "SC5"
+    ],
+    "productID": [
+     "P01",
+     "P02",
+     "P03",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P09",
+     "P10"
+    ],
     "departmentID": null
    },
    {
@@ -7725,8 +7759,25 @@
     "eventCreatedAt": "2026-05-09T14:00:00",
     "sourceID": "SRC3",
     "businessUnitID": null,
-    "scopeID": [],
-    "productID": [],
+    "scopeID": [
+     "SC1",
+     "SC2",
+     "SC3",
+     "SC4",
+     "SC5"
+    ],
+    "productID": [
+     "P01",
+     "P02",
+     "P03",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P09",
+     "P10"
+    ],
     "departmentID": null
    },
    {
@@ -7736,8 +7787,25 @@
     "eventCreatedAt": "2026-05-14T08:15:00",
     "sourceID": "SRC4",
     "businessUnitID": null,
-    "scopeID": [],
-    "productID": [],
+    "scopeID": [
+     "SC1",
+     "SC2",
+     "SC3",
+     "SC4",
+     "SC5"
+    ],
+    "productID": [
+     "P01",
+     "P02",
+     "P03",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P09",
+     "P10"
+    ],
     "departmentID": null
    },
    {
@@ -7747,8 +7815,25 @@
     "eventCreatedAt": "2026-05-20T11:45:00",
     "sourceID": "SRC1",
     "businessUnitID": null,
-    "scopeID": [],
-    "productID": [],
+    "scopeID": [
+     "SC1",
+     "SC2",
+     "SC3",
+     "SC4",
+     "SC5"
+    ],
+    "productID": [
+     "P01",
+     "P02",
+     "P03",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P09",
+     "P10"
+    ],
     "departmentID": null
    },
    {
@@ -7758,8 +7843,25 @@
     "eventCreatedAt": "2026-05-25T16:20:00",
     "sourceID": "SRC2",
     "businessUnitID": null,
-    "scopeID": [],
-    "productID": [],
+    "scopeID": [
+     "SC1",
+     "SC2",
+     "SC3",
+     "SC4",
+     "SC5"
+    ],
+    "productID": [
+     "P01",
+     "P02",
+     "P03",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P09",
+     "P10"
+    ],
     "departmentID": null
    }
   ],
