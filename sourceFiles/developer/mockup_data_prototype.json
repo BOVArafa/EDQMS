@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 91
+  "schemaVersion": 92
  },
  "Organization": {
   "Business Segments": [
@@ -6422,7 +6422,8 @@
     "sourceID": "SRC1",
     "businessUnitID": null,
     "scopeID": [],
-    "productID": []
+    "productID": [],
+    "departmentID": null
    },
    {
     "eventID": "E2",
@@ -6432,7 +6433,8 @@
     "sourceID": "SRC1",
     "businessUnitID": null,
     "scopeID": [],
-    "productID": []
+    "productID": [],
+    "departmentID": null
    },
    {
     "eventID": "E3",
@@ -6442,7 +6444,8 @@
     "sourceID": "SRC3",
     "businessUnitID": null,
     "scopeID": [],
-    "productID": []
+    "productID": [],
+    "departmentID": null
    },
    {
     "eventID": "E4",
@@ -6452,7 +6455,8 @@
     "sourceID": "SRC4",
     "businessUnitID": null,
     "scopeID": [],
-    "productID": []
+    "productID": [],
+    "departmentID": null
    },
    {
     "eventID": "E5",
@@ -6462,7 +6466,8 @@
     "sourceID": "SRC1",
     "businessUnitID": null,
     "scopeID": [],
-    "productID": []
+    "productID": [],
+    "departmentID": null
    },
    {
     "eventID": "E6",
@@ -6472,7 +6477,8 @@
     "sourceID": "SRC2",
     "businessUnitID": null,
     "scopeID": [],
-    "productID": []
+    "productID": [],
+    "departmentID": null
    }
   ],
   "Payload": [
