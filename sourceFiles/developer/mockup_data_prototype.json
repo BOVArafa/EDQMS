@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 89
+  "schemaVersion": 90
  },
  "Organization": {
   "Business Segments": [
@@ -2066,7 +2066,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC02",
@@ -2083,7 +2085,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC03",
@@ -2100,7 +2104,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC04",
@@ -2117,7 +2123,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC05",
@@ -2134,7 +2142,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC06",
@@ -2151,7 +2161,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC07",
@@ -2168,7 +2180,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC08",
@@ -2185,7 +2199,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC09",
@@ -2202,7 +2218,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC10",
@@ -2219,7 +2237,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC11",
@@ -2236,7 +2256,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC12",
@@ -2253,7 +2275,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC13",
@@ -2270,7 +2294,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC14",
@@ -2287,7 +2313,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC15",
@@ -2304,7 +2332,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC16",
@@ -2321,7 +2351,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC17",
@@ -2338,7 +2370,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC18",
@@ -2355,7 +2389,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC19",
@@ -2372,7 +2408,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC20",
@@ -2389,7 +2427,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC21",
@@ -2406,7 +2446,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC22",
@@ -2423,7 +2465,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC23",
@@ -2440,7 +2484,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC24",
@@ -2457,7 +2503,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC25",
@@ -2474,7 +2522,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC26",
@@ -2491,7 +2541,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC27",
@@ -2508,7 +2560,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC28",
@@ -2525,7 +2579,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC29",
@@ -2542,7 +2598,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC30",
@@ -2559,7 +2617,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC31",
@@ -2576,7 +2636,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC32",
@@ -2593,7 +2655,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC33",
@@ -2610,7 +2674,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC34",
@@ -2627,7 +2693,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC35",
@@ -2644,7 +2712,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC36",
@@ -2661,7 +2731,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    },
    {
     "procedureID": "PRC37",
@@ -2678,7 +2750,9 @@
     "productScopeID": [],
     "procedureStatus": "Approved",
     "customerInputID": [],
-    "departmentID": null
+    "departmentID": null,
+    "branchID": [],
+    "customerID": []
    }
   ]
  },
