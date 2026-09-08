@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 100
+  "schemaVersion": 101
  },
  "Organization": {
   "Business Segments": [
@@ -1408,7 +1408,18 @@
     "processVersion": "v1.2",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": [],
+    "productScopeID": [
+     "PS01",
+     "PS02",
+     "PS03",
+     "PS04",
+     "PS05",
+     "PS06",
+     "PS07",
+     "PS08",
+     "PS09",
+     "PS10"
+    ],
     "businessUnitID": null
    },
    {
@@ -1422,7 +1433,18 @@
     "processVersion": "v2.0",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": [],
+    "productScopeID": [
+     "PS01",
+     "PS02",
+     "PS03",
+     "PS04",
+     "PS05",
+     "PS06",
+     "PS07",
+     "PS08",
+     "PS09",
+     "PS10"
+    ],
     "businessUnitID": null
    },
    {
@@ -1436,7 +1458,18 @@
     "processVersion": "v1.0",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": [],
+    "productScopeID": [
+     "PS01",
+     "PS02",
+     "PS03",
+     "PS04",
+     "PS05",
+     "PS06",
+     "PS07",
+     "PS08",
+     "PS09",
+     "PS10"
+    ],
     "businessUnitID": null
    },
    {
@@ -1450,7 +1483,18 @@
     "processVersion": "v1.1",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": [],
+    "productScopeID": [
+     "PS01",
+     "PS02",
+     "PS03",
+     "PS04",
+     "PS05",
+     "PS06",
+     "PS07",
+     "PS08",
+     "PS09",
+     "PS10"
+    ],
     "businessUnitID": null
    },
    {
@@ -1464,7 +1508,18 @@
     "processVersion": "v1.3",
     "squadID": null,
     "departmentID": null,
-    "productScopeID": [],
+    "productScopeID": [
+     "PS01",
+     "PS02",
+     "PS03",
+     "PS04",
+     "PS05",
+     "PS06",
+     "PS07",
+     "PS08",
+     "PS09",
+     "PS10"
+    ],
     "businessUnitID": null
    }
   ],
@@ -1921,7 +1976,11 @@
     "channelID": "CH1",
     "type": "data",
     "templateTitle": "Req Spec Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1932,7 +1991,11 @@
     "channelID": "CH1",
     "type": "file",
     "templateTitle": "Datasheet Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1943,7 +2006,11 @@
     "channelID": "CH2",
     "type": "file",
     "templateTitle": "Offer Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1954,7 +2021,11 @@
     "channelID": "CH1",
     "type": "file",
     "templateTitle": "Drawing Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1965,7 +2036,11 @@
     "channelID": "CH1",
     "type": "file",
     "templateTitle": "Layout Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1976,7 +2051,11 @@
     "channelID": "CH3",
     "type": "file",
     "templateTitle": "Review Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1987,7 +2066,11 @@
     "channelID": "CH1",
     "type": "file",
     "templateTitle": "Cert Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -1998,7 +2081,11 @@
     "channelID": "CH3",
     "type": "file",
     "templateTitle": "RCA Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -2009,7 +2096,11 @@
     "channelID": "CH1",
     "type": "data",
     "templateTitle": "CAP Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    },
    {
@@ -2020,7 +2111,11 @@
     "channelID": "CH1",
     "type": "file",
     "templateTitle": "Thermal Template",
-    "departmentID": [],
+    "departmentID": [
+     "DPT01",
+     "DPT02",
+     "DPT03"
+    ],
     "businessUnitID": null
    }
   ],
