@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 110
+  "schemaVersion": 111
  },
  "Organization": {
   "Business Segments": [
@@ -4386,11 +4386,7 @@
     "projectOwner": "U11",
     "projectStatus": "In Progress",
     "customerID": "FC1",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA01"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0032",
@@ -4398,11 +4394,7 @@
     "projectOwner": "U01",
     "projectStatus": "In Progress",
     "customerID": "FC1",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA01"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0033",
@@ -4410,11 +4402,7 @@
     "projectOwner": "U11",
     "projectStatus": "Planning",
     "customerID": "FC3",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA03"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0034",
@@ -4422,11 +4410,7 @@
     "projectOwner": "U11",
     "projectStatus": "In Progress",
     "customerID": "FC4",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA04"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0035",
@@ -4434,11 +4418,7 @@
     "projectOwner": "U23",
     "projectStatus": "On Hold",
     "customerID": "FC5",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA05"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0036",
@@ -4446,11 +4426,7 @@
     "projectOwner": "U10",
     "projectStatus": "In Progress",
     "customerID": "FC2",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA02"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0037",
@@ -4458,11 +4434,7 @@
     "projectOwner": "U10",
     "projectStatus": "Closed",
     "customerID": "FC5",
-    "businessUnitID": null,
-    "slaID": [
-     "SLA05"
-    ],
-    "branchID": null
+    "businessUnitID": null
    },
    {
     "projectID": "0038",
@@ -4470,9 +4442,7 @@
     "projectOwner": "U11",
     "projectStatus": "Closed",
     "customerID": null,
-    "businessUnitID": null,
-    "slaID": [],
-    "branchID": null
+    "businessUnitID": null
    }
   ],
   "Jobs": [
