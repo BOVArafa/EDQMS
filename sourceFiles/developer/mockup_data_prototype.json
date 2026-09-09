@@ -4,7 +4,7 @@
   "generated_by": "build_mockup_data.py",
   "schema": "datamodel.json",
   "note3": "2026-07-29 Organization/CRM migration: CRM module (Factories -> Customers), Organization module with Business Segments/Units, Departments and Squads, Issues registry, customer wiring on Requirements/Workflows.",
-  "schemaVersion": 106
+  "schemaVersion": 107
  },
  "Organization": {
   "Business Segments": [
@@ -7090,7 +7090,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ2",
@@ -7154,7 +7155,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ3",
@@ -7218,7 +7220,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ4",
@@ -7282,7 +7285,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ5",
@@ -7346,7 +7350,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ6",
@@ -7410,7 +7415,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ7",
@@ -7474,7 +7480,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "RQ8",
@@ -7538,7 +7545,8 @@
      "PG4",
      "PG5",
      "PG6"
-    ]
+    ],
+    "registryUnitID": "BU01"
    },
    {
     "requirementID": "CN9",
@@ -7588,7 +7596,8 @@
      "PS09",
      "PS10"
     ],
-    "ticketSelectable": false
+    "ticketSelectable": false,
+    "registryUnitID": "BU01"
    }
   ],
   "actionApplication": [
