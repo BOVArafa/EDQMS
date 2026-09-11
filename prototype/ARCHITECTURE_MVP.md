@@ -1,6 +1,6 @@
 # EDQMS — Proposta de Arquitetura para o MVP
 
-**Division Governance Portal · Siemens Energy**
+**Division Governance Portal · Northwind Energy**
 Versão 1.0 · 29/07/2026 · Documento de arquitetura (base para desenvolvimento do MVP a partir do protótipo)
 
 ---
@@ -9,11 +9,11 @@ Versão 1.0 · 29/07/2026 · Documento de arquitetura (base para desenvolvimento
 
 O protótipo do EDQMS já é um artefato de engenharia muito acima da média de um "mockup": não é uma coleção de telas estáticas, mas um **motor orientado a metadados**. Um único arquivo de especificação (`data/datamodel.json`) descreve todos os módulos, tabelas, colunas, cards de KPI, gráficos (reports), formulários em drawer, filtros e subitens; o runtime (`model.js` + `resolve.js` + `queries.js`) lê essa especificação e **renderiza cada tela genericamente**, resolvendo chaves estrangeiras, rollups, valores espelhados (mirror) e cálculos por uma "escada de joins" validada contra os dados. Esse desenho é o maior ativo do projeto e deve ser **preservado** na migração para o MVP.
 
-A recomendação central é: reconstruir a camada de apresentação em **Next.js + React + TypeScript + shadcn/ui + Tailwind**, **portar o motor de metadados para TypeScript no servidor**, substituir os dados em memória por **PostgreSQL gerenciado**, e trocar o login fixo por **autenticação por e-mail (OTP/magic link) restrita ao domínio `@siemens-energy.com`**. A hospedagem do MVP será na **Azure** — escolha alinhada ao ecossistema Microsoft da Siemens Energy e que facilita o handoff futuro para o time de TI corporativo (integração com Entra ID, redes privadas, Key Vault).
+A recomendação central é: reconstruir a camada de apresentação em **Next.js + React + TypeScript + shadcn/ui + Tailwind**, **portar o motor de metadados para TypeScript no servidor**, substituir os dados em memória por **PostgreSQL gerenciado**, e trocar o login fixo por **autenticação por e-mail (OTP/magic link) restrita ao domínio `@northwind-energy.com`**. A hospedagem do MVP será na **Azure** — escolha alinhada ao ecossistema Microsoft da Northwind Energy e que facilita o handoff futuro para o time de TI corporativo (integração com Entra ID, redes privadas, Key Vault).
 
 Três decisões foram confirmadas com o solicitante e orientam todo o documento: **(1)** nuvem-alvo **Azure**; **(2)** autenticação por **e-mail OTP/magic link** com allowlist de domínio (independente do TI até que o SSO corporativo esteja disponível); **(3)** **preservar o motor metadata-driven**, reimplementando o renderizador genérico em React/shadcn em vez de codificar cada tela manualmente.
 
-> **Advertência de governança (importante).** O sistema foi desenvolvido para a Siemens Energy, mas o TI corporativo ainda não definiu as restrições de arquitetura, rede e segurança. Enquanto isso não ocorrer, o MVP em nuvem pública deve operar **exclusivamente com dados sintéticos/mockados** — não carregue dados reais de clientes, fábricas ou pessoas em ambiente não homologado. A arquitetura abaixo já é desenhada para o handoff (identidade gerenciada, endpoints privados, segregação de ambientes), de modo que a transição para a nuvem corporativa exija reconfiguração, não reescrita.
+> **Advertência de governança (importante).** O sistema foi desenvolvido para a Northwind Energy, mas o TI corporativo ainda não definiu as restrições de arquitetura, rede e segurança. Enquanto isso não ocorrer, o MVP em nuvem pública deve operar **exclusivamente com dados sintéticos/mockados** — não carregue dados reais de clientes, fábricas ou pessoas em ambiente não homologado. A arquitetura abaixo já é desenhada para o handoff (identidade gerenciada, endpoints privados, segregação de ambientes), de modo que a transição para a nuvem corporativa exija reconfiguração, não reescrita.
 
 ---
 
@@ -21,7 +21,7 @@ Três decisões foram confirmadas com o solicitante e orientam todo o documento:
 
 ### 2.1 O que existe hoje
 
-O protótipo é uma SPA em **JavaScript vanilla (ES modules), sem build e sem framework**. O `index.html` carrega tokens CSS do Siemens Energy Design System, o ECharts e o `js/app.js`, que faz o bootstrap: exige login, carrega o `datamodel.json` (a especificação) e o `mockup_data_prototype.json` (os dados), monta a navegação e renderiza a aba ativa. Toda a estrutura de tela é **derivada da especificação em tempo de execução**.
+O protótipo é uma SPA em **JavaScript vanilla (ES modules), sem build e sem framework**. O `index.html` carrega tokens CSS do nance Design System, o ECharts e o `js/app.js`, que faz o bootstrap: exige login, carrega o `datamodel.json` (a especificação) e o `mockup_data_prototype.json` (os dados), monta a navegação e renderiza a aba ativa. Toda a estrutura de tela é **derivada da especificação em tempo de execução**.
 
 O domínio é rico e fortemente relacional. Há sete módulos de negócio — Organization, Portfolio, CRM, Talent, Operation, Workspace e Control — além de um dashboard **Overview** montado automaticamente a partir de cards e reports marcados com `overview-display: true`. As entidades (Forecasts, Tickets, Tasks, Workflows, Activities, Product Scopes, Competences, Roles, People, Jobs, entre dezenas de outras) relacionam-se por FKs, rollups, chaves compostas e caminhos de dois saltos.
 
@@ -61,7 +61,7 @@ A arquitetura segue quatro princípios. **Especificação como fonte da verdade*
 
 ```mermaid
 flowchart TB
-    subgraph User["Usuário (@siemens-energy.com)"]
+    subgraph User["Usuário (@northwind-energy.com)"]
         B["Navegador — SPA React/shadcn (dark, tokens SE)"]
     end
 
@@ -97,7 +97,7 @@ flowchart TB
 | Camada | Escolha | Justificativa |
 |---|---|---|
 | Frontend | **Next.js (App Router) + React + TypeScript + Tailwind + shadcn/ui** | shadcn é o requisito explícito de UI; ele é construído sobre React + Tailwind. Next.js dá SSR/route handlers e permite um único deployable full-stack. |
-| Componentes de UI | **shadcn/ui** (blocos `dashboard-01`, `sidebar-07`, `login-01`, `DataTable`, `Drawer`, `Combobox`, `Field`) | Mapeiam 1:1 com os requisitos já anotados no `PROTOTYPE_REVIEW.md`. Tokens do Siemens Energy Design System aplicados via tema Tailwind (modo escuro padrão). |
+| Componentes de UI | **shadcn/ui** (blocos `dashboard-01`, `sidebar-07`, `login-01`, `DataTable`, `Drawer`, `Combobox`, `Field`) | Mapeiam 1:1 com os requisitos já anotados no `PROTOTYPE_REVIEW.md`. Tokens do nance Design System aplicados via tema Tailwind (modo escuro padrão). |
 | Gráficos | **shadcn charts (Recharts)**; ECharts como exceção para gráficos muito específicos | Consistência visual com shadcn e correção do bug de resize (ResponsiveContainer). O mapa de queries (`queries.js`) é agnóstico à biblioteca de chart. |
 | Motor de metadados | **Pacote TypeScript `@edqms/engine`** portado de `model/resolve/queries` | Preserva o maior ativo do protótipo; roda no servidor. |
 | API | **Route Handlers do Next.js com tRPC** (type-safe) — expondo também REST/OpenAPI para portabilidade | tRPC acelera o desenvolvimento com tipagem ponta-a-ponta; a fachada REST facilita handoff e integrações futuras. |
@@ -118,7 +118,7 @@ edqms/
 │  └─ web/                # Next.js (App Router): UI shadcn + route handlers/tRPC + Auth.js
 ├─ packages/
 │  ├─ engine/             # motor de metadados em TS (model, resolve, queries) + testes Vitest
-│  ├─ ui/                 # componentes shadcn compartilhados + tema/tokens Siemens Energy
+│  ├─ ui/                 # componentes shadcn compartilhados + tema/tokens nance
 │  └─ db/                 # schema Prisma, migrações, seed a partir do mockup
 ├─ spec/
 │  └─ datamodel.json      # a especificação canônica (fonte da verdade)
@@ -132,14 +132,14 @@ edqms/
 
 ### 4.1 Requisito e desenho
 
-O requisito é claro: **somente e-mails `@siemens-energy.com`** podem acessar, com validação por e-mail. O desenho recomendado usa **Auth.js (NextAuth v5)** com um provider de e-mail configurado para **magic link ou OTP de 6 dígitos**. O fluxo é: o usuário informa o e-mail → o backend **rejeita qualquer domínio diferente de `@siemens-energy.com`** antes de enviar qualquer mensagem → um link/código assinado e de curta validade é enviado via Azure Communication Services → ao confirmar, cria-se uma sessão (cookie httpOnly/secure). A restrição de domínio é imposta **no servidor**, no callback `signIn`, e reforçada por uma allowlist opcional de usuários aprovados em tabela própria (útil para revogar acessos sem depender do TI).
+O requisito é claro: **somente e-mails `@northwind-energy.com`** podem acessar, com validação por e-mail. O desenho recomendado usa **Auth.js (NextAuth v5)** com um provider de e-mail configurado para **magic link ou OTP de 6 dígitos**. O fluxo é: o usuário informa o e-mail → o backend **rejeita qualquer domínio diferente de `@northwind-energy.com`** antes de enviar qualquer mensagem → um link/código assinado e de curta validade é enviado via Azure Communication Services → ao confirmar, cria-se uma sessão (cookie httpOnly/secure). A restrição de domínio é imposta **no servidor**, no callback `signIn`, e reforçada por uma allowlist opcional de usuários aprovados em tabela própria (útil para revogar acessos sem depender do TI).
 
 ```ts
 // exemplo conceitual (Auth.js v5) — validação de domínio server-side
 callbacks: {
   async signIn({ user }) {
     const email = (user.email ?? "").toLowerCase();
-    return email.endsWith("@siemens-energy.com"); // bloqueia o resto
+    return email.endsWith("@northwind-energy.com"); // bloqueia o resto
   },
 }
 ```
@@ -172,7 +172,7 @@ O mapa de queries (`queries.js`) traduz cada regra em prosa numa função. No MV
 
 O núcleo do MVP é um contêiner Next.js rodando em **Azure Container Apps**, com **Azure Database for PostgreSQL Flexible Server** para dados, sessões e log de auditoria, **Azure Blob Storage** para anexos/handouts, **Azure Communication Services** para os e-mails de verificação, **Azure Key Vault** para secrets e connection strings (acessado via **managed identity**, sem segredos no código), **Azure Container Registry** para as imagens e **Azure Front Door + WAF** na borda (TLS, rate limiting, proteção básica). Observabilidade via **Azure Monitor / Application Insights**.
 
-Recomenda-se região na **União Europeia** (por exemplo, Germany West Central), coerente com a base da Siemens Energy e com requisitos de residência de dados/GDPR — mesmo operando só com dados sintéticos, o hábito de residência correta simplifica o handoff. O banco deve usar **private endpoint** (sem exposição pública), e a aplicação acessá-lo pela rede virtual. Ambientes separados (`dev`/`staging`/`prod`) desde o início.
+Recomenda-se região na **União Europeia** (por exemplo, Germany West Central), coerente com a base da Northwind Energy e com requisitos de residência de dados/GDPR — mesmo operando só com dados sintéticos, o hábito de residência correta simplifica o handoff. O banco deve usar **private endpoint** (sem exposição pública), e a aplicação acessá-lo pela rede virtual. Ambientes separados (`dev`/`staging`/`prod`) desde o início.
 
 Alternativa mais enxuta, se a prioridade for velocidade máxima de MVP: **Azure App Service (Web App for Containers)** no lugar do Container Apps — menos flexível em escala, porém com menos peças. A recomendação permanece Container Apps pela trajetória de crescimento.
 
@@ -185,9 +185,9 @@ Toda a infra é descrita como código (**Bicep** ou Terraform) e publicada por *
 | Protótipo (hoje) | MVP (alvo) |
 |---|---|
 | SPA vanilla ES modules, sem build | Next.js + React + TypeScript, build/CI |
-| Tokens CSS do Siemens Energy DS | Tema Tailwind com os mesmos tokens; modo escuro padrão |
+| Tokens CSS do nance Design System | Tema Tailwind com os mesmos tokens; modo escuro padrão |
 | ECharts | shadcn charts (Recharts); ECharts como exceção |
-| Sem autenticação (acesso aberto) | Auth.js: e-mail OTP/magic link, domínio `@siemens-energy.com` |
+| Sem autenticação (acesso aberto) | Auth.js: e-mail OTP/magic link, domínio `@northwind-energy.com` |
 | `data.js` em memória (JSON) | PostgreSQL (Prisma) + seed do mockup |
 | `model/resolve/queries` no cliente | Pacote `@edqms/engine` em TS no servidor |
 | `forms.js` (drawers, cascata, wizard) | Drawers shadcn; lógica de cascata/dependência preservada |
