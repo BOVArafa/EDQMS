@@ -11351,7 +11351,7 @@
    {
     "channelID": "CH1",
     "channelName": "Portal",
-    "channelOwner": "Siemens Energy",
+    "channelOwner": "Northwind Energy",
     "channelStatus": "Active"
    },
    {
@@ -13476,7 +13476,7 @@
     "ticketID": "033",
     "projectID": "0038",
     "eventID": "EV02",
-    "ticketDescription": "[AM26_052stf_UW_Grünkraut_T312_SIEMENS_N408157_Sekundärtechnik] Constructive support for offer preparation",
+    "ticketDescription": "[AM26_052stf_UW_Grünkraut_T312_Northwind_N408157_Sekundärtechnik] Constructive support for offer preparation",
     "processID": "PR4",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -13951,7 +13951,7 @@
     "ticketID": "058",
     "projectID": "0031",
     "eventID": "EV02",
-    "ticketDescription": "[S.261257 - EAG_AT_Lüfteranbau_TABOR_REP_DBC_STL] Customer requested power increase for the unit N006462101. ONAN10MVA --> ONAF 12,5MVA\nTransformer was already prepared for ONAF but with Siemens fans, which are no longer available.\n\nRequired:\n\nEffort estimation:\n- for selecting alternative fans that fit the existing radiators without any modifications.\n- for new nameplate (updated data according to the new fan configuration).\n- for new schematic drawing including the new fans.\n\nWork should begin after receipt of the PO, for now, only an effort estimation is required.",
+    "ticketDescription": "[S.261257 - EAG_AT_Lüfteranbau_TABOR_REP_DBC_STL] Customer requested power increase for the unit N006462101. ONAN10MVA --> ONAF 12,5MVA\nTransformer was already prepared for ONAF but with Northwind fans, which are no longer available.\n\nRequired:\n\nEffort estimation:\n- for selecting alternative fans that fit the existing radiators without any modifications.\n- for new nameplate (updated data according to the new fan configuration).\n- for new schematic drawing including the new fans.\n\nWork should begin after receipt of the PO, for now, only an effort estimation is required.",
     "processID": "PR5",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -14027,7 +14027,7 @@
     "ticketID": "062",
     "projectID": "0035",
     "eventID": "EV02",
-    "ticketDescription": "[Talen Energy:  Ticket Nr./No.: 1-1377496: Siemens Energy website request: System No: ISSUE=1377496 PROJ=1] SE US is asking for a customer for a table about recommended energization duration based on 100% cooling loss depending on ambient temperature (0-40C) and %-load (60-100%) fora VA-TECH Peebles unit 44741. This one is a ODAF unit.\nIn 2003 there was a study conducted, researching the maximum operating time after 100% cooling loss with an ambient temperature of 40C, reaching the conclusion that the transformer must trip after 10min.\nI already contacted the UK colleagues for documentation of this unit. All Documents that I got will be as an attachemend zip. I attached the mails with the US colleague as well.\n\nWithout much effort, how much information are we able to provide the customer. I would appreciate a first response with the end of this week.\n\nThank you.",
+    "ticketDescription": "[Talen Energy:  Ticket Nr./No.: 1-1377496: Northwind Energy website request: System No: ISSUE=1377496 PROJ=1] SE US is asking for a customer for a table about recommended energization duration based on 100% cooling loss depending on ambient temperature (0-40C) and %-load (60-100%) fora VA-TECH Peebles unit 44741. This one is a ODAF unit.\nIn 2003 there was a study conducted, researching the maximum operating time after 100% cooling loss with an ambient temperature of 40C, reaching the conclusion that the transformer must trip after 10min.\nI already contacted the UK colleagues for documentation of this unit. All Documents that I got will be as an attachemend zip. I attached the mails with the US colleague as well.\n\nWithout much effort, how much information are we able to provide the customer. I would appreciate a first response with the end of this week.\n\nThank you.",
     "processID": "PR3",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -14084,7 +14084,7 @@
     "ticketID": "065",
     "projectID": "0038",
     "eventID": "EV02",
-    "ticketDescription": "[1009-26_SE-Solvay-Repair-55MVA-55kV-Bilbao-ES] Replace Windings on a 55MVA 55kV Transformer manufactured by Siemens Portugal in 1998",
+    "ticketDescription": "[1009-26_SE-Solvay-Repair-55MVA-55kV-Bilbao-ES] Replace Windings on a 55MVA 55kV Transformer manufactured by Northwind Portugal in 1998",
     "processID": "PC01",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -14597,7 +14597,7 @@
     "ticketID": "097",
     "projectID": "0033",
     "eventID": "EV02",
-    "ticketDescription": "[1001- SF262538064 - MTE] In the process of disassembling a transformer for relocation, MTE discovered that some blocking and key spacer material had worked loose from the inside of the transformer.\n\nMTE would like to discuss with Siemens, the untanking, inspection, and repair or rewind of the transformer.",
+    "ticketDescription": "[1001- SF262538064 - MTE] In the process of disassembling a transformer for relocation, MTE discovered that some blocking and key spacer material had worked loose from the inside of the transformer.\n\nMTE would like to discuss with Northwind, the untanking, inspection, and repair or rewind of the transformer.",
     "processID": "PR3",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -15015,7 +15015,7 @@
     "ticketID": "122",
     "projectID": "0031",
     "eventID": "EV11",
-    "ticketDescription": "[1004_26 - AWS_345_180MVA_SE-GJT] New Siemens Energy transformer damaged in the transport. Need to change OLTC & windings",
+    "ticketDescription": "[1004_26 - AWS_345_180MVA_SE-GJT] New Northwind Energy transformer damaged in the transport. Need to change OLTC & windings",
     "processID": "PR1",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -15205,7 +15205,7 @@
     "ticketID": "132",
     "projectID": "0033",
     "eventID": "EV02",
-    "ticketDescription": "[SF 262543603 - Alliant Energy - TP499/500 TR Uprating] Request Summary:\nWe request an estimate of engineering hours to perform an engineering assessment for transformer uprating of two (02) GSU units.\nThe intention is to prepare a customer offer covering only the engineering study and the final report.\n\nTransformer Data\n\nQuantity: 2 units\nType: Three-phase GSU Transformer\nRating: 150 / 200 / 250 MVA\nVoltage: 142 / 18 kV\nCooling: ONAN / ONAF / ONAF\nTap Changer: DETC\nOEM: Siemens Energy Mexico (legacy Ferranti Packard)\n\nEnd Customer\nAlliant Energy – Riverside Plant\nBackground\nThe customer is evaluating the possibility of uprating the current GSUs to support increased generation output (target up to 290 MVA).\nSome pictures and limited documentation of the transformers in operation were provided.\n\nScope of Work:\nEngineering assessment to evaluate the feasibility of uprating the two GSU transformers.\nExpected Output (for reference only – not required at this stage)\nAlthough not required in detail for this hours estimate, the engineering assessment is expected to include:\n\nThermal evaluation (top oil temperature extrapolation based on current and proposed losses) - Test Report Available.\nVerification of current-carrying capacity of critical components (Bushings, CT's, DETC, etc)\nPreliminary recommendations (e.g., cooling upgrades such as additional fans or fans replacements)\nTransformer life expectancy impact under higher loading\nConceptual sketches (croquis) showing mainly modification.\nTechnical conclusion regarding uprating feasibility\n\nImportant Note\nAt this stage, we only require the estimated engineering hours to perform the assessment described above.",
+    "ticketDescription": "[SF 262543603 - Alliant Energy - TP499/500 TR Uprating] Request Summary:\nWe request an estimate of engineering hours to perform an engineering assessment for transformer uprating of two (02) GSU units.\nThe intention is to prepare a customer offer covering only the engineering study and the final report.\n\nTransformer Data\n\nQuantity: 2 units\nType: Three-phase GSU Transformer\nRating: 150 / 200 / 250 MVA\nVoltage: 142 / 18 kV\nCooling: ONAN / ONAF / ONAF\nTap Changer: DETC\nOEM: Northwind Energy Mexico (legacy Ferranti Packard)\n\nEnd Customer\nAlliant Energy – Riverside Plant\nBackground\nThe customer is evaluating the possibility of uprating the current GSUs to support increased generation output (target up to 290 MVA).\nSome pictures and limited documentation of the transformers in operation were provided.\n\nScope of Work:\nEngineering assessment to evaluate the feasibility of uprating the two GSU transformers.\nExpected Output (for reference only – not required at this stage)\nAlthough not required in detail for this hours estimate, the engineering assessment is expected to include:\n\nThermal evaluation (top oil temperature extrapolation based on current and proposed losses) - Test Report Available.\nVerification of current-carrying capacity of critical components (Bushings, CT's, DETC, etc)\nPreliminary recommendations (e.g., cooling upgrades such as additional fans or fans replacements)\nTransformer life expectancy impact under higher loading\nConceptual sketches (croquis) showing mainly modification.\nTechnical conclusion regarding uprating feasibility\n\nImportant Note\nAt this stage, we only require the estimated engineering hours to perform the assessment described above.",
     "processID": "PR5",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -15357,7 +15357,7 @@
     "ticketID": "150",
     "projectID": "0033",
     "eventID": "EV02",
-    "ticketDescription": "[W-110438_Siemens SIMATIC panel quotation_N110438_Work Order] Could you please offer me a suitable solution with a new S7 unit?",
+    "ticketDescription": "[W-110438_Northwind PLC panel quotation_N110438_Work Order] Could you please offer me a suitable solution with a new S7 unit?",
     "processID": "PR1",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -15737,7 +15737,7 @@
     "ticketID": "182",
     "projectID": "0037",
     "eventID": "EV02",
-    "ticketDescription": "[S.261483 / WA 66407_S.261483 - Illwerke_Durchführungstausch_REP_MMA_1632330 und 1632331_Work Order] Customer inquiry:\n1. Mesh-dome transformer (200 MVA, ELIN, TDQ-365R27T9K-99), manufactured in 1999,\nserial number 1690028\nThis transformer is equipped with Euromold connectors on System 4 (20 kV) (Euromold Series 200, Type\nK180AR-2/J).\nWe would like to replace these with Pfisterer connectors, e.g., Pfisterer Connex single\nangle connectors, size 1. These are installed in another power distribution transformer of the same type\n(SIEMENS, TDQ-365R27T9K-99, manufactured in 2013).  \nDo you know if this is possible and permissible? The Pfisterer connector with the\ncorrect cone length would have to be used (A = 168)\nOr are there still replacement plugs from Euromold that would fit?\nFor this transformer, we would also swap out the bushings from System 1 and System 2.\nThese bushings are all from HSP (SETFt ...).\nWould it be advisable to use the same bushings (if available) from HSP\nagain in this case?\n\nFor other transformers, we have also used suitable bushings from Moser Glaser\nin the past.  \nA bushing replacement is also pending for three other 450 MVA transformers. To keep things\nclear, however, I am referring here only to the 200 MVA power coupler mentioned above.\nThese projects are planned for 2028. Do you offer such services as part of your transformer maintenance program? That is, bushing replacement?\n\n2. The serial numbers of our three 450 MVA grid-coupling transformers are as follows:\nTwo are from ELIN and are of the same type (TDQ-405R44D9K-99): 1632330 and 1632331\nThe third is from SCHORCH (now GE?): Type TC 2456E, 627150101\nFor these three transformers as well, we have installed the same Euromold connectors (Type K180AR-2/J)\non System 4.\nAnd the bushings (Systems 1 and 2) are all from HSP (SOTF, SETF).\nI first need to clarify internally and with the company how we will handle the maintenance of our transformers\nhere—that is, whether we will simply replace the bushings or focus more on monitoring.\nWe perform diagnostic measurements every 5 years.\nTherefore, before you invest time in detailed planning or preparing a quote, a rough cost estimate would be\nmore than sufficient for us during the current decision-making and budgeting phase.\nFor budgeting purposes, a non-binding cost estimate for replacing the bushings would be very\nhelpful—specifically for replacing the bushings in Systems 1, 2, and 4 of the relevant\ntransformers.",
+    "ticketDescription": "[S.261483 / WA 66407_S.261483 - Illwerke_Durchführungstausch_REP_MMA_1632330 und 1632331_Work Order] Customer inquiry:\n1. Mesh-dome transformer (200 MVA, ELIN, TDQ-365R27T9K-99), manufactured in 1999,\nserial number 1690028\nThis transformer is equipped with Euromold connectors on System 4 (20 kV) (Euromold Series 200, Type\nK180AR-2/J).\nWe would like to replace these with Pfisterer connectors, e.g., Pfisterer Connex single\nangle connectors, size 1. These are installed in another power distribution transformer of the same type\n(Northwind, TDQ-365R27T9K-99, manufactured in 2013).  \nDo you know if this is possible and permissible? The Pfisterer connector with the\ncorrect cone length would have to be used (A = 168)\nOr are there still replacement plugs from Euromold that would fit?\nFor this transformer, we would also swap out the bushings from System 1 and System 2.\nThese bushings are all from HSP (SETFt ...).\nWould it be advisable to use the same bushings (if available) from HSP\nagain in this case?\n\nFor other transformers, we have also used suitable bushings from Moser Glaser\nin the past.  \nA bushing replacement is also pending for three other 450 MVA transformers. To keep things\nclear, however, I am referring here only to the 200 MVA power coupler mentioned above.\nThese projects are planned for 2028. Do you offer such services as part of your transformer maintenance program? That is, bushing replacement?\n\n2. The serial numbers of our three 450 MVA grid-coupling transformers are as follows:\nTwo are from ELIN and are of the same type (TDQ-405R44D9K-99): 1632330 and 1632331\nThe third is from SCHORCH (now GE?): Type TC 2456E, 627150101\nFor these three transformers as well, we have installed the same Euromold connectors (Type K180AR-2/J)\non System 4.\nAnd the bushings (Systems 1 and 2) are all from HSP (SOTF, SETF).\nI first need to clarify internally and with the company how we will handle the maintenance of our transformers\nhere—that is, whether we will simply replace the bushings or focus more on monitoring.\nWe perform diagnostic measurements every 5 years.\nTherefore, before you invest time in detailed planning or preparing a quote, a rough cost estimate would be\nmore than sufficient for us during the current decision-making and budgeting phase.\nFor budgeting purposes, a non-binding cost estimate for replacing the bushings would be very\nhelpful—specifically for replacing the bushings in Systems 1, 2, and 4 of the relevant\ntransformers.",
     "processID": "PR3",
     "products": "LPT, Phase Shifter, Reactors, Autotransformer",
     "scopes": "Uprating, Uprating with Windings Replacement, Reduction of the volume of gases and moisture in the insulating oil, Temperature Reduction, Repair with Windings Replacement, Renewal of the paper/oil insulation system, Protection devices, wiring/cabling, cubicles, monitoring, Renovation of External Parts, Replacement of bushings, shields/electrodes and CTs",
@@ -21862,7 +21862,7 @@
    {
     "userID": "U01",
     "userName": "Lena Fischer",
-    "userEmail": "lena.fischer@siemens-energy.com",
+    "userEmail": "lena.fischer@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2016-03-15",
     "functionID": "F1",
@@ -21881,7 +21881,7 @@
    {
     "userID": "U02",
     "userName": "Omar Haddad",
-    "userEmail": "omar.haddad@siemens-energy.com",
+    "userEmail": "omar.haddad@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2017-03-15",
     "functionID": "F1",
@@ -21900,7 +21900,7 @@
    {
     "userID": "U03",
     "userName": "Priya Nair",
-    "userEmail": "priya.nair@siemens-energy.com",
+    "userEmail": "priya.nair@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2018-03-15",
     "functionID": "F1",
@@ -21919,7 +21919,7 @@
    {
     "userID": "U04",
     "userName": "Tomas Novak",
-    "userEmail": "tomas.novak@siemens-energy.com",
+    "userEmail": "tomas.novak@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2019-03-15",
     "functionID": "F2",
@@ -21938,7 +21938,7 @@
    {
     "userID": "U05",
     "userName": "Sofia Rossi",
-    "userEmail": "sofia.rossi@siemens-energy.com",
+    "userEmail": "sofia.rossi@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2020-03-15",
     "functionID": "F2",
@@ -21957,7 +21957,7 @@
    {
     "userID": "U06",
     "userName": "Hugo Meyer",
-    "userEmail": "hugo.meyer@siemens-energy.com",
+    "userEmail": "hugo.meyer@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2021-03-15",
     "functionID": "F2",
@@ -21976,7 +21976,7 @@
    {
     "userID": "U07",
     "userName": "Marta Alves",
-    "userEmail": "marta.alves@siemens-energy.com",
+    "userEmail": "marta.alves@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2022-03-15",
     "functionID": "F2",
@@ -21995,7 +21995,7 @@
    {
     "userID": "U08",
     "userName": "Jan Kowalski",
-    "userEmail": "jan.kowalski@siemens-energy.com",
+    "userEmail": "jan.kowalski@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2015-03-15",
     "functionID": "F2",
@@ -22014,7 +22014,7 @@
    {
     "userID": "U09",
     "userName": "Eva Braun",
-    "userEmail": "eva.braun@siemens-energy.com",
+    "userEmail": "eva.braun@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2016-03-15",
     "functionID": "F3",
@@ -22033,7 +22033,7 @@
    {
     "userID": "U10",
     "userName": "Nils Andersson",
-    "userEmail": "nils.andersson@siemens-energy.com",
+    "userEmail": "nils.andersson@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2017-03-15",
     "functionID": "F3",
@@ -22052,7 +22052,7 @@
    {
     "userID": "U11",
     "userName": "Ingrid Holm",
-    "userEmail": "ingrid.holm@siemens-energy.com",
+    "userEmail": "ingrid.holm@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2018-03-15",
     "functionID": "F4",
@@ -22071,7 +22071,7 @@
    {
     "userID": "U12",
     "userName": "Pedro Gomes",
-    "userEmail": "pedro.gomes@siemens-energy.com",
+    "userEmail": "pedro.gomes@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2019-03-15",
     "functionID": "F4",
@@ -22090,7 +22090,7 @@
    {
     "userID": "U13",
     "userName": "Camila Dias",
-    "userEmail": "camila.dias@siemens-energy.com",
+    "userEmail": "camila.dias@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2020-03-15",
     "functionID": "F1",
@@ -22109,7 +22109,7 @@
    {
     "userID": "U14",
     "userName": "Rafael Lima",
-    "userEmail": "rafael.lima@siemens-energy.com",
+    "userEmail": "rafael.lima@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2021-03-15",
     "functionID": "F1",
@@ -22128,7 +22128,7 @@
    {
     "userID": "U15",
     "userName": "Bruna Costa",
-    "userEmail": "bruna.costa@siemens-energy.com",
+    "userEmail": "bruna.costa@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2022-03-15",
     "functionID": "F2",
@@ -22147,7 +22147,7 @@
    {
     "userID": "U16",
     "userName": "Diego Torres",
-    "userEmail": "diego.torres@siemens-energy.com",
+    "userEmail": "diego.torres@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2015-03-15",
     "functionID": "F2",
@@ -22166,7 +22166,7 @@
    {
     "userID": "U17",
     "userName": "Lucia Mendez",
-    "userEmail": "lucia.mendez@siemens-energy.com",
+    "userEmail": "lucia.mendez@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2016-03-15",
     "functionID": "F3",
@@ -22185,7 +22185,7 @@
    {
     "userID": "U18",
     "userName": "Mateus Rocha",
-    "userEmail": "mateus.rocha@siemens-energy.com",
+    "userEmail": "mateus.rocha@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2017-03-15",
     "functionID": "F1",
@@ -22204,7 +22204,7 @@
    {
     "userID": "U19",
     "userName": "Wei Zhang",
-    "userEmail": "wei.zhang@siemens-energy.com",
+    "userEmail": "wei.zhang@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2018-03-15",
     "functionID": "F2",
@@ -22223,7 +22223,7 @@
    {
     "userID": "U20",
     "userName": "Hana Kim",
-    "userEmail": "hana.kim@siemens-energy.com",
+    "userEmail": "hana.kim@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2019-03-15",
     "functionID": "F2",
@@ -22242,7 +22242,7 @@
    {
     "userID": "U21",
     "userName": "Arjun Patel",
-    "userEmail": "arjun.patel@siemens-energy.com",
+    "userEmail": "arjun.patel@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2020-03-15",
     "functionID": "F1",
@@ -22261,7 +22261,7 @@
    {
     "userID": "U22",
     "userName": "Mei Lin",
-    "userEmail": "mei.lin@siemens-energy.com",
+    "userEmail": "mei.lin@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2021-03-15",
     "functionID": "F3",
@@ -22280,7 +22280,7 @@
    {
     "userID": "U23",
     "userName": "Sara Vogel",
-    "userEmail": "sara.vogel@siemens-energy.com",
+    "userEmail": "sara.vogel@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2022-03-15",
     "functionID": "F5",
@@ -22299,7 +22299,7 @@
    {
     "userID": "U24",
     "userName": "Franz Keller",
-    "userEmail": "franz.keller@siemens-energy.com",
+    "userEmail": "franz.keller@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2015-03-15",
     "functionID": "F5",
@@ -22375,7 +22375,7 @@
    {
     "userID": "U28",
     "userName": "Hajesh Niran",
-    "userEmail": "hajesh.niran@siemens-energy.com",
+    "userEmail": "hajesh.niran@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2020-08-03",
     "functionID": "F4",
@@ -22394,7 +22394,7 @@
    {
     "userID": "U29",
     "userName": "Ananya Sharma",
-    "userEmail": "ananya.sharma@siemens-energy.com",
+    "userEmail": "ananya.sharma@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2022-11-14",
     "functionID": "F1",
@@ -22413,7 +22413,7 @@
    {
     "userID": "U30",
     "userName": "Vikram Patel",
-    "userEmail": "vikram.patel@siemens-energy.com",
+    "userEmail": "vikram.patel@northwind-energy.com",
     "isActive": "Active",
     "hireDate": "2023-06-30",
     "functionID": "F2",

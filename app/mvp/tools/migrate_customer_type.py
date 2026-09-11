@@ -3,7 +3,7 @@
 
 Seeds the new ENUM attribute customerType ('branch' | 'client' |
 'supplier') on every Customers row. All current mockup customers descend
-from the former Factories table (internal Siemens Energy factories), so
+from the former Factories table (internal Northwind Energy factories), so
 they seed as 'branch'; clients and suppliers are registered through the
 form going forward. Also renames the same-day legacy option spellings
 ('internal client' -> 'branch', 'external client' -> 'client').
