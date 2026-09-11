@@ -71,7 +71,7 @@ O runtime deriva cada tela de `data/datamodel.json` (7 módulos, 40 tabelas). Tr
 | `Products.description` | "Power transformer products and services…" |
 | `Scopes.description` | "…(e.g., Uprating, Temperature Reduction, Redesign)" |
 | `Business Segments` (dados) | códigos LPT/MPT/DT |
-| `_meta` / README / textos de cabeçalho | menções à Siemens Energy |
+| `_meta` / README / textos de cabeçalho | menções à Northwind Energy |
 
 Os **enums são todos agnósticos** (`Open/InProgress/Resolved`, `Queued/Active/Done/Stoped`,
 `Active/Inactive`, `Opportunity/Risk`, `outsource/internal`…). Nenhum precisa mudar.
@@ -404,7 +404,7 @@ Decisão de 21/08: **substituição**. Ficam **dois modos**:
 O dataset de transformadores sai do ar, mas não se perde: fica no histórico do git e deve ser
 preservado em um **build marcado** (`git tag demo-transformers-v1`, conforme o item 4 do
 "working agreement" em `offline_database.md`, que já recomenda congelar builds por engajamento).
-Se um stakeholder da Siemens Energy precisar da versão setorial, ela é republicável a partir da
+Se um stakeholder da Northwind Energy precisar da versão setorial, ela é republicável a partir da
 tag sem reconstrução.
 
 Duas adições de UI pagam sozinhas o esforço da troca:
@@ -455,6 +455,6 @@ Duas perguntas ficam abertas para a F1 e não bloqueiam o início:
 
 - **Escala da rede fictícia** — 12 unidades em 2 países (Brasil/Argentina, coerente com o
   registry de Countries e com Regions) ou uma rede monopaís mais densa?
-- **Marca do painel de demo** — manter a identidade visual Siemens Energy no cabeçalho (é o
+- **Marca do painel de demo** — manter a identidade visual Northwind Energy no cabeçalho (é o
   design system do protótipo) ou neutralizá-la para a demo pública, dado que a operação
   retratada passa a ser fictícia e de outro setor.

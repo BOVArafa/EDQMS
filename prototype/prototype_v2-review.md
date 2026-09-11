@@ -15,7 +15,7 @@ Continuation of the multi-department restructure (see `sourceFiles/developer/pro
    hierarchy replaces the flat `businessSegment` enum and absorbs Squads from Talent.
 2. **Factories become Customers** — the `Customers` module is renamed `CRM`, the `Factories`
    table becomes `Customers`, and `factoryID`/`factoryName` become `customerID`/`customerName`
-   everywhere. Internal factories and final Siemens Energy clients are now the same entity.
+   everywhere. Internal factories and final Northwind Energy clients are now the same entity.
 3. **Customer-aware chain** — `Requirements`, `Workflows`, `Tasks` and `Jobs` gain a customer
    dimension: requirements can be scoped per customer, workflows declare customer + product scopes,
    tasks derive customer/scope/product-group from their workflow, and jobs resolve their task by
