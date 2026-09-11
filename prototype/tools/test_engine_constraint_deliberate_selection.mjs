@@ -7,7 +7,7 @@
 // normally. ZERO picks = no decision — the inheritance stays untouched
 // (session decision: an ignored optional input must not silently strip
 // requirements; the demo seeds carry empty picks → 0 flips at rest).
-// Modeled on the reported case (edqms_session TIC-1: "Siemens Energy
+// Modeled on the reported case (edqms_session TIC-1: "Northwind Energy
 // Design" offered + unpicked → out; "3rd Party Design" picked → stays).
 // Run from prototype/:  node tools/test_engine_constraint_deliberate_selection.mjs
 
