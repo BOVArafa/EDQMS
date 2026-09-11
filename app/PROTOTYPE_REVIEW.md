@@ -26,7 +26,7 @@ All `#` references below resolve relative to this file's location (`prototype/`)
 |---|---|---|
 | `#wireframe` | `../sourceFiles/developer/prototype_wireframe/Global Engineering Portal (standalone).html` | Approved interaction and layout reference |
 | `#datamodel` | `data/datamodel.json` | Canonical schema: tables, cards, forms, filters, reports |
-| `#design-system` | `../sourceFiles/developer/prototype_designSystem.html` | Siemens Energy shadcn design-system reference for this project |
+| `#design-system` | `../sourceFiles/developer/prototype_designSystem.html` | Northwind Energy shadcn design-system reference for this project |
 | `#events-csv` | `../sourceFiles/developer/events.csv` | Mockup data for the Events table |
 | `#tickets-csv` | `../sourceFiles/developer/tickets.csv` | Mockup data for the Tickets table |
 
@@ -49,7 +49,7 @@ All shadcn block and component references must be applied through this project's
 - [ ] Use the shadcn **login-01** block (`npx shadcn@latest add login-01`).
 - [ ] Login has only `username` and `password`:
   - `username == se-admin`
-  - `password == @SiemensEnergy2026`
+  - `password == @NorthwindEnergy2026`
 
 ## Settings
 

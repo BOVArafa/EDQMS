@@ -61,7 +61,7 @@ back here the way `stakeholders_test_results.md` did), accessibility, responsive
 
 # Part 1 — What works well (preserve these)
 
-- **Design-token discipline** — every colour/spacing/type value goes through the Siemens Energy
+- **Design-token discipline** — every colour/spacing/type value goes through the Northwind Energy
   `--se-*` tokens; the dark theme is consistent across all seven modules.
 - **Orientation is never lost**: sidebar module + active tab underline + tab title + record count
   (`5 of 5 records`) + per-table description line. J1 completed without hesitation.

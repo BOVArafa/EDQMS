@@ -84,7 +84,7 @@ Hosted: `https://neun-design.github.io/Nance/app/mvp/` (published by `deploy_pag
 | Path | Purpose |
 |---|---|
 | `index.html` | App shell (header + sidebar + tabs) |
-| `assets/_ds/` | Siemens Energy Design System tokens (colours, type, spacing, shape) |
+| `assets/_ds/` | nance Design System tokens (colours, type, spacing, shape) |
 | `assets/app.css` | Layout + component styles (references `--se-*` tokens only) |
 | `vendor/echarts.min.js` | Charting library |
 | `data/` | Mockup dataset + data model |

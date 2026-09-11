@@ -196,7 +196,7 @@ Version 1.0 Created in 19/07/2026 at 13:45
 #### Mockup Update
 - add a new squad called "NEUN Design", Type = OUtsource, Manager Name = Rafael Bova, Manager Email = bova@neun-design.com.br
   - insert users to this squad
-- add a new squad called "INDIA Hub", Type = internal, Manager Name = Hajesh Niran , Manager Email = hajesh.niran@siemens-energy.com
+- add a new squad called "INDIA Hub", Type = internal, Manager Name = Hajesh Niran , Manager Email = hajesh.niran@northwind-energy.com
   - insert users to this squad
 
 #### Datamodel nonconformity
